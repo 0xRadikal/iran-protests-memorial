@@ -10,6 +10,13 @@
   <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/header-banner.svg" alt="فرزندان ایران‌زمین · جاویدنامانِ راه آزادی" width="100%"/>
 </a>
 
+<!-- ─────────────────────────  بنر شمع انیمیشنی  ───────────────────────── -->
+
+<a href="https://0xradikal.github.io/Javid-Naman/">
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/candle-banner.svg" alt="شمع یادبود جاویدنامان" width="100%"/>
+</a>
+
+<br/>
 
 <!-- ─────────────────────────  متن تایپی متحرک  ───────────────────────── -->
 
@@ -26,7 +33,7 @@
     <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/live.svg" alt="وب‌سایت زنده" height="28"/>
   </a>
   &nbsp;
-  <a href="https://0xradikal.github.io/Javid-Naman/javidnam.html">
+  <a href="https://0xradikal.github.io/Javid-Naman/">
     <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/memorial.svg" alt="یادبود جاویدنامان" height="28"/>
   </a>
   &nbsp;
@@ -89,7 +96,7 @@
 <br/>
 
 **[🌐 وب‌سایت](https://0xradikal.github.io/Javid-Naman/)** &nbsp;·&nbsp;
-**[🕯️ یادبود](https://0xradikal.github.io/Javid-Naman/javidnam.html)** &nbsp;·&nbsp;
+**[🕯️ یادبود](https://0xradikal.github.io/Javid-Naman/)** &nbsp;·&nbsp;
 **[📊 دادهٔ باز](#-دادهٔ-باز--open-data)** &nbsp;·&nbsp;
 **[🤝 مشارکت](#-مشارکت--contributing)** &nbsp;·&nbsp;
 **[💛 همراهی با این راه](#-همراهی-با-این-راه--keep-the-flame-alive)**
@@ -236,6 +243,9 @@ It **NEVER** includes regime forces, Basij, IRGC, or any repressive organization
 <tr><td>📊 جدول خلاصه</td><td>Summary Table</td><td>جدول مقایسه‌ای خیزش‌های اصلی با آمار تخمینی</td></tr>
 <tr><td>🪟 مودال جزئیات</td><td>Detail Modal</td><td>نمایش کامل اطلاعات هر رویداد یا جاویدنام با کلیک</td></tr>
 <tr><td>🎨 طراحی RTL تاریک</td><td>Dark RTL UI</td><td>رابط واکنش‌گرا، راست‌چین فارسی، تم تاریک، فونت Vazirmatn</td></tr>
+<tr><td>🎵 پلیر یادبود</td><td>Memorial Audio Player</td><td>پخش خودکار آهنگ هنگام باز شدن صفحه، داک شناور نیمه‌شفاف که با هاور/فوکوس/لمس کاملاً مات می‌شود، قابل توقف و بستن</td></tr>
+<tr><td>♾️ لود خودکار</td><td>Infinite Scroll</td><td>بارگذاری خودکار نام‌های بیشتر هنگام اسکرول (بدون دکمهٔ «نمایش بیشتر») با حفظ دسترسی به فوتر</td></tr>
+<tr><td>🧭 نوار فیلتر هوشمند</td><td>Smart Filter Bar</td><td>نوار جستجو/فیلتر خودپنهان‌شونده هنگام اسکرول رو به پایین و قابل جمع‌شدن دستی؛ پیش‌فرض روی «دارای چهره»</td></tr>
 <tr><td>🚀 SEO پیشرفته</td><td>Advanced SEO</td><td>Open Graph، Twitter Card، JSON-LD، sitemap، robots، PWA</td></tr>
 </tbody>
 </table>
@@ -283,23 +293,27 @@ It **NEVER** includes regime forces, Basij, IRGC, or any repressive organization
 ```text
 Javid-Naman/
 │
-├── 📄 index.html                    # گاهشمار اعتراضات (Timeline)
-├── 📄 javidnam.html                 # یادبود جاویدنام‌ها (Memorial)
+├── 📄 index.html                    # 🕯️ یادبود جاویدنام‌ها (صفحهٔ اصلی · Memorial)
+├── 📄 gahshomar.html                # ⏳ گاهشمار اعتراضات (Timeline)
+├── 📄 javidnam.html                 # ↪️ ری‌دایرکت به index.html (سازگاری با لینک‌های قدیمی)
+├── 📄 timeline.html                 # ↪️ ری‌دایرکت به gahshomar.html
 ├── 📄 404.html                      # صفحهٔ خطای سفارشی
 ├── 📄 manifest.webmanifest          # PWA Manifest
 ├── 📄 sitemap.xml  ·  robots.txt    # SEO
 ├── 📄 .nojekyll                     # غیرفعال‌سازی Jekyll
 │
 ├── 📁 assets/
-│   ├── 📁 css/  style.css           # استایل‌های سفارشی
+│   ├── 📁 css/  style.css           # استایل‌های سفارشی (شمع، پلیر آهنگ، کارت چهره)
+│   ├── 📁 audio/ no-more-lullabies.mp3  # 🎵 آهنگ یادبود صفحهٔ اصلی
 │   ├── 📁 js/
 │   │   ├── data.js                  # دادهٔ گاهشمار (۴۰+ رویداد)
 │   │   ├── app.js                   # منطق گاهشمار
-│   │   └── javidnam.js              # منطق صفحهٔ جاویدنام‌ها
+│   │   └── javidnam.js              # منطق یادبود + پلیر آهنگ + lazy-load چهره‌ها
 │   ├── 📁 data/
 │   │   ├── javidnam.json            # 🗃️ بانک کامل (۶٬۲۳۲ رکورد)
+│   │   ├── javidnam.full.json       # 🖼️ نسخهٔ بهینهٔ کامل با چهره و متادیتا (نمایش وب)
 │   │   ├── javidnam.min.json        # نسخهٔ فشرده
-│   │   ├── javidnam.lite.json       # نسخهٔ سبک (نمایش وب)
+│   │   ├── javidnam.lite.json       # نسخهٔ سبک
 │   │   ├── javidnam.csv             # خروجی CSV با BOM (اکسل)
 │   │   ├── statistics.json          # آمار محاسبه‌شده
 │   │   ├── protests.json            # دادهٔ گاهشمار
@@ -672,7 +686,7 @@ git checkout -b add/new-records
 <br/>
 
 [![مشاهدهٔ وب‌سایت](https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/footer-site.svg)](https://0xradikal.github.io/Javid-Naman/)
-[![یادبود جاویدنامان](https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/footer-mem.svg)](https://0xradikal.github.io/Javid-Naman/javidnam.html)
+[![یادبود جاویدنامان](https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/footer-mem.svg)](https://0xradikal.github.io/Javid-Naman/)
 [![@0xRadikal](https://img.shields.io/badge/@0xRadikal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xRadikal)
 
 <br/>

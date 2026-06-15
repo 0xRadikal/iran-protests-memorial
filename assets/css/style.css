@@ -1,106 +1,382 @@
-/* فونت و پایه */
+/* ════════════════════════════════════════════════════════════════
+   جاویدنامان راه آزادی ایران — استایل اصلی
+   طراحی: تیره، باوقار، یادبودی · با حال‌وهوای جان‌فشانی و آزادی
+   ════════════════════════════════════════════════════════════════ */
+
+/* ---------- پایه ---------- */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+:root{
+  --bg: #07090f;
+  --bg2: #0b1020;
+  --rose: #f43f5e;
+  --rose-deep: #be123c;
+  --gold: #f5c451;
+  --purple: #a855f7;
+  --green: #22c55e;
+  --text: #e9ecf4;
+  --muted: #9aa3b6;
+}
 body {
   font-family: 'Vazirmatn', system-ui, sans-serif;
   direction: rtl;
   margin: 0;
-  background: #0a0e1a;
-  color: #e8eaf0;
-  line-height: 1.9;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.95;
+  overflow-x: hidden;
 }
 
-/* پس‌زمینه گرادیانت متحرک */
+/* ---------- پس‌زمینهٔ یادبودی متحرک ---------- */
 .hero-bg {
+  position: relative;
   background:
-    radial-gradient(circle at 20% 20%, rgba(190,18,60,0.18), transparent 40%),
-    radial-gradient(circle at 80% 30%, rgba(34,197,94,0.12), transparent 45%),
-    radial-gradient(circle at 50% 80%, rgba(168,85,247,0.12), transparent 50%),
-    linear-gradient(160deg, #0a0e1a 0%, #0d1424 100%);
+    radial-gradient(circle at 18% 15%, rgba(190,18,60,0.20), transparent 42%),
+    radial-gradient(circle at 82% 22%, rgba(168,85,247,0.13), transparent 46%),
+    radial-gradient(circle at 50% 88%, rgba(34,197,94,0.10), transparent 52%),
+    linear-gradient(165deg, #07090f 0%, #0b1020 60%, #090c16 100%);
 }
+/* لایهٔ ذرات نور (شمع‌های دوردست) */
+.hero-bg::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 30%, rgba(245,196,81,.45), transparent),
+    radial-gradient(1.5px 1.5px at 28% 70%, rgba(255,255,255,.30), transparent),
+    radial-gradient(2px 2px at 55% 20%, rgba(244,63,94,.35), transparent),
+    radial-gradient(1.5px 1.5px at 73% 60%, rgba(245,196,81,.40), transparent),
+    radial-gradient(1.5px 1.5px at 90% 35%, rgba(255,255,255,.25), transparent),
+    radial-gradient(1.5px 1.5px at 40% 88%, rgba(168,85,247,.30), transparent);
+  animation: drift 22s ease-in-out infinite alternate;
+}
+@keyframes drift { from{transform:translateY(0)} to{transform:translateY(-18px)} }
 
-/* اسکرول‌بار */
+/* محتوای بالای پس‌زمینه */
+nav, header, section, footer, main { position: relative; z-index: 1; }
+
+/* ---------- اسکرول‌بار ---------- */
 ::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #0d1424; }
-::-webkit-scrollbar-thumb { background: #2d3a52; border-radius: 6px; }
-::-webkit-scrollbar-thumb:hover { background: #3d4a62; }
+::-webkit-scrollbar-track { background: #0a0f1d; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#3a2030,#2d3a52); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #5a2a3a; }
 
-/* خط زمانی عمودی */
+/* ---------- خط زمانی عمودی ---------- */
 .timeline-line {
-  position: absolute;
-  right: 50%;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(to bottom, #be123c, #a855f7, #22c55e);
+  position: absolute; right: 50%; top: 0; bottom: 0; width: 3px;
+  background: linear-gradient(to bottom, var(--rose-deep), var(--purple), var(--green));
   transform: translateX(50%);
+  box-shadow: 0 0 14px rgba(190,18,60,.4);
 }
 @media (max-width: 768px) {
   .timeline-line { right: 22px; transform: none; }
 }
 
-/* کارت‌ها */
+/* ---------- کارت‌ها ---------- */
 .protest-card {
-  background: rgba(20,27,45,0.7);
+  background: rgba(17,23,40,0.66);
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: 18px;
-  backdrop-filter: blur(8px);
-  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  backdrop-filter: blur(10px);
+  transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s, border-color .28s;
 }
 .protest-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(190,18,60,0.5);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  transform: translateY(-5px);
+  border-color: rgba(244,63,94,0.45);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.55), 0 0 0 1px rgba(244,63,94,.12);
 }
 
-/* نقطه روی خط زمانی */
+/* نقطهٔ روی خط زمانی */
 .tl-dot {
-  width: 18px; height: 18px;
-  border-radius: 50%;
-  border: 3px solid #0a0e1a;
-  box-shadow: 0 0 0 3px currentColor;
+  width: 18px; height: 18px; border-radius: 50%;
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 3px currentColor, 0 0 16px currentColor;
 }
 
-/* انیمیشن ورود */
-.fade-in { animation: fadeIn .6s ease forwards; opacity: 0; }
+/* ---------- انیمیشن ورود ---------- */
+.fade-in { animation: fadeIn .6s ease forwards; opacity: 0; transform: translateY(20px); }
 @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
-.fade-in { transform: translateY(20px); }
 
-/* مودال */
-.modal-backdrop {
-  background: rgba(5,8,15,0.85);
-  backdrop-filter: blur(6px);
-}
+.reveal { opacity:0; transform: translateY(26px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1); }
+.reveal.in { opacity:1; transform:none; }
+
+/* ---------- مودال ---------- */
+.modal-backdrop { background: rgba(4,6,12,0.88); backdrop-filter: blur(7px); }
 .modal-box {
-  background: linear-gradient(160deg, #131a2e, #0d1424);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: linear-gradient(165deg, #121a30, #0b1120);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 30px 90px rgba(0,0,0,.6);
+  animation: modalPop .35s cubic-bezier(.2,.9,.2,1) both;
 }
+@keyframes modalPop { from{opacity:0; transform:scale(.94) translateY(10px)} to{opacity:1; transform:none} }
 
-/* فیلتر فعال */
+/* ---------- فیلتر فعال ---------- */
 .filter-btn.active {
-  background: linear-gradient(135deg, #be123c, #9f1239);
-  color: #fff;
-  border-color: transparent;
+  background: linear-gradient(135deg, var(--rose-deep), #9f1239);
+  color: #fff; border-color: transparent;
+  box-shadow: 0 4px 16px rgba(190,18,60,.35);
 }
 
-/* badge رنگی دسته */
+/* ---------- badge دسته ---------- */
 .cat-badge { font-size: 0.7rem; padding: 2px 10px; border-radius: 999px; }
 
-/* عدد آماری بزرگ */
+/* ---------- عدد آماری بزرگ ---------- */
 .stat-num {
-  background: linear-gradient(135deg, #f43f5e, #a855f7);
-  -webkit-background-clip: text;
-  background-clip: text;
+  background: linear-gradient(135deg, var(--rose), var(--purple));
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stat-gold {
+  background: linear-gradient(135deg, var(--gold), #ff8a4c);
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* تیتر فصل */
+/* ---------- تیتر فصل ---------- */
+.section-title { display:flex; align-items:center; gap:12px; }
 .section-title::before {
-  content: '';
-  display: inline-block;
-  width: 6px; height: 28px;
-  background: linear-gradient(to bottom, #be123c, #a855f7);
+  content: ''; display: inline-block; width: 6px; height: 28px;
+  background: linear-gradient(to bottom, var(--rose-deep), var(--purple));
   border-radius: 4px;
-  margin-left: 12px;
-  vertical-align: middle;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   شمع یادبود (CSS pure) — برای هدر صفحهٔ جاویدنام
+   ════════════════════════════════════════════════════════════════ */
+.candle-wrap{ position:relative; width:64px; height:96px; margin:0 auto; }
+.candle-body{
+  position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  width:26px; height:56px; border-radius:6px 6px 3px 3px;
+  background:linear-gradient(90deg,#d8c4a0,#f6ecd8 45%,#cdb893);
+  box-shadow:inset -3px 0 6px rgba(0,0,0,.18), 0 0 22px rgba(245,196,81,.18);
+}
+.candle-flame{
+  position:absolute; bottom:56px; left:50%; transform:translateX(-50%);
+  width:16px; height:30px; border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;
+  background:radial-gradient(ellipse at 50% 75%, #fff7d6 0%, #ffd45e 35%, #ff8a2b 70%, #ff5a1f 100%);
+  box-shadow:0 0 18px 6px rgba(255,168,43,.55), 0 0 42px 14px rgba(255,90,31,.30);
+  transform-origin:50% 100%;
+  animation:flicker 1.4s ease-in-out infinite alternate;
+}
+.candle-glow{
+  position:absolute; bottom:42px; left:50%; transform:translateX(-50%);
+  width:120px; height:120px; border-radius:50%;
+  background:radial-gradient(circle, rgba(255,176,60,.30), transparent 65%);
+  animation:glow 2.6s ease-in-out infinite alternate;
+}
+@keyframes flicker{
+  0%{ transform:translateX(-50%) rotate(-2deg) scaleY(1); }
+  50%{ transform:translateX(-52%) rotate(1.5deg) scaleY(1.08); }
+  100%{ transform:translateX(-48%) rotate(-1deg) scaleY(.96); }
+}
+@keyframes glow{ from{opacity:.55; transform:translateX(-50%) scale(.92)} to{opacity:.9; transform:translateX(-50%) scale(1.06)} }
+
+/* ---------- کارت چهره (جاویدنام) ---------- */
+.jv-card{ animation: jvfade .3s ease both; }
+@keyframes jvfade{ from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none} }
+.ev-btn.active, .verif-btn.active{
+  background:rgba(244,63,94,0.18); border-color:rgba(244,63,94,0.45)!important; color:#fda4af;
+}
+.line-clamp-1{ display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; }
+.line-clamp-2{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.line-clamp-3{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+
+/* عکس چهره با fallback */
+.jv-photo{
+  width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;
+  background:#10162a; transition:transform .4s ease, filter .4s ease;
+  filter:grayscale(.25) contrast(1.02);
+}
+.jv-card:hover .jv-photo{ transform:scale(1.04); filter:grayscale(0); }
+.jv-photo-ph{
+  width:100%; aspect-ratio:1/1; border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  background:radial-gradient(circle at 50% 35%, rgba(244,63,94,.10), rgba(17,23,40,.6));
+  color:rgba(244,63,94,.45); font-size:2.2rem;
+}
+
+/* قاب نور دور کارت چهرهٔ سرشناس */
+.jv-notable{ box-shadow:0 0 0 1px rgba(245,196,81,.30), 0 8px 30px rgba(245,196,81,.06); }
+.jv-notable .jv-photo{ filter:grayscale(0) contrast(1.04); }
+
+/* عکس در حال لود (lazy) */
+img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,.08), rgba(17,23,40,.6)); }
+
+/* عکس بزرگ در مودال */
+.jv-modal-photo-wrap{
+  width:140px; height:140px; margin:0 auto; border-radius:20px; overflow:hidden;
+  box-shadow:0 12px 40px rgba(0,0,0,.5), 0 0 0 1px rgba(255,255,255,.06);
+}
+.jv-modal-photo{ width:100%; height:100%; object-fit:cover; }
+.jv-modal-ph{
+  width:140px; height:140px; margin:0 auto; border-radius:20px;
+  display:flex; align-items:center; justify-content:center; font-size:3rem;
+  background:radial-gradient(circle at 50% 35%, rgba(244,63,94,.12), rgba(17,23,40,.7));
+  box-shadow:0 12px 40px rgba(0,0,0,.5), 0 0 0 1px rgba(255,255,255,.06);
+}
+
+/* تاگل فیلتر (عکس‌دار/سرشناس) */
+.jv-toggle{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius:999px; font-size:12px; cursor:pointer;
+  border:1px solid rgba(255,255,255,.15); background:rgba(255,255,255,.02);
+  color:#cbd2e0; transition:.2s;
+}
+.jv-toggle:hover{ background:rgba(255,255,255,.06); }
+.jv-toggle.active{ background:rgba(245,196,81,.15); border-color:rgba(245,196,81,.4); color:#f5c451; }
+
+/* ---------- پلیر آهنگ شناور ---------- */
+#audio-dock{
+  position:fixed; z-index:40; bottom:18px; left:18px;
+  display:flex; align-items:center; gap:10px;
+  padding:9px 12px; border-radius:999px;
+  background:rgba(12,16,28,.86); backdrop-filter:blur(14px);
+  border:1px solid rgba(245,196,81,.22);
+  box-shadow:0 10px 36px rgba(0,0,0,.5), 0 0 0 1px rgba(255,255,255,.04);
+  transition:transform .4s cubic-bezier(.2,.9,.2,1), opacity .45s ease, filter .45s ease, box-shadow .45s ease;
+  max-width:calc(100vw - 36px);
+  /* پیش‌فرض: نیمه‌شفاف و کمی محو تا مزاحم تماشای صفحه نباشد */
+  opacity:.42;
+  filter:saturate(.85);
+}
+/* فوکوس: با هاور، انتخاب با کیبورد/فوکوس داخلی، یا لمس موبایل (.active) */
+#audio-dock:hover,
+#audio-dock:focus-within,
+#audio-dock.active{
+  opacity:1;
+  filter:none;
+  box-shadow:0 14px 44px rgba(0,0,0,.55), 0 0 22px rgba(245,196,81,.3), 0 0 0 1px rgba(245,196,81,.4);
+}
+/* هنگام پخش، حضور ملایم‌تری دارد تا کاربر بداند آهنگ روشن است */
+#audio-dock:not(.paused){ opacity:.55; }
+#audio-dock:not(.paused):hover,
+#audio-dock:not(.paused):focus-within,
+#audio-dock:not(.paused).active{ opacity:1; }
+#audio-dock.collapsed{ padding:8px; }
+#audio-dock .ad-btn{
+  width:38px; height:38px; border-radius:50%; flex:0 0 auto;
+  display:flex; align-items:center; justify-content:center;
+  border:none; cursor:pointer; color:#0a0e1a;
+  background:radial-gradient(circle at 40% 35%, #ffe08a, #f5c451 60%, #e0a93a);
+  box-shadow:0 0 16px rgba(245,196,81,.45);
+  transition:transform .2s;
+}
+#audio-dock .ad-btn:hover{ transform:scale(1.08); }
+#audio-dock .ad-eq{ display:flex; align-items:flex-end; gap:2px; height:18px; }
+#audio-dock .ad-eq i{
+  width:3px; background:#f5c451; border-radius:2px; height:6px;
+  animation:eq 1s ease-in-out infinite;
+}
+#audio-dock .ad-eq i:nth-child(2){ animation-delay:.2s; }
+#audio-dock .ad-eq i:nth-child(3){ animation-delay:.4s; }
+#audio-dock .ad-eq i:nth-child(4){ animation-delay:.1s; }
+#audio-dock.paused .ad-eq i{ animation-play-state:paused; height:6px; }
+@keyframes eq{ 0%,100%{height:5px} 50%{height:18px} }
+#audio-dock .ad-meta{ display:flex; flex-direction:column; line-height:1.25; min-width:0; }
+#audio-dock .ad-title{ font-size:12.5px; font-weight:700; white-space:nowrap; }
+#audio-dock .ad-sub{ font-size:10.5px; color:var(--muted); white-space:nowrap; }
+#audio-dock .ad-x{
+  width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;flex:0 0 auto;
+  background:rgba(255,255,255,.08); color:#cbd2e0; font-size:11px;
+}
+#audio-dock .ad-x:hover{ background:rgba(244,63,94,.25); color:#fff; }
+#audio-dock .ad-info{
+  width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;flex:0 0 auto;
+  background:rgba(255,255,255,.06); color:#9aa3b6; font-size:11px;
+}
+#audio-dock .ad-info:hover{ background:rgba(245,196,81,.2); color:#f5c451; }
+
+/* دکمهٔ احیای پلیر (وقتی بسته شده) */
+#audio-revive{
+  position:fixed; z-index:40; bottom:18px; left:18px; display:none;
+  width:46px; height:46px; border-radius:50%; border:none; cursor:pointer;
+  background:radial-gradient(circle at 40% 35%, #ffe08a, #f5c451 60%, #e0a93a);
+  color:#0a0e1a; box-shadow:0 8px 28px rgba(0,0,0,.5), 0 0 18px rgba(245,196,81,.4);
+  animation:pulseGold 2.4s ease-in-out infinite;
+}
+@keyframes pulseGold{ 0%,100%{box-shadow:0 8px 28px rgba(0,0,0,.5),0 0 14px rgba(245,196,81,.35)} 50%{box-shadow:0 8px 28px rgba(0,0,0,.5),0 0 26px rgba(245,196,81,.6)} }
+
+@media (max-width:520px){
+  #audio-dock .ad-meta{ display:none; }
+}
+
+/* ---------- نوار فیلتر هوشمند ---------- */
+#jv-filterbar .jv-filterbar-inner{
+  transition:background .3s, backdrop-filter .3s;
+  background:rgba(7,9,15,0.92); backdrop-filter:blur(12px);
+  border-radius:18px;
+}
+/* انتقال نرم هنگام پنهان/نمایان شدن نوار */
+#jv-filterbar{
+  transition:transform .4s cubic-bezier(.2,.9,.2,1), opacity .35s ease;
+  will-change:transform;
+}
+#jv-filterbar.bar-hidden{
+  transform:translateY(-130%);
+  opacity:0;
+  pointer-events:none;
+}
+/* بدنهٔ فیلترها هنگام جمع‌شدن دستی */
+#jv-filter-body{
+  overflow:hidden;
+  max-height:600px; opacity:1;
+  transition:max-height .4s ease, opacity .3s ease, margin .3s ease;
+}
+#jv-filterbar.filters-collapsed #jv-filter-body{
+  max-height:0; opacity:0; margin-top:-4px;
+}
+
+/* ---------- نشانگر لود خودکار (اسکرول بی‌نهایت) ---------- */
+.jv-loader{
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  padding:26px 0 8px; color:var(--muted); font-size:13px;
+}
+.jv-loader .jv-dot{
+  width:8px; height:8px; border-radius:50%;
+  background:radial-gradient(circle at 40% 35%, #ffe08a, #f5c451 70%);
+  animation:jvBounce 1s ease-in-out infinite;
+}
+.jv-loader .jv-dot:nth-child(2){ animation-delay:.15s; }
+.jv-loader .jv-dot:nth-child(3){ animation-delay:.3s; }
+.jv-loader .jv-loader-text{ margin-right:6px; }
+@keyframes jvBounce{ 0%,100%{ transform:translateY(0); opacity:.5; } 50%{ transform:translateY(-7px); opacity:1; } }
+
+/* ---------- پیام پایان فهرست ---------- */
+.jv-end{
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  padding:34px 0 10px; color:#d7c7a8; font-size:14px;
+}
+.jv-end i{ color:#f5c451; }
+
+/* ---------- مودال توضیح آهنگ ---------- */
+.music-note-box{ border-right:3px solid var(--gold); }
+
+/* ---------- لینک‌های یادبود در مودال ---------- */
+.mem-link{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius:10px; font-size:12.5px;
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
+  color:#bcd; text-decoration:none; transition:.2s;
+}
+.mem-link:hover{ background:rgba(244,63,94,.16); border-color:rgba(244,63,94,.35); color:#fda4af; }
+
+/* ---------- خط جداکنندهٔ تزئینی ---------- */
+.divider-glow{
+  height:1px; border:0; margin:0;
+  background:linear-gradient(90deg, transparent, rgba(244,63,94,.5), rgba(168,85,247,.4), transparent);
+}
+
+/* ---------- متن نقل‌قول یادبود ---------- */
+.memorial-quote{
+  font-size:1.05rem; color:#d7c7a8; font-style:normal;
+  text-shadow:0 0 30px rgba(245,196,81,.15);
+}
+
+/* احترام به کاربرانی که انیمیشن کمتری می‌خواهند */
+@media (prefers-reduced-motion: reduce){
+  .hero-bg::before, .candle-flame, .candle-glow, #audio-dock .ad-eq i, #audio-revive, .jv-loader .jv-dot { animation:none !important; }
+  .reveal{ opacity:1; transform:none; transition:none; }
+  #jv-filterbar{ transition:none; }
 }
