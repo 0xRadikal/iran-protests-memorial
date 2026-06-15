@@ -13,7 +13,7 @@
 <!-- ─────────────────────────  بنر شمع انیمیشنی  ───────────────────────── -->
 
 <a href="https://0xradikal.github.io/Javid-Naman/javidnam.html">
-  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/candle-banner.svg" alt="شمع یادبود جاویدنام" width="100%"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/candle-banner.svg" alt="شمع یادبود جاویدنامان" width="100%"/>
 </a>
 
 <br/>
