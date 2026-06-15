@@ -1,4 +1,18 @@
+# گاهشمار اعتراضات مردمی ایران — جاویدنام‌ها
+# Iran Protests Timeline & Javidnam Memorial Archive
+# همهٔ موتورهای جستجو مجاز به ایندکس کامل هستند (شامل فایل‌های دادهٔ باز JSON/CSV برای Google Dataset Search)
+
 User-agent: *
+Allow: /
+
+# اجازهٔ صریح به خزش فایل‌های دادهٔ باز
+Allow: /assets/data/
+
+# خزنده‌های هوش مصنوعی نیز مجازند (آرشیو عمومی حقوق بشری)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://0xradikal.github.io/Javid-Naman/sitemap.xml

@@ -112,6 +112,8 @@ An **open, documented, interactive archive** in two parts:
 
 **2. Javidnam Memorial** — an open database of **6,232 people** killed, executed, or disappeared on the path to Iran's freedom; each name documented, where possible, with biography, city, date, age, occupation, and verified source — searchable, filterable, and downloadable.
 
+> **Keywords / کلیدواژه‌ها:** Iran protests · 2025–2026 Iranian protests · Woman, Life, Freedom (Jin, Jiyan, Azadi) · Mahsa Amini · Iran human rights · Iran internet shutdown · martyrs memorial · open data — خیزش ۱۴۰۴ · اعتراضات ۱۸ و ۱۹ دی · کشته‌شدگان خیزش ۱۴۰۴ · جاویدنام / Javidnam · جان‌باختگان راه آزادی · زن، زندگی، آزادی.
+
 ---
 
 ## 🛡️ اصل بنیادین / Core Principle
