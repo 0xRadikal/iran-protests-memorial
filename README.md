@@ -3,21 +3,26 @@
 <!--          گاهشمار اعتراضات مردمی ایران · یادبود جاویدنام‌ها              -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 
+<!-- ─────────────────────────  هدر موجی متحرک  ───────────────────────── -->
 <div align="center">
 
 <a href="https://0xradikal.github.io/Javid-Naman/">
-  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/og-image-1.png" alt="گاهشمار اعتراضات مردمی ایران و یادبود جاویدنام‌ها" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,50:7a1020,100:be1234&height=210&section=header&text=%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85&fontSize=72&fontColor=ffd9c4&fontAlignY=38&desc=Iran%20Protests%20Timeline%20%C2%B7%20A%20Memorial%20for%206%2C232%20Lives&descSize=18&descAlignY=60&animation=fadeIn" alt="جاویدنام" width="100%"/>
 </a>
 
-<br/><br/>
+<!-- ─────────────────────────  بنر شمع انیمیشنی  ───────────────────────── -->
 
-<!-- ─────────────────────────  عنوان  ───────────────────────── -->
+<a href="https://0xradikal.github.io/Javid-Naman/javidnam.html">
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/candle-banner.svg" alt="شمع یادبود جاویدنام" width="100%"/>
+</a>
 
-# 🕯️ جاویدنام
+<br/>
 
-### گاهشمار اعتراضات مردمی ایران &nbsp;·&nbsp; یادبود ۶٬۲۳۲ جان‌باختهٔ راه آزادی
+<!-- ─────────────────────────  متن تایپی متحرک  ───────────────────────── -->
 
-**Iran Protests Timeline &nbsp;·&nbsp; A Memorial Archive of 6,232 Lives Given for Freedom**
+<a href="https://0xradikal.github.io/Javid-Naman/">
+  <img src="https://readme-typing-svg.demolab.com?font=Vazirmatn&weight=800&size=26&duration=3500&pause=900&color=FF6B81&center=true&vCenter=true&width=820&height=55&lines=%D8%A2%D9%86%D8%A7%D9%86+%DA%A9%D9%87+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C+%D8%AC%D8%A7%D9%86+%D8%AF%D8%A7%D8%AF%D9%86%D8%AF%D8%8C+%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D8%A7%D9%86%E2%80%8C%D8%A7%D9%86%D8%AF;Those+who+gave+their+lives+for+freedom+are+eternal;%D9%86%D8%A7%D9%85%E2%80%8C%D8%B4%D8%A7%D9%86+%D8%AC%D8%A7%D9%88%DB%8C%D8%AF+%C2%B7+%DB%8C%D8%A7%D8%AF%D8%B4%D8%A7%D9%86+%DA%AF%D8%B1%D8%A7%D9%85%DB%8C" alt="آنان که برای آزادی جان دادند، جاویدان‌اند" />
+</a>
 
 <br/>
 
@@ -37,7 +42,14 @@
   </a>
 </p>
 
-<!-- ─────────────────────────  نشان‌های متریک  ───────────────────────── -->
+<!-- ─────────────────────────  نشان‌های متریک پویا  ───────────────────────── -->
+
+<p align="center">
+  <a href="https://github.com/0xRadikal/Javid-Naman/stargazers"><img src="https://img.shields.io/github/stars/0xRadikal/Javid-Naman?style=flat-square&color=ffd166&labelColor=151528&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/0xRadikal/Javid-Naman/network/members"><img src="https://img.shields.io/github/forks/0xRadikal/Javid-Naman?style=flat-square&color=a855f7&labelColor=151528&logo=github" alt="Forks"/></a>
+  <a href="https://github.com/0xRadikal/Javid-Naman/commits/main"><img src="https://img.shields.io/github/last-commit/0xRadikal/Javid-Naman?style=flat-square&color=10b981&labelColor=151528&logo=git&logoColor=white" alt="Last Commit"/></a>
+  <img src="https://komarev.com/ghpvc/?username=0xRadikal-JavidNaman&style=flat-square&color=be1234&label=%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF" alt="Views"/>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/رویدادهای_مستند-۴۰%2B-a855f7?style=flat-square&labelColor=151528" alt="Events"/>
@@ -49,29 +61,41 @@
   <img src="https://img.shields.io/badge/کد-MIT-22c55e?style=flat-square&labelColor=151528&logo=opensourceinitiative&logoColor=white" alt="MIT"/>
   <img src="https://img.shields.io/badge/Stack-HTML_·_JS_·_Tailwind-38bdf8?style=flat-square&labelColor=151528&logo=html5&logoColor=white" alt="Stack"/>
   <img src="https://img.shields.io/badge/میزبانی-GitHub_Pages-181717?style=flat-square&labelColor=151528&logo=github&logoColor=white" alt="GitHub Pages"/>
-  <img src="https://img.shields.io/badge/زبان-فارسی_RTL-dc2626?style=flat-square&labelColor=151528" alt="Persian RTL"/>
   <img src="https://img.shields.io/badge/PWA-Ready-5a0fc8?style=flat-square&labelColor=151528&logo=pwa&logoColor=white" alt="PWA"/>
 </p>
 
 <br/>
 
-<!-- ─────────────────────────  نقل‌قول قلبی  ───────────────────────── -->
+<!-- ─────────────────────────  دکمه‌های اشتراک‌گذاری  ───────────────────────── -->
 
-> ### «آنان که برای آزادی جان دادند، جاویدان‌اند.»
->
-> *“Those who gave their lives for freedom are eternal.”*
+#### 📣 این یاد را زنده نگه دارید — هم‌رسانی کنید
+
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%20%D9%88%20%DA%AF%D8%A7%D9%87%D8%B4%D9%85%D8%A7%D8%B1%20%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7%D8%AA%20%D9%85%D8%B1%D8%AF%D9%85%DB%8C.%0A%0A%D9%86%D8%A7%D9%85%E2%80%8C%D8%B4%D8%A7%D9%86%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D8%8C%20%DB%8C%D8%A7%D8%AF%D8%B4%D8%A7%D9%86%20%DA%AF%D8%B1%D8%A7%D9%85%DB%8C.%0A%0A%23%D8%B2%D9%86_%D8%B2%D9%86%D8%AF%DA%AF%DB%8C_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%23%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%23WomanLifeFreedom&url=https%3A//0xradikal.github.io/Javid-Naman/&via=0xRadikal">
+    <img src="https://img.shields.io/badge/اشتراک_در_X_(توییتر)-انتشار_با_یک_کلیک-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="Share on X"/>
+  </a>
+  &nbsp;
+  <a href="https://t.me/share/url?url=https%3A//0xradikal.github.io/Javid-Naman/&text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86">
+    <img src="https://img.shields.io/badge/اشتراک_در_تلگرام-Share-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=26A5E4" alt="Share on Telegram"/>
+  </a>
+  &nbsp;
+  <a href="https://wa.me/?text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%20https%3A//0xradikal.github.io/Javid-Naman/">
+    <img src="https://img.shields.io/badge/اشتراک_در_واتساپ-Share-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=25D366" alt="Share on WhatsApp"/>
+  </a>
+</p>
 
 <br/>
 
-**[🌐 مشاهدهٔ وب‌سایت](https://0xradikal.github.io/Javid-Naman/)** &nbsp;·&nbsp;
-**[🕯️ یادبود جاویدنام‌ها](https://0xradikal.github.io/Javid-Naman/javidnam.html)** &nbsp;·&nbsp;
+**[🌐 وب‌سایت](https://0xradikal.github.io/Javid-Naman/)** &nbsp;·&nbsp;
+**[🕯️ یادبود](https://0xradikal.github.io/Javid-Naman/javidnam.html)** &nbsp;·&nbsp;
 **[📊 دادهٔ باز](#-دادهٔ-باز--open-data)** &nbsp;·&nbsp;
 **[🤝 مشارکت](#-مشارکت--contributing)** &nbsp;·&nbsp;
-**[🤍 همراهی با این راه](#-همراهی-با-این-راه--keep-the-flame-alive)**
+**[💛 همراهی با این راه](#-همراهی-با-این-راه--keep-the-flame-alive)**
 
 </div>
 
----
+<!-- divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 
@@ -107,7 +131,8 @@
 
 </div>
 
----
+<!-- divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 ## 📑 فهرست محتوا / Table of Contents
 
@@ -133,7 +158,7 @@
 - [Sources](#-منابع--sources)
 - [Contributing](#-مشارکت--contributing)
 - [Roadmap](#️-نقشهٔ-راه--roadmap)
-- [Keep the Flame Alive](#-همراهی-با-این-راه--keep-the-flame-alive)
+- [💛 Keep the Flame Alive](#-همراهی-با-این-راه--keep-the-flame-alive)
 - [License](#-پروانه--license)
 - [Ethical Notice](#️-اعلامیهٔ-اخلاقی--ethical-notice)
 
@@ -278,7 +303,7 @@ Javid-Naman/
 │   │   ├── protests.json            # دادهٔ گاهشمار
 │   │   ├── person.schema.json       # JSON Schema (Draft 2020-12)
 │   │   └── by-event/                # فایل جداگانه برای هر رویداد
-│   └── 📁 img/                      # تصاویر OG، favicon، آیکون PWA
+│   └── 📁 img/                      # تصاویر OG، favicon، بنر شمع، آیکون PWA
 │
 ├── 📁 .github/workflows/deploy.yml  # GitHub Actions (استقرار خودکار)
 ├── 📄 CONTRIBUTING.md  ·  LICENSE   # راهنمای مشارکت و پروانه
@@ -290,6 +315,10 @@ Javid-Naman/
 ## 🛠️ فناوری / Tech Stack
 
 <div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,tailwind,github,githubactions&theme=dark" alt="Tech Stack" />
+
+<br/><br/>
 
 | لایه | فناوری | نقش |
 |:---|:---|:---|
@@ -488,49 +517,125 @@ git checkout -b add/new-records
 - [ ] 🔍 جستجوی full-text پیشرفته با Fuse.js
 - [ ] 📸 گالری تصویر برای چهره‌های شناخته‌شده
 
----
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!--                      💛 KEEP THE FLAME ALIVE 💛                          -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
 
-## 🤍 همراهی با این راه / Keep the Flame Alive
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+## 💛 همراهی با این راه / Keep the Flame Alive
 
 <div align="center">
 
-> این آرشیو از سرِ هیچ منفعتی ساخته نشده.
-> تنها انگیزه‌اش، این بوده که نام‌ها فراموش نشوند و حقیقت زنده بماند.
+<a href="#-همراهی-با-این-راه--keep-the-flame-alive">
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/support-banner.svg" alt="چراغ این یادبود را روشن نگه دارید" width="100%"/>
+</a>
+
+<br/>
+
+> ### این آرشیو از سرِ هیچ منفعتی ساخته نشده.
+> ### تنها انگیزه‌اش این بوده که نام‌ها فراموش نشوند و حقیقت زنده بماند.
 >
 > *This archive was not built for any gain — only so that names are not forgotten, and the truth lives on.*
 
 </div>
 
-نگه‌داری از این آرشیو، تحقیق و راستی‌آزمایی منابع، و افزودن نام‌های تازه، کاری **پیوسته و داوطلبانه** است. اگر این تلاش برایتان معنایی دارد، می‌توانید به یکی از راه‌های زیر در ادامهٔ این راه همراه شوید — هر کدام به اندازهٔ خودش، چراغی است که این یادبود را روشن نگه می‌دارد:
+<br/>
 
-- 🌟 **ستاره دادن** به این مخزن، تا دیده شود و به دست افراد بیشتری برسد
-- 🔗 **هم‌رسانی** وب‌سایت و داده‌ها، تا این نام‌ها فراموش نشوند
-- ✍️ **مشارکت در داده** و تکمیل اطلاعات ناقص ([راهنما](#-مشارکت--contributing))
-- 🌐 **همراهی داوطلبانه** برای تأمین هزینهٔ دامنه، نگه‌داری و ادامهٔ تحقیق
+نگه‌داری از این آرشیو، تحقیق و راستی‌آزمایی منابع، و افزودن نام‌های تازه، کاری **پیوسته و داوطلبانه** است. اگر این تلاش برایتان معنایی دارد، می‌توانید با یکی از راه‌های زیر چراغ این یادبود را روشن نگه دارید — هر کدام به اندازهٔ خودش ارزشمند است:
 
-<details>
-<summary><b>🌐 برای همراهیِ داوطلبانه (کریپتو) — اینجا را باز کنید</b></summary>
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### ⭐
+**ستاره بدهید**
+تا دیده شود
+
+</td>
+<td align="center" width="25%">
+
+### 🔗
+**هم‌رسانی کنید**
+تا فراموش نشود
+
+</td>
+<td align="center" width="25%">
+
+### ✍️
+**داده بیفزایید**
+تا کامل‌تر شود
+
+</td>
+<td align="center" width="25%">
+
+### 💛
+**همراه شوید**
+تا ادامه یابد
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <br/>
 
-> هر مبلغی، تنها صرف **زنده‌نگه‌داشتن این آرشیو** می‌شود: دامنه، میزبانی، و وقتِ تحقیق و راستی‌آزمایی. هیچ اجباری در کار نیست؛ صرفِ خواندن و به‌خاطر سپردن این نام‌ها، خود بزرگ‌ترین همراهی است.
+<div align="center">
 
-| شبکه / Network | نشانی / Address |
-|:---|:---|
-| **EVM** <br/><sub>Ethereum · BSC · Polygon · Arbitrum · …</sub> | `0x2F6ec47e416B42C623cF81a64266EE4910a698Cf` |
-| **TRON (TRC-20)** <br/><sub>USDT · TRX</sub> | `TYBumju6Mjd8JCn4RTq95Kk2HPsdcinuz5` |
-| **TON** <br/><sub>The Open Network</sub> | `UQBbZrE5aDsdGVi6enpf_vPuG022W4KjkJNzTDkjVEn4gmu6` |
+### 🌐 همراهیِ داوطلبانه (کریپتو)
+
+> هر مبلغی، **تنها** صرف زنده‌نگه‌داشتن این آرشیو می‌شود: دامنه، میزبانی، و وقتِ تحقیق و راستی‌آزمایی.
+> هیچ اجباری در کار نیست — صرفِ خواندن و به‌خاطر سپردن این نام‌ها، خود بزرگ‌ترین همراهی است.
+
+<br/>
+
+<table>
+<tr>
+<td align="center" valign="top" width="33%">
+
+#### 🔷 EVM
+<sub>Ethereum · BSC · Polygon · Arbitrum</sub>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&bgcolor=151528&color=ffffff&margin=10&data=0x2F6ec47e416B42C623cF81a64266EE4910a698Cf" alt="EVM QR" width="150"/>
+
+`0x2F6ec47e416B42C623cF81a64266EE4910a698Cf`
+
+</td>
+<td align="center" valign="top" width="33%">
+
+#### 🔴 TRON (TRC-20)
+<sub>USDT · TRX</sub>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&bgcolor=151528&color=ffffff&margin=10&data=TYBumju6Mjd8JCn4RTq95Kk2HPsdcinuz5" alt="TRC20 QR" width="150"/>
+
+`TYBumju6Mjd8JCn4RTq95Kk2HPsdcinuz5`
+
+</td>
+<td align="center" valign="top" width="33%">
+
+#### 💎 TON
+<sub>The Open Network</sub>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&bgcolor=151528&color=ffffff&margin=10&data=UQBbZrE5aDsdGVi6enpf_vPuG022W4KjkJNzTDkjVEn4gmu6" alt="TON QR" width="150"/>
+
+`UQBbZrE5aDsdGVi6enpf_vPuG022W4KjkJNzTDkjVEn4gmu6`
+
+</td>
+</tr>
+</table>
 
 <sub>⚠️ پیش از ارسال، شبکه و نشانی را با دقت بررسی کنید. ارسال در شبکهٔ اشتباه ممکن است باعث از دست رفتن دارایی شود.</sub>
 
-</details>
+<br/><br/>
 
-<div align="center">
-<br/>
-<sub>💛 سپاس از هر کسی که این نام‌ها را می‌خواند، به‌خاطر می‌سپارد و هم‌رسانی می‌کند.<br/>همین، خودش جاودانه کردنِ آنان است.</sub>
+**💛 سپاس از هر کسی که این نام‌ها را می‌خواند، به‌خاطر می‌سپارد و هم‌رسانی می‌کند — همین، خودش جاودانه کردنِ آنان است.**
+
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
 ## 📄 پروانه / License
 
@@ -553,6 +658,7 @@ git checkout -b add/new-records
 
 ---
 
+<!-- ─────────────────────────  فوتر موجی متحرک  ───────────────────────── -->
 <div align="center">
 
 <br/>
@@ -565,16 +671,11 @@ git checkout -b add/new-records
 
 [![وب‌سایت](https://img.shields.io/badge/🌐_مشاهدهٔ_وب‌سایت-0xradikal.github.io-1a1a2e?style=for-the-badge)](https://0xradikal.github.io/Javid-Naman/)
 [![یادبود](https://img.shields.io/badge/🕯️_یادبود_جاویدنام‌ها-۶٬۲۳۲_نام-be1234?style=for-the-badge)](https://0xradikal.github.io/Javid-Naman/javidnam.html)
+[![توییتر](https://img.shields.io/badge/@0xRadikal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xRadikal)
 
-<br/><br/>
+<br/>
 
-<a href="https://0xradikal.github.io/Javid-Naman/">
-  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/og-image.png" alt="گاهشمار اعتراضات مردمی ایران و یادبود جاویدنام‌ها" width="100%"/>
-</a>
-
-<br/><br/>
-
-<sub>ساخته‌شده با 🤍 برای حفظ حافظهٔ تاریخی ایران · Built with 🤍 to preserve Iran's historical memory</sub>
+<sub>ساخته‌شده با 💛 برای حفظ حافظهٔ تاریخی ایران · Built with 💛 to preserve Iran's historical memory</sub>
 
 <sub>
 <a href="https://github.com/0xRadikal/Javid-Naman/blob/main/LICENSE">MIT</a> ·
@@ -582,5 +683,9 @@ git checkout -b add/new-records
 <a href="CONTRIBUTING.md">Contributing</a> ·
 <a href="https://github.com/0xRadikal/Javid-Naman/issues">Issues</a>
 </sub>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:be1234,50:7a1020,100:0a0e1a&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>

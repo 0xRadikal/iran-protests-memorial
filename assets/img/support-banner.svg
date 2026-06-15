@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Support Javidnam">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a0a14"/>
+      <stop offset="50%" stop-color="#1a0610"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="50%" stop-color="#ff6b81"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+      <animate attributeName="x1" values="-1;1;-1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2;0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="g2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- کارت -->
+  <rect x="4" y="4" width="992" height="192" rx="22" fill="url(#sbg)" stroke="url(#shine)" stroke-width="2.5"/>
+
+  <!-- درخشش حاشیه‌ای متحرک -->
+  <rect x="4" y="4" width="992" height="192" rx="22" fill="none" stroke="#ffd166" stroke-width="1" opacity="0.0">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- قلب تپنده -->
+  <g transform="translate(110,100)" filter="url(#g2)">
+    <path d="M0,18 C-26,-10 -52,8 -34,32 C-24,46 0,60 0,60 C0,60 24,46 34,32 C52,8 26,-10 0,18 Z"
+          fill="url(#shine)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.12;1" dur="1.3s" repeatCount="indefinite" additive="sum"/>
+    </path>
+  </g>
+
+  <!-- متن -->
+  <text x="560" y="78" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
+        font-size="34" font-weight="800" fill="url(#shine)">چراغ این یادبود را روشن نگه دارید</text>
+  <text x="560" y="118" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
+        font-size="18" fill="#e9d5e8" opacity="0.92">با ستاره، هم‌رسانی، مشارکت در داده — یا همراهیِ داوطلبانه</text>
+  <text x="560" y="152" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
+        font-size="15" fill="#ffb3c1" opacity="0.85">Keep the flame of this memorial alive</text>
+</svg>

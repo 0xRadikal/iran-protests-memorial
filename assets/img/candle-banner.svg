@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Javidnam Memorial Banner">
+  <defs>
+    <!-- پس‌زمینهٔ گرادیان شب -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#120a18"/>
+      <stop offset="100%" stop-color="#1a0610"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="62%" r="40%">
+      <stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#be1234" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6d6"/>
+      <stop offset="35%" stop-color="#ffd166"/>
+      <stop offset="70%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#be1234"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="50%" stop-color="#ff6b81"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- پس‌زمینه -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+
+  <!-- ستاره‌های سوسوزن -->
+  <g fill="#ffffff">
+    <circle cx="120" cy="60" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="40" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="70" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="50" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="80" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="30" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="100" r="1.0"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- هالهٔ نور پشت شعله -->
+  <ellipse cx="640" cy="150" rx="120" ry="150" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- شمع -->
+  <g transform="translate(640,0)">
+    <!-- بدنهٔ شمع -->
+    <rect x="-18" y="200" width="36" height="90" rx="6" fill="#f3ecd8"/>
+    <rect x="-18" y="200" width="12" height="90" rx="6" fill="#ffffff" opacity="0.5"/>
+    <ellipse cx="0" cy="200" rx="18" ry="5" fill="#fff8e6"/>
+    <!-- فتیله -->
+    <rect x="-1.5" y="186" width="3" height="16" fill="#3a2a1a"/>
+    <!-- شعله -->
+    <g filter="url(#soft)">
+      <path d="M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z" fill="url(#flameGrad)">
+        <animate attributeName="d"
+          values="M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z;
+                   M0,112 C-18,148 -18,186 0,186 C18,186 18,148 0,112 Z;
+                   M0,124 C-24,152 -14,186 0,186 C14,186 24,152 0,124 Z;
+                   M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z"
+          dur="1.4s" repeatCount="indefinite"/>
+      </path>
+      <!-- مغز آبی شعله -->
+      <path d="M0,150 C-8,165 -6,184 0,184 C6,184 8,165 0,150 Z" fill="#7aa7ff" opacity="0.7">
+        <animate attributeName="opacity" values="0.5;0.85;0.5" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- عنوان فارسی متحرک (gradient) -->
+  <text x="640" y="252" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
+        font-size="40" font-weight="800" fill="url(#titleGrad)">جاویدنام</text>
+  <text x="640" y="288" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
+        font-size="17" fill="#cbb4d8" opacity="0.9">یادبود ۶٬۲۳۲ جان‌باختهٔ راه آزادی ایران</text>
+
+  <!-- خط نوری زیر متن -->
+  <rect x="490" y="300" width="300" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6">
+    <animate attributeName="width" values="120;300;120" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="580;490;580" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
