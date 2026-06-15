@@ -25,6 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # به‌روزرسانی خودکار lastmod در sitemap به تاریخ روز استقرار (SEO: تازگی محتوا)
+      - name: Refresh sitemap lastmod
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          sed -i -E "s#<lastmod>[0-9]{4}-[0-9]{2}-[0-9]{2}</lastmod>#<lastmod>${TODAY}</lastmod>#g" sitemap.xml
+          echo "sitemap lastmod → ${TODAY}"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
