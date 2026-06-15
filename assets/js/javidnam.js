@@ -570,26 +570,49 @@ function clearFilter(which){
 let audio = null;
 let audioStarted = false;
 
+/* ════════════════════════════════════════════════════════════════
+   سیستم پخش موسیقیِ یادبود — معماریِ قوی و چندلایه برای پخش خودکار
+   ----------------------------------------------------------------
+   چالش: مرورگرها پخشِ خودکارِ صدادار را بدون «اشارهٔ کاربر» مسدود می‌کنند.
+   راهبرد:
+     ۱) تلاش فوری برای پخش صدادار (موفق در مرورگرهایی با MEI بالا/تعامل قبلی)
+     ۲) اگر رد شد → بلافاصله شنونده‌های تعامل (کلیک/لمس/اسکرول/کلید/حرکت موس)
+        را روی کلِ سند مسلح می‌کنیم؛ نخستین تعاملِ کاربر صدا را روشن می‌کند.
+        این شنونده‌ها «همیشه و بی‌قید» مسلح می‌شوند (باگِ قبلی همین بود).
+     ۳) پشتیبان: canplay/loadeddata و بازگشت به تب (visibilitychange).
+   ════════════════════════════════════════════════════════════════ */
 function initAudio(){
   audio = document.getElementById('memorial-audio');
   const dock = document.getElementById('audio-dock');
   const revive = document.getElementById('audio-revive');
   if(!audio || !dock) return;
 
-  audio.volume = 0.0;
+  const TARGET_VOL = 0.55;
   audio.loop = true;
-  // اطمینان از شروع بارگذاری فایل صوتی (برای پخش خودکار سریع)
+  audio.volume = TARGET_VOL;      // حجم پیش‌فرض (هنگام unmute شنیده می‌شود)
   try{ audio.load(); }catch(e){}
 
   const btn = document.getElementById('ad-toggle');
   const closeBtn = document.getElementById('ad-close');
   const infoBtn = document.getElementById('ad-info');
+  const hintBar = document.getElementById('audio-hint');
 
+  let interactionArmed = false;   // آیا شنونده‌های تعامل مسلح‌اند؟
+  let userClosed = false;         // کاربر پلیر را بسته است؟
+  let userPaused = false;         // کاربر دستی متوقف کرده است؟
+
+  const pref = (()=>{ try{ return localStorage.getItem('jv_audio'); }catch(e){ return null; } })();
+
+  /* ---------- UI ---------- */
   function setPlayingUI(playing){
     dock.classList.toggle('paused', !playing);
-    btn.innerHTML = playing ? '<i class="fa-solid fa-pause"></i>' : '<i class="fa-solid fa-play"></i>';
-    btn.setAttribute('aria-label', playing ? 'توقف موسیقی' : 'پخش موسیقی');
+    if(btn){
+      btn.innerHTML = playing ? '<i class="fa-solid fa-pause"></i>' : '<i class="fa-solid fa-play"></i>';
+      btn.setAttribute('aria-label', playing ? 'توقف موسیقی' : 'پخش موسیقی');
+    }
   }
+  function showSoundHint(){ if(hintBar) hintBar.classList.add('show'); }
+  function hideSoundHint(){ if(hintBar) hintBar.classList.remove('show'); }
 
   function fadeTo(target, ms){
     const steps = 24; const start = audio.volume; const diff = target - start;
@@ -600,33 +623,85 @@ function initAudio(){
     }, ms/steps);
   }
 
-  function play(){
-    audio.play().then(()=>{
-      audioStarted = true;
-      setPlayingUI(true);
-      if(audio.muted){ audio.muted=false; }
-      fadeTo(0.55, 1200);
-      try{ localStorage.setItem('jv_audio','playing'); }catch(e){}
-    }).catch(()=>{ setPlayingUI(false); });
+  /* ---------- موفقیتِ شنیداری ---------- */
+  function onAudible(){
+    audioStarted = true;
+    userPaused = false;
+    audio.muted = false;
+    setPlayingUI(true);
+    hideSoundHint();
+    if(audio.volume < 0.05){ audio.volume = 0; fadeTo(TARGET_VOL, 1200); }
+    try{ localStorage.setItem('jv_audio','playing'); }catch(e){}
   }
+
+  /* ---------- پخش صدادار (با Promise) ---------- */
+  function playAudible(){
+    audio.muted = false;
+    const p = audio.play();
+    if(p && typeof p.then === 'function'){
+      return p.then(onAudible);
+    }
+    onAudible();
+    return Promise.resolve();
+  }
+
   function pause(){
-    fadeTo(0, 500);
-    setTimeout(()=>audio.pause(), 520);
+    userPaused = true;
+    fadeTo(0, 450);
+    setTimeout(()=>{ if(userPaused) audio.pause(); }, 470);
     setPlayingUI(false);
     try{ localStorage.setItem('jv_audio','paused'); }catch(e){}
   }
 
-  btn.addEventListener('click', ()=>{ audio.paused ? play() : pause(); });
+  /* ---------- مسلح‌کردنِ تعامل (هستهٔ رفعِ باگ) ----------
+     روی کلِ سند، هر نوع تعاملِ کاربر صدا را روشن می‌کند.
+     listenerها فقط یک‌بار اجرا و سپس پاک می‌شوند. */
+  const INTERACTION_EVENTS = ['pointerdown','mousedown','touchstart','keydown','click','scroll','wheel','mousemove'];
+  function armInteraction(){
+    if(interactionArmed) return;
+    interactionArmed = true;
+    const onFirst = ()=>{
+      disarm();
+      if(userClosed || userPaused) return;       // اگر کاربر بسته/متوقف کرده، احترام بگذار
+      playAudible().catch(()=>{ /* اگر باز هم رد شد، راهنما را نشان بده */ showSoundHint(); });
+    };
+    function disarm(){
+      INTERACTION_EVENTS.forEach(ev=> document.removeEventListener(ev, onFirst, true));
+      interactionArmed = false;
+    }
+    // از capture=true استفاده می‌کنیم تا قبل از stopPropagation سایر هندلرها اجرا شود
+    INTERACTION_EVENTS.forEach(ev=> document.addEventListener(ev, onFirst, true));
+  }
 
-  closeBtn.addEventListener('click', ()=>{
+  /* ---------- تلاشِ پخشِ خودکار ---------- */
+  function attemptAutoplay(){
+    if(audioStarted || userClosed || userPaused) return;
+    playAudible().then(()=>{
+      hideSoundHint();           // پخشِ صدادار موفق شد
+    }).catch(()=>{
+      // مرورگر مسدود کرد → راهنما + مسلح‌کردنِ تعامل (همیشه)
+      showSoundHint();
+      armInteraction();
+    });
+  }
+
+  /* ---------- کنترل‌های UI ---------- */
+  if(btn) btn.addEventListener('click', ()=>{
+    if(audio.paused || audio.muted){ userPaused=false; playAudible().catch(showSoundHint); }
+    else pause();
+  });
+
+  if(closeBtn) closeBtn.addEventListener('click', ()=>{
+    userClosed = true;
     pause();
     dock.style.transform = 'translateY(120%)';
     dock.style.opacity = '0';
-    setTimeout(()=>{ dock.style.display='none'; revive.style.display='flex'; }, 350);
+    setTimeout(()=>{ dock.style.display='none'; if(revive) revive.style.display='flex'; }, 350);
     try{ localStorage.setItem('jv_audio','closed'); }catch(e){}
   });
 
-  revive.addEventListener('click', ()=>{
+  if(revive) revive.addEventListener('click', ()=>{
+    userClosed = false;
     revive.style.display='none';
     dock.style.display='flex';
     requestAnimationFrame(()=>{
@@ -635,7 +710,7 @@ function initAudio(){
       dock.classList.add('active');
       setTimeout(()=>{ dock.style.opacity=''; dock.classList.remove('active'); }, 1600);
     });
-    play();
+    userPaused=false; playAudible().catch(showSoundHint);
   });
 
   dock.addEventListener('touchstart', ()=>{
@@ -644,90 +719,54 @@ function initAudio(){
     dock._touchT = setTimeout(()=>dock.classList.remove('active'), 2600);
   }, { passive:true });
 
-  infoBtn.addEventListener('click', openMusicNote);
+  if(infoBtn) infoBtn.addEventListener('click', openMusicNote);
 
+  if(hintBar) hintBar.addEventListener('click', ()=>{
+    userPaused=false; playAudible().then(hideSoundHint).catch(hideSoundHint);
+  });
+
+  /* ---------- راه‌اندازیِ اولیه بر اساس ترجیحِ ذخیره‌شده ---------- */
   setPlayingUI(false);
 
-  /* ─── پخش خودکار هوشمند ───
-     سیاست مرورگرها پخش خودکارِ صدادار را بدون تعامل کاربر محدود می‌کند.
-     راهکار چندلایه:
-     ۱) تلاش برای پخش صدادار فوری (در مرورگرهایی با تعامل قبلی موفق می‌شود)
-     ۲) اگر رد شد → پخش بی‌صدا (muted) که معمولاً مجاز است + نوار «برای شنیدن کلیک کنید»
-     ۳) با نخستین تعاملِ کاربر (هر نوع)، صدا به‌نرمی باز می‌شود */
-  const pref = (()=>{ try{ return localStorage.getItem('jv_audio'); }catch(e){ return null; } })();
-
-  const hintBar = document.getElementById('audio-hint');
-  function showSoundHint(){
-    if(hintBar) hintBar.classList.add('show');
-  }
-  function hideSoundHint(){
-    if(hintBar) hintBar.classList.remove('show');
-  }
-
-  function unmuteOnInteraction(){
-    const onFirst = ()=>{
-      if(audio.muted){
-        audio.muted = false;
-        if(audio.paused){ play(); }
-        else { audioStarted = true; setPlayingUI(true); fadeTo(0.55, 1200); try{ localStorage.setItem('jv_audio','playing'); }catch(e){} }
-      } else if(!audioStarted){ play(); }
-      hideSoundHint();
-      ['pointerdown','keydown','touchstart','scroll','click','mousemove'].forEach(ev=>
-        window.removeEventListener(ev, onFirst));
-    };
-    ['pointerdown','keydown','touchstart','scroll','click','mousemove'].forEach(ev=>
-      window.addEventListener(ev, onFirst, { passive:true }));
-  }
-
-  if(hintBar){
-    hintBar.addEventListener('click', ()=>{
-      audio.muted=false; if(audio.paused) play();
-      else { audioStarted=true; setPlayingUI(true); fadeTo(0.55,1200); }
-      hideSoundHint();
-    });
-  }
-
-  function attemptAutoplay(){
-    // تلاش برای پخش خودکار صدادار
-    audio.muted = false;
-    const tryPlay = audio.play();
-    if(tryPlay && typeof tryPlay.then === 'function'){
-      tryPlay.then(()=>{
-        audioStarted = true; setPlayingUI(true); fadeTo(0.55, 1200);
-        hideSoundHint();
-        try{ localStorage.setItem('jv_audio','playing'); }catch(e){}
-      }).catch(()=>{
-        // پخش بی‌صدا (مجاز در اغلب مرورگرها) سپس باز کردن صدا با تعامل
-        audio.muted = true; audio.volume = 0.55;
-        const pm = audio.play();
-        if(pm && typeof pm.then === 'function'){
-          pm.then(()=>{ setPlayingUI(true); showSoundHint(); }).catch(()=>{ setPlayingUI(false); showSoundHint(); });
-        } else { showSoundHint(); }
-        unmuteOnInteraction();
-      });
-    } else {
-      unmuteOnInteraction();
-    }
-  }
-
   if(pref === 'closed'){
-    dock.style.display='none'; revive.style.display='flex';
-  } else if(pref === 'paused'){
-    setPlayingUI(false);
-  } else {
-    attemptAutoplay();
-    // اگر فایل هنوز آماده نبود، پس از آماده‌شدن دوباره تلاش کن
-    audio.addEventListener('canplaythrough', ()=>{
-      if(audio.paused && !audioStarted){ attemptAutoplay(); }
-    }, { once:true });
-    // اگر کاربر تب را ترک و دوباره باز کرد، یک تلاش دیگر
-    document.addEventListener('visibilitychange', ()=>{
-      if(!document.hidden && audio.paused && !audioStarted){
-        const lp = (()=>{ try{ return localStorage.getItem('jv_audio'); }catch(e){ return null; } })();
-        if(lp !== 'paused' && lp !== 'closed') attemptAutoplay();
-      }
-    });
+    userClosed = true;
+    dock.style.display='none'; if(revive) revive.style.display='flex';
+    return;
   }
+  if(pref === 'paused'){
+    userPaused = true;
+    setPlayingUI(false);
+    return;
+  }
+
+  /* ---------- استراتژیِ پخشِ خودکار (لایه‌به‌لایه) ---------- */
+  // لایهٔ ۱: تلاشِ فوری
+  attemptAutoplay();
+  // مهم: شنونده‌های تعامل را همین حالا و بی‌قیدوشرط مسلح کن (باگِ اصلی اینجا بود)
+  armInteraction();
+
+  // لایهٔ ۲: وقتی فایل آمادهٔ پخش شد، دوباره تلاش کن
+  ['canplay','canplaythrough','loadeddata'].forEach(ev=>{
+    audio.addEventListener(ev, ()=>{
+      if(!audioStarted && !userClosed && !userPaused) attemptAutoplay();
+    }, { once:true });
+  });
+
+  // لایهٔ ۳: بازگشت به تب (وقتی کاربر از تب دیگر برمی‌گردد)
+  document.addEventListener('visibilitychange', ()=>{
+    if(!document.hidden && !audioStarted && !userClosed && !userPaused){
+      attemptAutoplay();
+      armInteraction();
+    }
+  });
+
+  // لایهٔ ۴: تلاشِ مجددِ کوتاه‌مدت (برخی مرورگرها با کمی تأخیر اجازه می‌دهند)
+  let retries = 0;
+  const retryTimer = setInterval(()=>{
+    retries++;
+    if(audioStarted || userClosed || userPaused || retries > 6){ clearInterval(retryTimer); return; }
+    attemptAutoplay();
+  }, 1500);
 }
 
 function openMusicNote(){

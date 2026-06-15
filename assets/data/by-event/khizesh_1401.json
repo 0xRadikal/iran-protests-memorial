@@ -8,8 +8,35 @@
     "order": 9,
     "category": "uprising"
   },
-  "count": 1137,
+  "count": 1270,
   "people": [
+    {
+      "id": "jvn_85d717c719",
+      "slug": "جواد-حیدری-85d717",
+      "name": "جواد حیدری",
+      "name_en": null,
+      "event": "khizesh_1401",
+      "gender": null,
+      "age": 40,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۰۶/۳۱",
+      "date_gregorian": "2022-09-22",
+      "city": "کرمانشاه",
+      "province": "کرمانشاه",
+      "cause": "اصابت گلولهٔ جنگی",
+      "occupation": null,
+      "story": null,
+      "story_en": null,
+      "photo_url": null,
+      "memorial_links": [],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_98",
+        "wiki_1401"
+      ]
+    },
     {
       "id": "jvn_4aa95714cb",
       "slug": "مهران-سماک-4aa957",
@@ -14505,36 +14532,6 @@
       ]
     },
     {
-      "id": "jvn_df0947d425",
-      "slug": "milad-bahadori-df0947",
-      "name": "میلاد بهادری",
-      "name_en": "Milad Bahadori",
-      "event": "khizesh_1401",
-      "gender": "مرد",
-      "age": 33,
-      "birth_year": 1371,
-      "date_jalali": "۱۴۰۱/۱۰/۰۱",
-      "date_gregorian": "2022-12-22",
-      "city": "اندیشه",
-      "province": "تهران",
-      "cause": "اصابت گلوله",
-      "occupation": null,
-      "story": "بنابر اطلاع ایران‌وایر، «میلاد بهادری» ۳۴ ساله، پنج‌شنبه ۱۸دی۱۴۰۴ در اعتراضات «فردیس» کرج با شلیک دو گلوله جنگی نیروهای مسلح جمهوری اسلامی جان‌باخت.\n\nماموران حکومتی دو گلوله جنگی را به دست و پهلوی میلاد شلیک می‌کنند،‌ گلوله‌ها بعد از اصابت به او، از تن میلاد خارج می‌شوند.",
-      "story_en": "The immortal Milad Bahadori, 33 years old, was killed in Andisheh, Phase 1.",
-      "photo_url": "https://pbs.twimg.com/media/HBxQ9tvWkAEHWl9.jpg",
-      "memorial_links": [
-        "https://x.com/723252730874220544/status/2025582959382659444",
-        "https://x.com/1545343785110044672/status/2026407797525537153"
-      ],
-      "notable": false,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "javidnaam_iranintl",
-        "javidnaam_submission"
-      ]
-    },
-    {
       "id": "jvn_2f0d12a8a9",
       "slug": "yasaman-sahneh-2f0d12",
       "name": "یاسمن صحنه",
@@ -15890,35 +15887,6 @@
       ]
     },
     {
-      "id": "jvn_6dce97a95c",
-      "slug": "amirhossein-rastineh-6dce97",
-      "name": "امیرحسین راستینه",
-      "name_en": "Amirhossein Rastineh",
-      "event": "khizesh_1401",
-      "gender": "مرد",
-      "age": 23,
-      "birth_year": 1380,
-      "date_jalali": "۱۴۰۱/۱۰/۱۸",
-      "date_gregorian": "2023-01-08",
-      "city": "تهران",
-      "province": "تهران",
-      "cause": "اصابت گلوله",
-      "occupation": null,
-      "story": "امیرحسین راستینه متولد ۱۳۸۰ در تاریخ ۱۸ دی ۱۴۰۴ در میدان گرگان نظام آباد با شلیک مستقیم به پشت سر جان‌باخت.",
-      "story_en": "Amirhossein Rastineh, born in 1380, was killed by a direct gunshot to the back of the head on 18th of Dey 1404 at Meydan Gorgan, Nezam Abad.",
-      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/5c7c64f50_102254.jpg",
-      "memorial_links": [
-        "https://x.com/1599785558900969472/status/2026523633057780174"
-      ],
-      "notable": false,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "javidnaam_iranintl",
-        "javidnaam_submission"
-      ]
-    },
-    {
       "id": "jvn_5b4bb210e5",
       "slug": "arash-tolou-5b4bb2",
       "name": "آرش طلوع",
@@ -16312,35 +16280,6 @@
       "photo_url": "https://pbs.twimg.com/media/HB11wvtXkAA8bRB.jpg",
       "memorial_links": [
         "https://x.com/1552205133949329410/status/2025904894800974159"
-      ],
-      "notable": false,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "javidnaam_iranintl",
-        "javidnaam_submission"
-      ]
-    },
-    {
-      "id": "jvn_0d94f64d6b",
-      "slug": "mahin-behrouz-0d94f6",
-      "name": "مهین بهروز",
-      "name_en": "Mahin Behrouz",
-      "event": "khizesh_1401",
-      "gender": "زن",
-      "age": 22,
-      "birth_year": 1382,
-      "date_jalali": "۱۴۰۱/۱۰/۱۸",
-      "date_gregorian": "2023-01-08",
-      "city": "ترکمن صحرا",
-      "province": "گلستان",
-      "cause": null,
-      "occupation": null,
-      "story": "مهین بهروز، ۲۲ ساله، در ترکمن صحرا جاویدنام شده.\nمهین بهروز، ۲۱ ساله، در ۱۸ دی ۱۴۰۴ در تهران جان باخت. او عاشق گربه‌ها بود.",
-      "story_en": "Mahin Behrouz, 21 years old, died on 8 January in Tehran. She loved cats.",
-      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/9b5c43fce_103658.jpg",
-      "memorial_links": [
-        "https://x.com/1582646554967658496/status/2025897603355840942"
       ],
       "notable": false,
       "verification": "documented",
@@ -25246,35 +25185,6 @@
       ]
     },
     {
-      "id": "jvn_e3fff60dff",
-      "slug": "omid-abbasi-e3fff6",
-      "name": "امید عباسی",
-      "name_en": "Omid Abbasi",
-      "event": "khizesh_1401",
-      "gender": "مرد",
-      "age": 38,
-      "birth_year": 1367,
-      "date_jalali": "۱۴۰۱/۱۰/۱۹",
-      "date_gregorian": "2023-01-09",
-      "city": "نازی آباد",
-      "province": "تهران",
-      "cause": "اصابت گلوله",
-      "occupation": null,
-      "story": "امید عباسی، ۳۸ ساله، جمعه ۱۹دی۱۴۰۴ در اعتراضات تهران هدف شلیک ۲ گلوله جنگی قرار گرفت و جان‌باخت. یکی از دوستان امید می‌گوید: «امید پدرش را از دست داده بود و تنها فرزند خانواده بود. او و مادرش با هم زندگی می‌کردند».",
-      "story_en": "On the night of January 9, he was shot 6 times in Naziabad. \nOmid Abbasi, 38 years old”",
-      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/a474e22bc_102104.jpg",
-      "memorial_links": [
-        "https://x.com/1858488246105255936/status/2025755549598441671"
-      ],
-      "notable": false,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "javidnaam_iranintl",
-        "javidnaam_submission"
-      ]
-    },
-    {
       "id": "jvn_87f9b20110",
       "slug": "reza-nezam-pasand-87f9b2",
       "name": "رضا نظام پسند",
@@ -30907,6 +30817,3992 @@
       "flagged_review": null,
       "sources": [
         "wiki_1401"
+      ]
+    },
+    {
+      "id": "jvn_7d34a56a44",
+      "slug": "abdollah-mohammadpour-7d34a5",
+      "name": "عبدالله محمدپور",
+      "name_en": "Abdollah Mohammadpour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 16,
+      "birth_year": 1385,
+      "date_jalali": "۱۴۰۱/۰۶/۳۰",
+      "date_gregorian": "2022-09-21",
+      "city": "خوی",
+      "province": "آذربایجان غربی",
+      "cause": "اصابت گلوله",
+      "occupation": "کودک کار",
+      "story": "عبدالله محمدپور کودک کار ۱۶ ساله از شهرستان خوی در ۳۰ شهریور ۱۴۰۱ جنبش زن زندگی آزادی با شلیک گلوله از پشت سر جاویدنام شد.",
+      "story_en": "Abdollah Mohammadpour, a 16-year-old child laborer from Khoy, was killed by a gunshot to the back of the head on 30 Shahrivar 1401 during the Woman, Life, Freedom movement.",
+      "photo_url": "https://pbs.twimg.com/media/HCFBc9QWoAAlGSW.jpg",
+      "memorial_links": [
+        "https://x.com/1249613395063484416/status/2026973276707193164"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_083d725c57",
+      "slug": "ali-manafdokht-083d72",
+      "name": "علی منافدخت",
+      "name_en": "Ali Manafdokht",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۰۱",
+      "date_gregorian": "2022-12-22",
+      "city": "قزوین",
+      "province": "قزوین",
+      "cause": null,
+      "occupation": null,
+      "story": "علی منافدخت جان‌باخت در دی ماه در قزوین.",
+      "story_en": "Ali Manafdokht was killed in Dey in Qazvin.",
+      "photo_url": "https://pbs.twimg.com/media/HCMYIJyW8AA2nfn.jpg",
+      "memorial_links": [
+        "https://x.com/1614191830848966656/status/2027490797931680000"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_74212789f9",
+      "slug": "abolfazl-amir-abadi-742127",
+      "name": "ابوالفضل امیر آبادی",
+      "name_en": "Abolfazl Amir Abadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1387,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اراک",
+      "province": "مرکزی",
+      "cause": null,
+      "occupation": null,
+      "story": "ابوالفضل امیر آبادی، ۱۷ ساله، در اراک جان‌باخت. تاریخ ۱۸ دی ماه.",
+      "story_en": "Abolfazl Amir Abadi, 17 years old, was killed in Arak. Date: 18th of Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HCMywH8XYAAHKzY.jpg",
+      "memorial_links": [
+        "https://x.com/324548127/status/2027520065084494279"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1d71e16dca",
+      "slug": "hasan-darbandi-1d71e1",
+      "name": "حسن دربندی",
+      "name_en": "Hasan Darbandi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "ضرب‌وشتم",
+      "occupation": null,
+      "story": "حسن دربندی به عنوان پدری شجاع در تظاهرات ۱۹ دی ماه تهران، وقتی رفت یک جوانی که داشتند دستگیرش می‌کردند را نجات بدهد، جلوی چشم خانواده‌اش با ضرب و شتم برده شد و به مسجد انداخته شد. بعد از ۴ ساعت که خانواده‌اش جلوی در مسجد منتظر ماندند، با پیگیری‌های مداوم پیکر بی‌جانش را تحویل خانواده‌اش دادند.",
+      "story_en": "Hasan Darbandi, described as a brave father, during the protests on the 19th of Dey in Tehran, went to save a young man who was being arrested. In front of his family's eyes, he was beaten and taken to a mosque. After 4 hours of waiting outside the mosque, his family, through persistent follow-ups, received his lifeless body.",
+      "photo_url": "https://pbs.twimg.com/media/HCEQ3HwW0AETJKA.jpg",
+      "memorial_links": [
+        "https://x.com/1659229704576983040/status/2026919856042279137"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_34950ef1b5",
+      "slug": "mahdieh-kashani-34950e",
+      "name": "مهدیه کاشانی",
+      "name_en": "Mahdieh Kashani",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 18,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۰۵/۱۸",
+      "date_gregorian": "2022-08-09",
+      "city": null,
+      "province": null,
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهدیه کاشانی در اثر اصابت گلوله به پیشانی جان خود را فدا کرد.",
+      "story_en": "Mahdieh Kashani sacrificed her life due to a bullet hitting her forehead.",
+      "photo_url": "https://pbs.twimg.com/media/HBv2VSjWUAA8O2V.jpg",
+      "memorial_links": [
+        "https://x.com/1350853281757724678/status/2025483322390966572"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_928d6f63f2",
+      "slug": "hamvatan-digar-928d6f",
+      "name": "هم وطن دیگر",
+      "name_en": "Hamvatan Digar",
+      "event": "khizesh_1401",
+      "gender": null,
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۱",
+      "date_gregorian": "2023-01-01",
+      "city": "لردگان",
+      "province": "چهارمحال و بختیاری",
+      "cause": null,
+      "occupation": null,
+      "story": "در ۱۱ دی‌ماه، یک هم‌وطن دیگر در لردگان به دست سرکوبگران جان‌باخت.",
+      "story_en": "On 11 Dey, another compatriot was killed in Lordegan by the suppressors.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2006709627141107965"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ad8385a92e",
+      "slug": "sajjad-zilaei-ad8385",
+      "name": "سجاد زیلایی",
+      "name_en": "Sajjad Zilaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۱",
+      "date_gregorian": "2023-01-01",
+      "city": "لردگان",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "سجاد زیلایی در ۱۱ دی‌ماه در لردگان توسط مزدوران خامنه‌ای جان‌باخت.",
+      "story_en": "Sajjad Zilaei was killed in Lordegan on 11 Dey by Khamenei's agents.",
+      "photo_url": "https://pbs.twimg.com/media/G9mY8cvXEAArEnf.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2006803278789787934",
+        "https://en.wikipedia.org/wiki/2026_Iran_massacres",
+        "https://www.iran-emrooz.net/index.php/news2/125134/",
+        "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed",
+        "https://x.com/daikatuo/status/2006782276793741375",
+        "https://x.com/daikatuo/status/2006827494167793934",
+        "https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_2e8d0d0320",
+      "slug": "protesting-citizen-2e8d0d",
+      "name": "شهروند معترض",
+      "name_en": "Protesting Citizen",
+      "event": "khizesh_1401",
+      "gender": null,
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۲",
+      "date_gregorian": "2023-01-02",
+      "city": "هفشجان",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "یک شهروند معترض در هفشجان هنگام فیلم‌برداری از تجمعات اعتراضی هدف تیراندازی قرار گرفت و بر اثر اصابت گلوله مجروح شد.",
+      "story_en": "A protesting citizen in Hafshejan was shot while filming protest gatherings and was injured by a bullet.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2007211182650995206"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_25698c24c1",
+      "slug": "benyamin-naqdi-25698c",
+      "name": "بنیامین نقدی",
+      "name_en": "Benyamin Naqdi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۳",
+      "date_gregorian": "2023-01-03",
+      "city": "شیراز",
+      "province": "فارس",
+      "cause": "اعدام",
+      "occupation": null,
+      "story": "شعبه اول دادگاه انقلاب شیراز، بنیامین نقدی را با اتهام «افساد فی‌الارض» به اعدام محکوم کرده است. او شامگاه ۱۳ دی‌ماه در شیراز بازداشت شد.",
+      "story_en": "The First Branch of the Revolutionary Court of Shiraz has sentenced Benyamin Naqdi to execution on the charge of “corruption on earth.” He was arrested in Shiraz on the evening of 13 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HJlJCJdWYAIPUAa.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2060758613526815146",
+        "https://x.com/rooujen/status/2015415854519730558"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ebb5ae05b8",
+      "slug": "arshia-ranj-abadi-ebb5ae",
+      "name": "عرشیا رنج آبادی",
+      "name_en": "Arshia Ranj-Abadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1386,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "باغ حوض",
+      "province": "تهران",
+      "cause": "شکنجه",
+      "occupation": null,
+      "story": "عرشیا رنج آبادی، ۱۸ ساله، در باغ حوض تهران در تاریخ ۱۸ دی بر اثر شلیک به قلب جان‌باخت.",
+      "story_en": "Arshia Ranj Abadi, 18 years old, was killed by a gunshot to the heart in Bagh Hoz, Tehran, on 18th of Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HCOMa_pWIAEGF8N.jpg",
+      "memorial_links": [
+        "https://x.com/1577560377264586752/status/2027618695984414827"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e14764abe9",
+      "slug": "alireza-alinia-e14764",
+      "name": "علیرضا علی نیا",
+      "name_en": "Alireza Alinia",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "علیرضا علی نیا، ۲۳ ساله، در ۱۸ دی در هفت تیر مشهد جان‌باخت. دخترش دو ماه دیگر بدون پدر به دنیا می‌آید.",
+      "story_en": "Alireza Alinia, 23 years old, was killed on 18th of Dey in Haft Tir, Mashhad. His daughter will be born in two months without a father.",
+      "photo_url": "https://pbs.twimg.com/media/HCLpTS1asAAB9Kw.jpg",
+      "memorial_links": [
+        "https://x.com/2019719496890515456/status/2027439302645354931"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_010f00068c",
+      "slug": "shahan-khosravi-010f00",
+      "name": "شاهان خسروی",
+      "name_en": "Shahan Khosravi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "شاهان خسروی در ۱۸ دی در تهران جان‌باخت. او ۲۰ ساله بود، اما برخی رسانه‌ها اشتباهاً ۲۲ ساله اعلام کردند.",
+      "story_en": "Shahan Khosravi was killed on 18th of Dey in Tehran. He was 20 years old, but some media mistakenly reported him as 22 years old.",
+      "photo_url": "https://pbs.twimg.com/media/HCMLEaWWEAAJx86.jpg",
+      "memorial_links": [
+        "https://x.com/2018244137175404544/status/2026424252468178977",
+        "https://x.com/2018244137175404544/status/2027476433971401109"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_47d43cf15e",
+      "slug": "danial-sabzikar-47d43c",
+      "name": "دانیال سبزیکار",
+      "name_en": "Danial Sabzikar",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 28,
+      "birth_year": 1376,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "رامهرمز",
+      "province": "خوزستان",
+      "cause": "اصابت گلوله",
+      "occupation": "مکانیک برق خودرو",
+      "story": "#دانیال_سبزیکار، ۲۸ ساله، اهل رامهرمز خوزستان و از هم‌وطنان لُر، روز ۱۸ دی‌ماه در قزوین با اصابت تیر جنگی توسط نیروهای سرکوبگر جان باخت. بنا بر گزارش‌ها، گلوله به ناحیه سر او اصابت کرده است.\n\nدانیال مکانیک برق خودرو بود و حدود پنج تا شش ماه پیش برای تأمین زندگی بهتر از خوزستان به قزوین مهاجرت کرده بود",
+      "story_en": "Daniyal Sabzikar, 28, from Ramhormoz, Khuzestan, died on 18 Dey in Qazvin after being hit by a war bullet fired by repressive forces. According to reports, the bullet struck his head. He was an auto electrical mechanic and had migrated from Khuzestan to Qazvin about five to six months earlier in search of a better life.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/public/696adb110733af80dcc579fb/b240282c9_132636.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2012487656039489553",
+        "https://x.com/2018274144098353152/status/2027426736120451141",
+        "https://x.com/allahbakhshii/status/2012487656039489553",
+        "https://x.com/iranwire/status/2012937054343086235",
+        "https://x.com/ManotoNews/status/2012570618739167472",
+        "https://t.me/RememberTheirNames/134",
+        "https://x.com/shamnz_/status/2015471164131516488"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_4399acebd2",
+      "slug": "ali-rahbar-4399ac",
+      "name": "علی رهبر",
+      "name_en": "Ali Rahbar",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 33,
+      "birth_year": 1371,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": "شکنجه",
+      "occupation": "ورزشگار و مربی بدنسازی",
+      "story": "علی رهبر، ۳۳ ساله از مشهد و ورزشگار و مربی بدنسازی، ۱۸ دی ناپدید شد و چند روز بعد جنازه‌اش را تحویل دادند. به خانواده‌اش فشار آوردند که بگویند بسیجی بوده، ولی خانواده‌اش قبول نکردند.",
+      "story_en": "Ali Rahbar, a 33-year-old athlete and bodybuilding coach from Mashhad, disappeared on the 18th of Dey and his body was handed over a few days later. His family was pressured to say he was a Basiji, but they refused.",
+      "photo_url": "https://pbs.twimg.com/media/HCKsjkGWMAAg8Mm.jpg",
+      "memorial_links": [
+        "https://javidnaman.iranintl.com/memorial/s7x3ao9lUCHAJRA4HrJSqO",
+        "https://x.com/994846562479169537/status/2027372513823482212"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_cf6ec0ee40",
+      "slug": "yavar-dehghani-cf6ec0",
+      "name": "یاور دهقانی",
+      "name_en": "Yavar Dehghani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 43,
+      "birth_year": 1361,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "زرین‌شهر",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "یاور دهقانی ۴۳ ساله در تاریخ ۱۸ دی از اصفهان (ورنامخواست) جان‌باخت.",
+      "story_en": "Yavar Dehghani, 43 years old, was killed on 18th of Dey in Isfahan (Varnamkhast).",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/8be5a7951_98519.jpg",
+      "memorial_links": [
+        "https://x.com/1576527160638152704/status/2027287538189127734"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_8fb2658e27",
+      "slug": "fardin-parvini-8fb265",
+      "name": "فردین پروینی",
+      "name_en": "Fardin Parvini",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "کرج",
+      "province": "البرز",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "فردین پروینی، پدر سه فرزند، در 18 دی ماه در مصباح کرج با شلیک گلوله از پشت سر توسط ج. ا جان‌باخت.",
+      "story_en": "Fardin Parvini, a father of three, was killed by a gunshot from behind by the Islamic Republic on 18th of Dey in Mesbah, Karaj.",
+      "photo_url": "https://pbs.twimg.com/media/HCGHSB7XQAE2mrr.jpg",
+      "memorial_links": [
+        "https://x.com/2027042685039820800/status/2027050053307646384"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_7890a26e49",
+      "slug": "hossein-mohbipour-7890a2",
+      "name": "حسین محبی پور",
+      "name_en": "Hossein Mohbipour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 24,
+      "birth_year": 1380,
+      "date_jalali": "۱۴۰۱/۱۰/۱۷",
+      "date_gregorian": "2023-01-07",
+      "city": "جزیره کیش",
+      "province": "هرمزگان",
+      "cause": null,
+      "occupation": null,
+      "story": "حسین محبی پور ۲۴ ساله اهل بشاگرد، ۱۸ دی در جزیره کیش جان‌باخت است.",
+      "story_en": "Hossein Mohbipour, 24 years old from Bashagard, was killed on January 8th in Kish Island.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1600842573131784192/status/2027627381851316361"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_464b1f4dda",
+      "slug": "hossein-shirkol-464b1f",
+      "name": "حسین شیرکول",
+      "name_en": "Hossein Shirkol",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 26,
+      "birth_year": 1378,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "زرین آباد ، دهلران",
+      "province": "ایلام",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "در جریان اعتراضات شهر اصفهان با شلیک مستقیم نیروهای حکومتی با سلاح کلاشینکوف جان باخت.",
+      "story_en": "Hossein Shirkol was targeted by gunfire from repressive forces on 18 Dey in the city of Isfahan and was killed.",
+      "photo_url": "https://pbs.twimg.com/media/G_RLbhDW0AAJxma.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014317874299416754"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d4a46631be",
+      "slug": "erfan-abdipour-d4a466",
+      "name": "عرفان عبدی پور",
+      "name_en": "Erfan Abdipour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "عرفان عبدی‌پور، ۲۳ ساله، روز پنجشنبه ۱۸ دی‌ماه، در جریان سرکوب اعتراضات در منطقه آریاشهر تهران، با شلیک مستقیم گلوله نیروهای سرکوبگر جمهوری اسلامی از ناحیه قلب هدف قرار گرفت و جان‌باخت.",
+      "story_en": "Erfan Abdipour, 23, was killed on Thursday, 18 Dey, during the suppression of protests in the Aryashahr area of Tehran, when he was directly shot in the heart by a bullet fired by the repressive forces of the Islamic Republic.",
+      "photo_url": "https://pbs.twimg.com/media/G_Ax1LRWoAAXLUw.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2013163829031481522"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3674538ccc",
+      "slug": "reza-farhadi-367453",
+      "name": "رضا فرهادی",
+      "name_en": "Reza Farhadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 39,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "جزیره کیش",
+      "province": "هرمزگان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "رضا فرهادی، ۳۹ ساله، ترک قشقایی و ساکن جزیره کیش، در تاریخ ۱۸ دی‌ماه با شلیک مستقیم گلوله توسط نیروهای سرکوبگر جمهوری اسلامی در جزیره کیش جان‌باخت.",
+      "story_en": "Reza Farhadi, 39 years old, a Qashqai Turk and resident of Kish Island, was killed on 18 Dey by direct gunfire from the repressive forces of the Islamic Republic on Kish Island.",
+      "photo_url": "https://pbs.twimg.com/media/HAu8UXAXEAAoZNZ.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2020915921863299267"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_9a16252508",
+      "slug": "reza-tahmasebian-9a1625",
+      "name": "رضا طهماسبیان",
+      "name_en": "Reza Tahmasebian",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 27,
+      "birth_year": 1377,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "فولادشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "کارگر MDF و راننده اسنپ",
+      "story": "رضا طهماسبیان، جوان ۲۷ ساله و ساکن فولادشهر اصفهان، شامگاه ۱۸ دی‌ماه در جریان وقایع این شهر با اصابت ۴۷ ساچمه به نقاط مختلف بدنش جان‌باخت. بنا بر گفته خانواده، او با بینی و دندان‌های خردشده، شکستگی استخوان گونه و آسیب شدید دست راست، بدون انتقال به بیمارستان و پس از مجروح‌شدن در خیابان بازداشت شد. خانواده این جوان تا حدود ده روز از سرنوشت او بی‌اطلاع بودند و در نهایت در روز ۲۷ دی‌ماه پیکر وی را از باغ رضوان اصفهان تحویل گرفتند. رضا طهماسبیان، اهل استان چهارمحال و بختیاری، در شهر فرخشهر به خاک سپرده شد.",
+      "story_en": "Reza Tahmasebian, a 27-year-old resident of Fooladshahr, Isfahan, died on the evening of 18 Dey after being hit by 47 pellets to various parts of his body during the events in the city. According to his family, he was arrested in the street after being injured, without being transferred to a hospital, with a broken nose and teeth, a fractured cheekbone, and severe injury to his right hand. His family was unaware of his fate for about ten days, and eventually received his body from Bagh-e Rezvan in Isfahan on 27 Dey. Reza Tahmasebian, from Chaharmahal and Bakhtiari province, was buried in the city of Farrokhshahr.",
+      "photo_url": "https://pbs.twimg.com/media/HAPXu2JWAAAARHy.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018694270471799267"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d01484aafe",
+      "slug": "mohammad-fateh-d01484",
+      "name": "محمد فاتح",
+      "name_en": "Mohammad Fateh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 27,
+      "birth_year": 1377,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "الوند",
+      "province": "قزوین",
+      "cause": "اصابت گلوله",
+      "occupation": "مهندس ساخت و تولید",
+      "story": "محمد فاتح ۲۷ ساله اهل قزوین الوند روز ۱۸ دی با شلیک گلوله های ساچمه ای به سرش پس از ۱۰ روز به شهادت رسید. محمد عاشق خانوادش ورزش موسیقی بود. در ورزش بسیار تلاش کرد. مهندس ساخت و تولید بود. قبل رفتن به این قیام گفت: من بخاطر آینده هم نسلام میرم نمیتونم بشینم و همینجوری نگاه کنم.",
+      "story_en": "Mohammad Fateh, 27 years old from Alvand, Qazvin, was martyred on the 18th of Dey after being shot in the head with pellet bullets. He loved his family, sports, and music. He worked hard in sports and was a manufacturing engineer. Before going to this uprising, he said: I am going for the future of my generation, I cannot sit and just watch.",
+      "photo_url": "https://pbs.twimg.com/media/HACxkOpWEAAARXP.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2017807873854550096",
+        "https://x.com/1534227882582724608/status/2026020321237582096",
+        "https://x.com/hengawo/status/2016074358389670329"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_8507868b8d",
+      "slug": "mohammad-yarahmadi-850786",
+      "name": "محمد یاراحمدی",
+      "name_en": "Mohammad YarAhmadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 34,
+      "birth_year": 1370,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "بومهن",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد یاراحمدی، متولد ۱۳۷۰ و اهل بومهن، در روز ۱۸ دی‌ماه در منطقه تهرانپارس با شلیک گلوله به سر توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. خانواده او پس از سه روز جست‌وجوی بی‌وقفه، پیکر محمد یاراحمدی را در کهریزک و تنها از طریق تتوی روی دستش شناسایی کردند. به گفته نزدیکان، مراسم خاکسپاری او تحت تدابیر شدید امنیتی برگزار شده و نیروهای امنیتی اجازه هیچ‌گونه تجمع، مراسم یا ابراز عمومی سوگواری را به خانواده و حاضران نداده‌اند.",
+      "story_en": "Mohammad YarAhmadi, born in 1370 and from Bomehen, was killed on 18 Dey in the Tehranpars area by a gunshot to the head by the repressive forces of the Islamic Republic. After three days of relentless searching, his family identified Mohammad YarAhmadi's body in Kahrizak, solely through the tattoo on his hand. According to relatives, his burial ceremony was held under heavy security measures, and security forces did not allow the family or attendees to hold any gathering, ceremony, or public expression of mourning.",
+      "photo_url": "https://pbs.twimg.com/media/G_80tDJXkAAudac.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2017389112693518608"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ea32837699",
+      "slug": "saeid-khorcheh-farahani-ea3283",
+      "name": "سعید خورچه فراهانی",
+      "name_en": "Saeid Khorcheh Farahani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 30,
+      "birth_year": 1371,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "سعید خورچه فراهانی، متولد ۲ دی ۱۳۷۲، در تاریخ ۱۸ دی‌ماه در منطقه افسریه تهران هدف شلیک یک تک‌تیرانداز قرار گرفت و جان‌باخت. بنا بر گزارش‌ها، تک‌تیرانداز از بالای یک ساختمان با سلاح جنگی به سوی او شلیک کرد و گلوله به پشت سرش اصابت کرد و او همان لحظه جان‌باخت. خانواده و نزدیکان او می‌گویند پیش از جان‌باختن وصیت کرده بود در صورت کشته‌شدن، در اعلامیه و بنرهای مراسمش عنوان «شهید در راه ایران» درج شود، اما به گفته آنان جمهوری اسلامی اجازه درج این عنوان را نداد و این وصیت هرگز اجرا نشد.",
+      "story_en": "Saeid Khorcheh Farahani, born on 2 Dey 1372, was targeted by a sniper shot in the Afsariyeh area of Tehran on 8 January and lost his life. According to reports, the sniper fired at him from the top of a building with a military weapon, and the bullet struck the back of his head, killing him instantly. His family and close ones say that before his death he had willed that if he were killed, the title \"martyr in the path of Iran\" should be included on the notices and banners for his ceremony, but according to them the Islamic Republic did not allow this title to be included and the wish was never carried out.",
+      "photo_url": "https://pbs.twimg.com/media/G_r4PPgWgAAVVFo.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2016196731273368039",
+        "https://x.com/realneo101/status/2015150096644460745",
+        "https://x.com/HengawO/status/2016083913576235034",
+        "https://x.com/allahbakhshii/status/2016196731273368039"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_a6370dd58f",
+      "slug": "mahan-heydari-a6370d",
+      "name": "ماهان حیدری",
+      "name_en": "Mahan Heydari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "قهرمان کاراته استان تهران",
+      "story": "ماهان حیدری، قهرمان کاراته استان تهران، در ۱۸ دی‌ماه در پاسداران تهران به دست نیروهای سرکوبگر جمهوری اسلامی جان باخت. او یکی از دو جوان یک خانواده بود که در دو نقطه متفاوت پایتخت جان‌باخت. پسرعمویش امیررضا حیدری نیز جان‌باخت.",
+      "story_en": "Mahan Heydari, a karate champion of Tehran province, died on 18 Dey in Pasdaran, Tehran, at the hands of the repressive forces of the Islamic Republic. He was one of two young men from the same family who were killed in two different points of the capital.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/3b81eb2aa_106305.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2016130311931789645",
+        "https://x.com/the_parham_/status/2014472627633447403",
+        "https://x.com/The_parham_/status/2014472627633447403",
+        "https://t.me/RememberTheirNames/1309"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e7834d06e2",
+      "slug": "amirhossein-khodadadi-e7834d",
+      "name": "امیرحسین خدادادی",
+      "name_en": "Amirhossein Khodadadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1380,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "نجف‌آباد",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "امیرحسین خدادادی، ۲۱ ساله، روز ۱۸ دی‌ماه در شهر نجف‌آباد اصفهان و در مقابل کلانتری ۱۲ بر اثر اصابت گلوله نیروهای حکومتی جان‌باخت.",
+      "story_en": "Amirhossein Khodadadi, 21, lost his life on 8th January in the city of Najafabad, Isfahan, in front of Police Station 12 after being struck by a bullet fired by government forces.",
+      "photo_url": "https://pbs.twimg.com/media/G_cNMXzXAAAD6RM.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2015093870778786182",
+        "https://x.com/dadban4/status/2015531883837202477",
+        "https://x.com/i/status/2015786609430417908",
+        "https://x.com/iranwire/status/2015786609430417908",
+        "https://t.me/RememberTheirNames/1045"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ca61c93b60",
+      "slug": "amirreza-akhlaghi-ca61c9",
+      "name": "امیررضا اخلاقی",
+      "name_en": "Amirreza Akhlaghi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": null,
+      "occupation": null,
+      "story": "امیررضا اخلاقی روز ۱۸ دی در بلوار هفت تیر مشهد به دست مزدوران دیکتاتور جان‌باخت.",
+      "story_en": "Amirreza Akhlaghi was killed on 18 Dey in Haft-e Tir Boulevard, Mashhad, by the dictator’s agents.",
+      "photo_url": "https://pbs.twimg.com/media/HBtqgJlXAAAebmB.jpg",
+      "memorial_links": [
+        "https://x.com/2015510507839422464/status/2025329561144008917"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_2584cbeb5b",
+      "slug": "soheil-almasi-2584cb",
+      "name": "سهیل الماسی",
+      "name_en": "Soheil Almasi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1387,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "مرودشت",
+      "province": "فارس",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "When Soheil was leaving the house, he told his mother,\n“I’m going to make you proud.”\nKeep his name alive.\n\n\nسهیل وقتی داشته از خونه میرفته بیرون، به مادرش میگه میخوام برم باعث افتخارت بشم.\nاسمش رو زنده نگه دارید.",
+      "story_en": "Soheil Almasi, 17 years old, was killed in Marvdasht on 18 Dey. In his diary, he had written: \"I want to become famous.\"",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/9d4f2657b_103655.jpg",
+      "memorial_links": [
+        "https://x.com/1344392710157971458/status/2025335901677584575",
+        "https://x.com/1976041690571190272/status/2025341643918819391"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_02f53747a4",
+      "slug": "shayan-shakari-02f537",
+      "name": "شایان شکاری",
+      "name_en": "Shayan Shakari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "رشت",
+      "province": "گیلان",
+      "cause": "اصابت گلوله",
+      "occupation": "قهرمان ملی تکواندو",
+      "story": "شایان شکاری - ۲۱ ساله از رشت عزیز - قهرمان ملی تکواندو بود. در ۱۸ دی با شلیک مستقیگ گلوله جنگی جان‌باخت.",
+      "story_en": "Mentioned as one of the deceased from the Taekwondo community, but specific details of his death are not provided in this text.",
+      "photo_url": "https://pbs.twimg.com/media/HBtwRKJWUAA1Hbh.jpg",
+      "memorial_links": [
+        "https://x.com/1882714462760873984/status/2025335902348689716",
+        "https://x.com/iranintlsport/status/2015340504821506100"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e4f385a16c",
+      "slug": "amir-mohammad-khalil-arjamandi-e4f385",
+      "name": "امیر محمد خلیل ارجمندی",
+      "name_en": "Amir -Mohammad Khalil Arjamandi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "امیر محمد خلیل ارجمندی، ۲۰ ساله، ۱۸ دی در میدان خراسان تهران با یک گلوله زیر گلو جان باخت.",
+      "story_en": "Amir Mohammad Khalil Arjamandi, 20, died on 8th January in Meydan-e Khorasan, Tehran, after being shot under the throat with one bullet.",
+      "photo_url": "https://pbs.twimg.com/media/HBvGStLXEAArZJW.jpg",
+      "memorial_links": [
+        "https://x.com/1243745880286642176/status/2025430494859461112"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_5c741ab157",
+      "slug": "abolfazl-azad-5c741a",
+      "name": "ابوالفضل آزاد",
+      "name_en": "Abolfazl Azad",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 36,
+      "birth_year": 1369,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اسلامشهر",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "برقکار ساختمان",
+      "story": "ابوالفضل آزاد، ۳۶ ساله و شاغل به‌عنوان برقکار ساختمان، در روز ۱۸ دی‌ماه در اسلامشهر توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.",
+      "story_en": "Abolfazl Azad, 36 years old and employed as a building electrician, was killed on 18 Dey in Eslamshahr by the repressive forces of the Islamic Republic.",
+      "photo_url": "https://pbs.twimg.com/media/HBvGAmTW4AAPujy.jpg",
+      "memorial_links": [
+        "https://x.com/1875112475688919040/status/2025430177182822848",
+        "https://x.com/1198691072769249281/status/2019471942764363933"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_fb778c24e3",
+      "slug": "mostafa-moradi-fb778c",
+      "name": "مصطفی مرادی",
+      "name_en": "Mostafa Moradi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1387,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "پاکدشت",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "مصطفی مرادی، ۱۷ ساله، در ۱۸ دی در پاکدشت جان باخت.",
+      "story_en": "Mostafa Moradi, 17, died in Pakdasht on 18 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBugxYBWQAAO6Y5.jpg",
+      "memorial_links": [
+        "https://x.com/1801237528994795520/status/2025389249252511867"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_a11d5a5c87",
+      "slug": "majid-stir-a11d5a",
+      "name": "مجید استیر",
+      "name_en": "Majid Stir",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 28,
+      "birth_year": 1376,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "فوتبالیست",
+      "story": "مجید استیر، ۲۹ ساله، در تهران، محله پیروزی، در ۱۸ دی با تیر به شکمش هدف قرار گرفت؛ او قصد کمک به یک زخمی را داشته است.",
+      "story_en": "Majid Astir, a footballer from the Ab-Motor neighborhood on Pirouzi Street in Tehran, was killed by gunfire from the repressive forces of the Islamic Republic.",
+      "photo_url": "https://pbs.twimg.com/media/HBuIuUuWYAAm5L4.jpg",
+      "memorial_links": [
+        "https://x.com/1589259524665393152/status/2025362797110968451",
+        "https://x.com/1198691072769249281/status/2013913402247188895"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_b0e9eb5cda",
+      "slug": "maryam-loqmani-b0e9eb",
+      "name": "مریم لقمانی",
+      "name_en": "Maryam Loqmani",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 27,
+      "birth_year": 1374,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": null,
+      "occupation": null,
+      "story": "#مریم_لقمانی 27 ساله. 18دیماه در بلوار هفت تیر مشهد ناپدید شدودر روز جمعه 26 دیماه پیکر بی جانش را در بهشت رضا مشهد پیدا کردند.",
+      "story_en": "Maryam Loqmani, 27 years old, from Mashhad, died in Haft Tir, Mashhad, on 8th January",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/130b789ba_102561.jpg",
+      "memorial_links": [
+        "https://x.com/1507680647598456834/status/2025451777064321189"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e8a4530a32",
+      "slug": "omid-ehsani-e8a453",
+      "name": "امید احسانی",
+      "name_en": "Omid Ehsani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 29,
+      "birth_year": 1372,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "امید احسانی، ۲۹ ساله و اهل مشهد، در ۱۸ دی در خیابان طبرسی با شلیک از پشت جان‌باخت و گلوله از چشمش خارج شده است.",
+      "story_en": "Omid Ehsani, 29 years old and from Mashhad, was killed on 8th January on Tabarsi Street by a shot fired from behind, and the bullet exited through his eye.",
+      "photo_url": "https://pbs.twimg.com/media/HBvYYJSWUAACdhS.jpg",
+      "memorial_links": [
+        "https://x.com/1962127299761016832/status/2025450378058178755"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_81e6051a1c",
+      "slug": "mohammad-hassan-ashrafi-81e605",
+      "name": "محمد حسن اشرفی",
+      "name_en": "Mohammad Hassan Ashrafi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 36,
+      "birth_year": 1368,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "پزشک",
+      "story": "دکتر محمد حسن اشرفی، ۳۶ ساله، ۱۹ دی ماه در اصفهان به دست تک تیرانداز از پشت بام مدرسه جان‌باخت.",
+      "story_en": "Dr. Mohammad Hassan Ashrafi, 36 years old, was killed by a sniper from a school rooftop in Isfahan on the 19th of Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HCM64-PaYAAfKVA.jpg",
+      "memorial_links": [
+        "https://x.com/1213966468980756481/status/2027529010188898694"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_84bffe919a",
+      "slug": "erfan-fallah-boland-tab-84bffe",
+      "name": "عرفان فلاح بلند طبع",
+      "name_en": "Erfan Fallah Boland Tab",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "صومعه سرا",
+      "province": "گیلان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "#عرفان_فلاح_بلندطبع، جوانی متولد ۱۳۸۱ و اهل شهر صومعه‌سرا در استان گیلان، در تاریخ ۱۹ دی‌ماه در مقابل استانداری رشت بر اثر شلیک مستقیم نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. پیکر او پس از جان‌باختن در سکوت و تحت فشار امنیتی به خاک سپرده شد",
+      "story_en": "a young man born in 2002 and from the city of Soumeh-Sara in Gilan Province, was killed on January 9 in front of the Rasht Governorate by direct fire from the repressive forces of the Islamic Republic. After his death, his body was buried in silence and under security pressure.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/2ec7feb5f_101448.jpg",
+      "memorial_links": [
+        "https://x.com/1937190432750075905/status/2025504844111302993"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_dd5e3cdccd",
+      "slug": "amir-safari-dd5e3c",
+      "name": "امیر صفری",
+      "name_en": "Amir Safari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 48,
+      "birth_year": 1356,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "جاویدنام امیر صفری، ۴۸ ساله، در ۱۹ دی در خیابان ستارخان با شلیک گلوله جان‌باخت.",
+      "story_en": "Amir Safari, 48, was shot dead on Sattar Khan Street on January 9.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/e6242c18d_101445.jpg",
+      "memorial_links": [
+        "https://x.com/1531280865099128833/status/2025504004155871435"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_b3d13bd195",
+      "slug": "noura-dastmachi-b3d13b",
+      "name": "نورا دستماچی",
+      "name_en": "Noura Dastmachi",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 20,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تبریز",
+      "province": "آذربایجان شرقی",
+      "cause": null,
+      "occupation": "دانشجو",
+      "story": "نورا دستماچی فرزند ایران اهل تبریز در فلکه دوم صادقیه تهران جاوید نام شد. رتبه 850 کنکور و دانشجوی 20 ساله رشته مدیریت و دارای 6 مدرک رزمی بود. آخرین خواسته نورا عزاداری نکنید شادی کنید. جسد وی بامداد یکشنبه ساعت 3:10 به طور خفا به خاک سپرده شده و جسد وی ربوده شده و یک میلیارد پول گرفته شد.",
+      "story_en": "Noura Dastmachi, a child of Iran from Tabriz, became immortalized at the second Sadeghieh Square in Tehran. She was ranked 850 in the entrance exam and was a 20-year-old management student with 6 martial arts certificates. Noura's last wish was not to mourn but to celebrate. Her body was secretly buried at 3:10 AM on Sunday, and her body was abducted with a ransom of one billion taken.",
+      "photo_url": "https://pbs.twimg.com/media/HBvrOQ5WcAEbiEW.jpg",
+      "memorial_links": [
+        "https://x.com/2016240081846083584/status/2025471101338296682"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_6722619118",
+      "slug": "arash-mirhadi-672261",
+      "name": "آرش میرهادی",
+      "name_en": "Arash Mirhadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 28,
+      "birth_year": 1376,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اراک",
+      "province": "مرکزی",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "آرش میرهادی، ۲۸ ساله از اراک، مزار ندارد و فقط به خانواده خبر داده‌اند. مادرش برای شناسایی رفته و گفته‌اند خودشان خاکش می‌کنند.",
+      "story_en": "Arash Mirhadi, 28 years old from Arak, has no grave and only the family was informed. His mother went for identification and they said they would bury him themselves.",
+      "photo_url": "https://pbs.twimg.com/media/HCOWBasWMAA1JKK.jpg",
+      "memorial_links": [
+        "https://x.com/1981350170064228352/status/2026028182168629407",
+        "https://x.com/806391956108611584/status/2027629211020652752"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ecf23989dc",
+      "slug": "milad-lavasani-ecf239",
+      "name": "میلاد لواسانی",
+      "name_en": "Milad Lavasani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 35,
+      "birth_year": 1370,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "میلاد (مهدی) لواسانی، ۳۵ ساله، در تاریخ ۱۹ دی‌ماه در محله نارمک، محدوده هفت‌حوض، با شلیک مستقیم به ناحیه قلب توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.\n\n#میلاد_لواسانی پدر یک کودک خردسال یک‌ساله بود.",
+      "story_en": "Milad Lavasani, 35, died on 19 Dey in the Narmak neighborhood, the Haft-Hoz area, after being directly shot in the heart by the repressive forces of the Islamic Republic. He was the father of a one-year-old toddler.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/227e91df0_98534.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2019356978322018570",
+        "https://x.com/1789135090184073216/status/2027621928970911964"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_a2beaf1d85",
+      "slug": "aref-barati-a2beaf",
+      "name": "عارف براتی",
+      "name_en": "Aref Barati",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 40,
+      "birth_year": 1364,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "کوه چنار",
+      "province": "فارس",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "عارف براتی، ۴۰ ساله از شهرستان کوه چنار استان فارس، در تاریخ ۱۹ دی بر اثر شلیک تک تیرانداز به سر جان‌باخت.",
+      "story_en": "Shot and killed by direct fire from security forces of the terrorist Islamic Republic regime. The source mentions that over 200 people were killed in this town, but precise information is unavailable due to security pressures.",
+      "photo_url": "https://pbs.twimg.com/media/HCONrzOXgAAHyHk.jpg",
+      "memorial_links": [
+        "https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWj8zs",
+        "https://x.com/1577560377264586752/status/2027620148186595660",
+        "https://x.com/manotonews/status/2015741515285545437",
+        "https://x.com/ManotoNews/status/2015741515285545437",
+        "https://x.com/sasanrahimpour1/status/2015764104435147094",
+        "https://t.me/RememberTheirNames/894"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1072d6832d",
+      "slug": "seyed-akbar-hosseini-1072d6",
+      "name": "سید اکبر حسینی",
+      "name_en": "Seyed Akbar Hosseini",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 26,
+      "birth_year": 1378,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "کوهدشت",
+      "province": "لرستان",
+      "cause": null,
+      "occupation": null,
+      "story": "سید اکبر حسینی بیست و شش ساله و اهل کوهدشت لرستان روز نوزدهم دی ماه در جریان تظاهرات مردمی جان باخت.",
+      "story_en": "Seyed Akbar Hosseini, 26 years old and from Kuhdasht, Lorestan, died on the 19th of Dey during public demonstrations.",
+      "photo_url": "https://pbs.twimg.com/media/HCMxIEFWAAAz2BJ.jpg",
+      "memorial_links": [
+        "https://x.com/324548127/status/2027518275014287721",
+        "https://t.me/RememberTheirNames/540"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_296a210a0d",
+      "slug": "meysam-bijani-zareyi-296a21",
+      "name": "میثم بیژنی زارعی",
+      "name_en": "Meysam Bijani Zareyi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1387,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "آبمشکین",
+      "province": "یزد",
+      "cause": null,
+      "occupation": null,
+      "story": "میثم بیژنی ۱۷ ساله اهل روستای آبمشکین همدان در ۱۹ دی در شهریار تهران جان‌باخت.",
+      "story_en": "Meysam Beijani, a 17-year-old from the village of Abmeshkin, Hamedan, was killed on 19th of Dey in Shahriar, Tehran.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/703f79273_98521.jpg",
+      "memorial_links": [
+        "https://x.com/1856948123584839680/status/2027318424238526601"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_51da3928a3",
+      "slug": "mehran-khoshniat-rudmajani-51da39",
+      "name": "مهران خوش نیت رودمعجنی",
+      "name_en": "Mehran Khoshniat Rudmajani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 37,
+      "birth_year": 1367,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "گرگان",
+      "province": "گلستان",
+      "cause": "ضرب‌وشتم",
+      "occupation": null,
+      "story": "مهران خوش نیت رودمعجنی، ۳۷ ساله، در شب ۱۹ دی در گرگان با ضربه به سر مصدوم شد و بعد در بیمارستان اعضای بدنش را ربودند و پیکرش را با شرایط امنیتی سخت دفن کردند. حتی نگذاشتند که خانواده با او خداحافظی کنند یا غسل دهند. او را در پلاستیک پیچیده دفن کردند.",
+      "story_en": "Mehran Khoshniat Rudmajani, 37 years old, was injured by a blow to the head on the night of 19th Dey in Gorgan. Later, his organs were stolen in the hospital and his body was buried under strict security conditions. They did not even allow the family to say goodbye or perform the washing ritual. He was buried wrapped in plastic.",
+      "photo_url": "https://pbs.twimg.com/media/HCHLHhDWMAAnarZ.jpg",
+      "memorial_links": [
+        "https://javidnaman.iranintl.com/memorial/bRqe42UoCfPr2ygHsSvJp1",
+        "https://x.com/2012123976508514304/status/2027124641668432031"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1e85567edc",
+      "slug": "eghbal-reza-sarabian-1e8556",
+      "name": "اقبال رضا سرابیان",
+      "name_en": "Eghbal Reza Sarabian",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 78,
+      "birth_year": 1326,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "کرمانشاه",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "سرهنگ تمام بازنشسته",
+      "story": "دایی من اقبال رضا سرابیان، سرهنگ تمام بازنشسته اهل کرمانشاه و مقیم تهران، در محله سعادت آباد در تاریخ هیجدهم دی توسط حکومت جنایتکار جان‌باخت. به او سه تیر شلیک کردند و هر تیر پانصد میلیون و یک میلیارد و پانصد میلیون گرفتند.",
+      "story_en": "My uncle, Eghbal Reza Sarabian, a retired full colonel from Kermanshah residing in Tehran, was killed by the criminal government in the Saadat Abad neighborhood on the 18th of Dey. He was shot three times, and they took five hundred million and one billion and five hundred million for each bullet.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/e10d6383b_1000020064.jpg",
+      "memorial_links": [
+        "https://x.com/4488640936/status/2041573917874061779"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_0f1741cfe3",
+      "slug": "kamran-ahmadi-0f1741",
+      "name": "کامران احمدی",
+      "name_en": "Kamran Ahmadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "از محله جوی آباد اصفهان متولد ۱۳۸۱ که ۱۹ دی ماه روبروی کلانتری ۱۳ جوی آباد با تیر جنگی کلاشینکف، به ناحیه لگن و از پهلو خارج شده، تحت فشار خانواده بعد از یکهفته تونست بدون مراسم و خاکسپاری تدفین رو انجام بدن توی آرامستان",
+      "story_en": "Kamran Ahmadi, born in 1381 from the Juy Abad neighborhood of Isfahan, was shot with a Kalashnikov military bullet on 19th of Dey in front of Police Station 13 in Juy Abad, hitting the pelvic area and exiting from the side. Under family pressure, after a week, he was able to be buried without a ceremony in the cemetery.",
+      "photo_url": "https://pbs.twimg.com/media/G_uIhqHW4AA5nLQ.jpg",
+      "memorial_links": [
+        "https://x.com/1333511497905999880/status/2027622055936479627",
+        "https://x.com/vahidmirzaeii/status/2014406560366092401",
+        "https://x.com/EhsanZareei/status/2014445102333083721",
+        "https://t.me/RememberTheirNames/1384",
+        "https://x.com/hekasrehcrisis/status/2016356004917641664",
+        "https://twitter.com/i/web/status/2016356004917641664"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_86b563462d",
+      "slug": "ali-ghanatkar-86b563",
+      "name": "علی قناعت کار",
+      "name_en": "Ali Ghanatkar",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": "معاون امنیتی دادستان تهران و سرپرست دادسرای اوین",
+      "story": "علی قناعت‌کار، یکی از چهره‌های اصلی سرکوب خیزش ۱۴۰۱ و صادرکننده احکام اعدام برای معترضان، در حمله اسرائیل به دادسرای اوین به درک واصل شد. او معاون امنیتی دادستان تهران و سرپرست دادسرای اوین بود.",
+      "story_en": "Ali Ghanatkar, one of the main figures in the suppression of the 1401 uprising and an issuer of death sentences for protesters, was killed in the Israeli attack on Evin Prosecutor's Office. He was the security deputy of the Tehran prosecutor and the head of Evin Prosecutor's Office.",
+      "photo_url": "https://pbs.twimg.com/media/GuWp8t9XEAADISt.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/1938142079659511882"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_937cc429f6",
+      "slug": "alireza-sadian-937cc4",
+      "name": "علیرضا سدیان",
+      "name_en": "Alireza Sadian",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "فرخ‌شهر",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "علیرضا سدیان، جوانی خوش‌اخلاق و بامرام از فرخشهرِ چهارمحال و بختیاری، روز ۱۸ دی‌ماه در فرخ‌شهر هدف تیراندازی نیروهای سرکوبگر قرار گرفت و جان باخت.",
+      "story_en": "Alireza Sadian, a kind and decent young man from Farrokhshahr, Chaharmahal and Bakhtiari, was targeted by gunfire from repressive forces in Farrokhshahr on 18 Dey and died.",
+      "photo_url": "https://pbs.twimg.com/media/G_RShOmWQAAaCmF.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014325669576970555",
+        "https://x.com/1198691072769249281/status/2059569622135833018"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_341e2d71d7",
+      "slug": "mehrdad-rasaei-341e2d",
+      "name": "مهرداد رسایی",
+      "name_en": "Mehrdad Rasaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "کرمانشاه",
+      "province": "کرمانشاه",
+      "cause": null,
+      "occupation": null,
+      "story": "مهرداد رسایی، برادر رضا رسایی، شامگاه ۱۸ دی‌ماه و هم‌زمان با نخستین روز قطعی اینترنت توسط نیروهای امنیتی بازداشت و به زندان دیزل‌آباد کرمانشاه منتقل شد.",
+      "story_en": "Mehrdad Rasaei, the brother of Reza Rasaei, was arrested by security forces on the evening of 18 Dey, coinciding with the first day of the internet shutdown, and transferred to Dizelabad Prison in Kermanshah.",
+      "photo_url": "https://pbs.twimg.com/media/G_ao1RyWoAATHFd.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014983521618575642"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_29b1ff5953",
+      "slug": "alireza-sahatbakhsh-29b1ff",
+      "name": "علیرضا صحت بخش",
+      "name_en": "Alireza Sahatbakhsh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1378,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "علیرضا صحت‌بخش، متولد ۱۳۸۰، با شلیک مستقیم به سینه و خونریزی داخلی به دست سرکوبگران جان‌باخت. این جنایت در ۱۸ دی‌ماه در منطقه تهرانپارس رخ داده است.",
+      "story_en": "Alireza Sahatbakhsh, born in 1380, was killed by direct gunfire to the chest and internal bleeding at the hands of the suppressors. This crime occurred on 18 Dey in the Tehranpars area.",
+      "photo_url": "https://pbs.twimg.com/media/G_myIwAWkAAjWAi.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2015838178742047038",
+        "https://x.com/allahbakhshii/status/2015838178742047038"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_2c9886eaf4",
+      "slug": "rasoul-ziaei-2c9886",
+      "name": "رسول ضیایی",
+      "name_en": "Rasoul Ziaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 26,
+      "birth_year": 1375,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "فولادشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "رسول ضیایی، ۲۶ ساله، شامگاه ۱۸ دی‌ماه در فولادشهر اصفهان، مقابل دادگاه، با شلیک مستقیم سرکوبگران جمهوری اسلامی به ناحیه قلب جان‌باخت. با وجود کشته‌شدن او، پیکرش به مدت هفت روز در اختیار نهادهای امنیتی باقی ماند و در این مدت خانواده‌اش تحت فشار و آزار روانی قرار گرفتند. مأموران طی این هفت روز بارها به خانواده رسول ضیایی دروغ گفتند که او زنده است و این موضوع رنج و بلاتکلیفی خانواده داغدار او را بیشتر کرد.",
+      "story_en": "Rasoul Ziaei, 26, died on the evening of 18 Dey in Fooladshahr, Isfahan, in front of the courthouse, after direct gunfire by the Islamic Republic’s repressive forces struck his heart. Despite his being killed, his body remained in the custody of security agencies for seven days, during which his family was subjected to psychological pressure and abuse. During those seven days, officers repeatedly lied to Rasoul Ziaei’s family, claiming that he was alive, which only added to the suffering and uncertainty of his bereaved family.",
+      "photo_url": "https://pbs.twimg.com/media/HAOI076WoAA6lVv.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018607506289733757",
+        "https://www.instagram.com/p/DT03SbQEXkl",
+        "https://t.me/RememberTheirNames/631",
+        "https://x.com/hoorieh81/status/2016211883166970006"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_66953ccf65",
+      "slug": "mohammadreza-davashi-66953c",
+      "name": "محمدرضا دواشی",
+      "name_en": "Mohammadreza Davashi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "یزدانشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمدرضا دواشی در ۱۸ دی‌ماه در یزدانشهر اصفهان با شلیک مستقیم سرکوبگران جمهوری اسلامی جان‌باخت. نیروهای حکومتی با ایجاد مزاحمت برای خانواده او، مانع خاکسپاری شدند و درخواست پول تحت عنوان «حق تیر» کردند؛ با این حال، خانواده دواشی برای او مراسم برگزار کردند.",
+      "story_en": "Mohammadreza Davashi was killed on 18 Dey in Yazdanshahr, Isfahan, by direct gunfire from the suppressors of the Islamic Republic. Government forces harassed his family, prevented his burial, and demanded money under the title of \"bullet fee\"; nevertheless, the Davashi family held a ceremony for him.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2020429058581152132"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ccd9d983dc",
+      "slug": "hamidreza-haddadi-ccd9d9",
+      "name": "حمیدرضا حدادی",
+      "name_en": "Hamidreza Haddadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 19,
+      "birth_year": 1382,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "حمیدرضا حدادی، ۱۹ ساله، روز ۱۸ دی‌ماه در شاندیز مشهد هدف تیراندازی نیروهای سرکوبگر قرار گرفت و جان‌باخت.",
+      "story_en": "Hamidreza Haddadi, 19, was shot by repressive forces in Shandiz, Mashhad, on 18 Dey and lost his life.",
+      "photo_url": "https://pbs.twimg.com/media/HAzsJa3aAAIw85b.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021249986772492378",
+        "https://x.com/saraapoor/status/2015532304953745412",
+        "https://x.com/mahmocean/status/2015772827140452727"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ee9e2163e2",
+      "slug": "amir-hossein-qaraghozlou-ee9e21",
+      "name": "امیر حسین قراگزلو",
+      "name_en": "Amir Hossein Qaraghozlou",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "شهریار",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "امیر حسین قراگِزلو، ۱۸ ساله و مبتلا به سندروم داون، در شهریار در ۱۸ دی جان باخت.",
+      "story_en": "Amir Hossein Qaraghezlou, 18 years old and living with Down syndrome, died in شهریار on 18 Dey.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1795346221034274816/status/2025330573871317374"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3a529b9cb3",
+      "slug": "mehdi-haqdoost-3a529b",
+      "name": "مهدی حقدوست",
+      "name_en": "Mehdi Haqdoost",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 39,
+      "birth_year": 1362,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "شهرضا",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "کارگر کارخانه",
+      "story": "مهدی حقدوست، ۳۹ ساله، نان‌آور خانواده و کارگر کارخانه، اهل سمیرم و ساکن شهرضا بود. او در شهرضا با شلیک گلوله مجروح شد و پس از انتقال به بیمارستان جان‌باخت.",
+      "story_en": "Mehdi Haqdoost, 39, the breadwinner of the family and a factory worker, was from Semirom and lived in Shahreza. He was injured in Shahreza by gunfire and was killed after being transferred to the hospital.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1574693302649094145/status/2025334795165737407"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_78b77a7d91",
+      "slug": "mehdi-ziaei-78b77a",
+      "name": "مهدی ضیائی",
+      "name_en": "Mehdi Ziaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "بندرعباس",
+      "province": "هرمزگان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهدی ضیائی، ۱۷ ساله، در ۱۸ دی در بندرعباس هنگام برگشتن به خانه از پانسیون، با رگبار به ماشینشان هدف قرار گرفت و با اصابت تیر جنگی به ریه‌اش، پیش از رسیدن به بیمارستان جان‌باخت.",
+      "story_en": "Mehdi Ziaei, 17, was killed in Bandar Abbas on 18 Dey while returning home from the boarding house, when their car was sprayed with bullets and a war bullet struck his lung before he reached the hospital.",
+      "photo_url": "https://pbs.twimg.com/media/HBtwhq8WoAE5esM.jpg",
+      "memorial_links": [
+        "https://x.com/1162052777520128001/status/2025336261175628125"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_0aaabb0d81",
+      "slug": "hossein-kaedi-0aaabb",
+      "name": "حسین کائدی",
+      "name_en": "Hossein Kaedi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 16,
+      "birth_year": 1385,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اندیمشک",
+      "province": "خوزستان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "حسین کائدی، ۱۶ ساله و اهل اندیمشک، ۱۸ دی جان‌باخت. او فقط آمده بود دم در ببیند صدای چه بود که به گردنش تیر خورد.",
+      "story_en": "Hossein Kaedi, 16, from Andimeshk, was killed on 18 Dey. He had only come to the door to see what the sound was when he was shot in the neck.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2017253578662899712/status/2025338697260949662"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_132f1217c6",
+      "slug": "mehrdad-tolaei-132f12",
+      "name": "مهرداد تولائی",
+      "name_en": "Mehrdad Tolaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 36,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهرداد تولائی، ۳۶ ساله و اهل اصفهان، ۱۸ دی با شلیک گلوله به سر جانفدای میهن شد. او پر از شور و عشق به زندگی بود و طبیعت‌گرد و عاشق ایران بود.",
+      "story_en": "Mehrdad Tolaei, 36 years old and from Isfahan, was martyred for the homeland on 18 Dey after being shot in the head. He was full of enthusiasm and love for life, and he loved nature and Iran.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2004820196897513472/status/2025338878639448315"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_bc3f938012",
+      "slug": "javid-rezaei-bc3f93",
+      "name": "جاوید رضائی",
+      "name_en": "Javid Rezaei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "زنجان",
+      "province": "زنجان",
+      "cause": null,
+      "occupation": null,
+      "story": "جاوید رضائی، ۱۷ ساله، اهل زنجان، در ۱۸ دی جان باخت.",
+      "story_en": "Javid Rezaei, 17 years old, from Zanjan, died on 18 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBtzHvOXAAAZIpo.jpg",
+      "memorial_links": [
+        "https://x.com/1849554007339020288/status/2025339040262664247"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_fb2f51d811",
+      "slug": "mohammad-ali-salimi-fb2f51",
+      "name": "محمد علی سلیمی",
+      "name_en": "Mohammad Ali Salimi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 42,
+      "birth_year": 1359,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "محمد علی سلیمی، متولد ۱۳۶۱، در ۱۸ دی ماه در تهران جاویدنام شد. متأسفانه از تحویل جسد او به خانواده خودداری کرده‌اند و فرصت عزاداری را از خانواده‌اش گرفته‌اند. وزارت اطلاعات پدرش را تهدید به حذف کرده است.",
+      "story_en": "Mohammad Ali Salimi, born in 1361, was killed in Tehran on the 18th of Dey. Unfortunately, his body has not been handed over to his family, and they have been denied the opportunity to mourn him. The Ministry of Intelligence has threatened his father with elimination.",
+      "photo_url": "https://pbs.twimg.com/media/HBumJoZWsAAb-e0.jpg",
+      "memorial_links": [
+        "https://x.com/2015465627587104768/status/2025395144661368856"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_a83d43da5c",
+      "slug": "mandana-golestan-nejad-a83d43",
+      "name": "ماندانا گلستان نژاد",
+      "name_en": "Mandana Golestan Nejad",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 41,
+      "birth_year": 1360,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "یاسوج",
+      "province": "کهگیلویه و بویراحمد",
+      "cause": null,
+      "occupation": null,
+      "story": "ماندانا گلستان‌نژاد، ۴۱ ساله، در ۱۸ دی در یاسوج جان باخت.",
+      "story_en": "Mandana Golestan Nejad, 41, died in Yasuj on 18 Dey.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1598050128631369737/status/2025413137931927836"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3e77124c3a",
+      "slug": "navid-nazemi-maleki-3e7712",
+      "name": "نوید ناظمی ملکی",
+      "name_en": "Navid Nazemi-Maleki",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "ساوه",
+      "province": "مرکزی",
+      "cause": null,
+      "occupation": null,
+      "story": "نوید ناظمی‌ملکی، ۱۸ ساله، اهل استان مرکزی و ساوه، در ۱۸ دی جان‌باخت است.",
+      "story_en": "Navid Nazemi-Maleki, 18 years old, from Markazi province and Saveh, was killed on 18 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBvgYobWMAAJ6O1.jpg",
+      "memorial_links": [
+        "https://x.com/1894275431110500352/status/2025459173824037299"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_2b9e0d0766",
+      "slug": "mohammad-amin-ranjbar-kabootarkhani-2b9e0d",
+      "name": "محمد امین رنجبر کبوترخانی",
+      "name_en": "Mohammad Amin Ranjbar Kabootarkhani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "رفسنجان",
+      "province": "کرمان",
+      "cause": null,
+      "occupation": null,
+      "story": "محمد امین رنجبر کبوترخانی، ۲۰ ساله، در تاریخ ۱۹ دی در رفسنجان جان‌باخت.",
+      "story_en": "Mohammad Amin Ranjbar Kabootarkhani, 20 years old, was killed on 19th of Dey in Rafsanjan.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/981218279032348673/status/2027624151486501116"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d5e9ab3b79",
+      "slug": "masoud-fihzadeh-d5e9ab",
+      "name": "مسعود فیه زاده",
+      "name_en": "Masoud Fihzadeh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 36,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مسعود فیه زاده ۳۶ ساله از اصفهان در خیابان خاقانی تیر می‌خورد. او را سوار ماشین می‌کنند تا دورش کنند اما ماشین را به رگبار می‌بندند. او پدر نداشت و در ۱۸ دی جاوید نام شد.",
+      "story_en": "Masoud Fihzadeh, 36 years old from Isfahan, was shot on Khaghani Street. He was put in a car to be taken away, but the car was fired upon. He had no father and was declared deceased on January 8th.",
+      "photo_url": "https://pbs.twimg.com/media/HDbZ_qEWoAAkzI2.jpg",
+      "memorial_links": [
+        "https://x.com/1939161009803141121/status/2033051974631887314"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_06e526daf7",
+      "slug": "omid-allahdad-06e526",
+      "name": "امید اله داد",
+      "name_en": "Omid Allahdad",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 38,
+      "birth_year": 1364,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "هفت حوض",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "امید اله داد، ۳۸ ساله، در هجدهم دی ماه در منطقه هفت حوض تهران جان‌باخت.",
+      "story_en": "Omid Allahdad, 38 years old, was killed on the 8th of January in the Haft Hoz area of Tehran.",
+      "photo_url": "https://pbs.twimg.com/media/HDgmVgCXQAAL7TH.jpg",
+      "memorial_links": [
+        "https://x.com/1214323917277544449/status/2033417386108539329"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_619653436e",
+      "slug": "abbas-zeinali-619653",
+      "name": "عباس زینلی",
+      "name_en": "Abbas Zeinali",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "اسفراین",
+      "province": "خراسان شمالی",
+      "cause": null,
+      "occupation": null,
+      "story": "جاوید نام عباس زینلی از خراسان شمالی اسفراین ۱۸ دی.",
+      "story_en": "Eternal name Abbas Zeinali from North Khorasan, Esfarayen, January 8.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2028919283934228480/status/2033514294696976578"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_58c5e7163f",
+      "slug": "abolfazl-najafi-58c5e7",
+      "name": "ابولفضل نجفی",
+      "name_en": "Abolfazl Najafi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 25,
+      "birth_year": 1377,
+      "date_jalali": "۱۴۰۱/۱۰/۱۸",
+      "date_gregorian": "2023-01-08",
+      "city": "رباط کریم",
+      "province": "تهران",
+      "cause": null,
+      "occupation": "ورزشکار",
+      "story": "ابولفضل نجفی، ۲۵ ساله و ورزشکار، در تاریخ ۱۸ دی در رباط کریم خیابان ملکی جان‌باخت.",
+      "story_en": "Abolfazl Najafi, a 25-year-old athlete, was killed on January 8 in Robat Karim, Maleki Street.",
+      "photo_url": "https://pbs.twimg.com/media/HGNPFSba4AAGOqs.jpg",
+      "memorial_links": [
+        "https://x.com/1908913158598905856/status/2045565614836809988"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1763058bdb",
+      "slug": "ashkan-rostami-176305",
+      "name": "اشکان رستمی",
+      "name_en": "Ashkan Rostami",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 22,
+      "birth_year": 1379,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نائین",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "اشکان رستمی، ۲۲ ساله، اهل شهرستان فریدن اصفهان، در ۱۹ دی در شاهین‌شهر اصفهان جان‌باخت. به گفته متن، مزدوران خانواده‌اش را خیلی اذیت کردند و نگذاشتند هیچ مراسمی برای او بگیرند؛ برای چهلم او را شهید اعلام کردند و خودشان برایش مراسم گرفتند.",
+      "story_en": "Ashkan Rostami, 22 years old, from Fereydun County, Isfahan, was killed on 19 Dey in Shahin Shahr, Isfahan. According to the text, the agents harassed his family a lot and did not allow them to hold any ceremony for him; for his fortieth day memorial, they declared him a martyr and held a ceremony for him themselves.",
+      "photo_url": "https://pbs.twimg.com/media/HBvQvJVWkAA1zO3.jpg",
+      "memorial_links": [
+        "https://x.com/1527146864507858944/status/2025442645124784514"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_9a20655df9",
+      "slug": "arshia-ahmadpour-9a2065",
+      "name": "عرشیا احمدپور",
+      "name_en": "Arshia Ahmadpour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "بهارستان",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": "بوکسور و آرایشگر",
+      "story": "عرشیا احمدپور، ۱۸ ساله، بوکسور و آرایشگر ساکن بهارستان اصفهان و متولد ایذه، در ۱۹ دی‌ماه در همین شهر توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. خانواده‌اش پس از ناپدید شدن او، یک هفته در جست‌وجویش بودند تا سرانجام پیکر بی‌جانش به آن‌ها تحویل داده شد.",
+      "story_en": "Arshia Ahmadpour, 18, a boxer and barber living in Baharestan, Isfahan, and born in Izeh, was killed in that city on 19 Dey by the repressive forces of the Islamic Republic. After he disappeared, his family searched for him for a week until his lifeless body was eventually handed over to them.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/683598c8e_106309.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018721470462013831"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_22b529955d",
+      "slug": "erfan-gholipour-22b529",
+      "name": "عرفان قلی پور",
+      "name_en": "Erfan Gholipour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 28,
+      "birth_year": 1376,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "بابل",
+      "province": "مازندران",
+      "cause": "اصابت گلوله",
+      "occupation": "کارواش مکانیک",
+      "story": "عرفان قلی‌پور، جوان اهل بابل، در تاریخ ۱۹ دی‌ماه در جریان سرکوب اعتراضات مردمی با شلیک مستقیم تیر جنگی توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. بنا بر اطلاعات منتشرشده، پیکر او هدف گلوله جنگی قرار گرفته و دست‌کم ۱۲ ساچمه در ناحیه سرش مشاهده شده است.",
+      "story_en": "Erfan Gholipour, a young man from Babol, lost his life on 19 Dey during the suppression of popular protests after being directly shot with live ammunition by the repressive forces of the Islamic Republic. According to the published information, his body was hit by live ammunition, and at least 12 pellets were observed in his head area.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/ca4127dec_106299.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014997907041096175"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_4ba11c2e9c",
+      "slug": "mohammad-javad-khalili-ardali-4ba11c",
+      "name": "محمد جواد خلیلی اردلی",
+      "name_en": "Mohammad-Javad Khalili Ardali",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 40,
+      "birth_year": 1364,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نائین",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد خلیلی اردلی روز ۱۹ دی‌ماه در شهر اصفهان بر اثر اصابت گلوله نیروهای سرکوبگر جمهوری اسلامی به پهلو، در آغوش پدر و مادرش جان‌باخت.",
+      "story_en": "Mohammad Khalili Ardali died on 19 Dey in the city of Isfahan after being struck in the side by a bullet fired by the repressive forces of the Islamic Republic, in the arms of his father and mother.",
+      "photo_url": "https://pbs.twimg.com/media/HA5EB52WcAApsyN.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021628087579160663"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "wiki_1404",
+        "javidnaam_iranintl"
+      ]
+    },
+    {
+      "id": "jvn_e0ab5ad6f4",
+      "slug": "pourya-parmon-kalardehi-e0ab5a",
+      "name": "پوریا پرمون کلاردهی",
+      "name_en": "Pourya Parmon Kalardehi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "پوریا پرمون کلاردهی، جوان ۲۳ ساله، روز ۱۹ دی‌ماه در خیابان هاشمی تهران، بالای دستغیب و در نزدیکی مسجد هاشمی، هدف گلوله تک‌تیرانداز قرار گرفت و جان باخت. بر اساس روایت خانواده، در این تیراندازی شش نفر مجروح شدند که گفته می‌شود برای محافظت از دیگران خود را سپر کرده بودند.",
+      "story_en": "Pourya Parmon Kalardehi, a 23-year-old young man, was shot by a sniper on 19 Dey in Hashemi Street, Tehran, above Dastgheib and near Hashemi Mosque, and died. According to the family’s account, six people were injured in this shooting, and it is said they had shielded themselves to protect others.",
+      "photo_url": "https://pbs.twimg.com/media/G_WgiomXcAEuSMg.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014692930737390059",
+        "https://x.com/allahbakhshii/status/2014692930737390059",
+        "https://x.com/outofken/status/2014879558525505564",
+        "https://t.me/RememberTheirNames/827"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_84c120a039",
+      "slug": "mehrshad-jafarpoor-84c120",
+      "name": "مهرشاد جعفرپور",
+      "name_en": "Mehrshad Jafarpoor",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 47,
+      "birth_year": 1357,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهرشاد جعفرپور، ۴۷ ساله و پدر یک پسر ۱۴ ساله، شامگاه ۱۹ دی در خیابان رباط دوم اصفهان مقابل چشم فرزندش با گلوله جنگی هدف قرار گرفت و جان باخت. خانواده‌اش پس از روزها بی‌خبری، پیکرش را ۲۶ دی تحویل گرفتند. او توسط سرکوبگران جمهوری اسلامی جان‌باخت.",
+      "story_en": "Mehrshad Jafarpoor, 47 years old and the father of a 14-year-old son, was shot with live ammunition on the evening of 19 Dey on Rabat-e Dovom Street in Isfahan in front of his child and died. After days of uncertainty, his family received his body on 26 Dey. He was killed by the Islamic Republic’s repressive forces.",
+      "photo_url": "https://pbs.twimg.com/media/HA3kM0wa4AAJxxh.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021522722283549002"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_5adb1c67b5",
+      "slug": "mohammadamin-akbariyan-5adb1c",
+      "name": "محمدامین اکبریان",
+      "name_en": "Mohammadamin Akbariyan",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "مبارکه",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "شامگاه ۱۹ دی‌ماه، حوالی ساعت ۸ تا ۹ شب، محمدامین اکبریان در خیابان‌های مبارکه هدف تیراندازی نیروهای سرکوبگر جمهوری اسلامی قرار گرفت و گلوله به ناحیه پا و شکم او اصابت کرد. نام او در فهرست‌های بیمارستانی ثبت شده بود، اما خانواده‌اش به مدت یک هفته در بلاتکلیفی و بی‌خبری کامل نگه داشته شدند و پس از یک هفته جست‌وجو در بیمارستان‌ها، خبر جان‌باختن او به خانواده اعلام شد.",
+      "story_en": "On the evening of January 9, around 8 to 9 p.m., Mohammadamin Akbariyan was shot by the Islamic Republic’s repressive forces in the streets of Mobarakeh, and a bullet struck his leg and abdomen. His name had been registered in hospital lists, but his family was kept in complete uncertainty and ignorance for a week. After a week of searching through hospitals, the family was contacted and informed of his death.",
+      "photo_url": "https://pbs.twimg.com/media/HAi2yyNWcAAw59T.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2020065422553362904"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_7baed3cede",
+      "slug": "peyman-khajeh-ali-chaleshtari-7baed3",
+      "name": "پیمان خواجه علی چالشتری",
+      "name_en": "Peyman Khajeh-Ali Chaleshtari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 51,
+      "birth_year": 1353,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "چالشتر",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": "مهندس ارشد برق",
+      "story": "پیمان خواجه‌علی چالشتری، مهندس ارشد برق و نخبه ۵۱ ساله و پدر یک فرزند، روز ۱۹ دی‌ماه در اصفهان با شلیک دو گلوله جنگی توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. بنا بر گزارش‌ها، پیکر او دچار شکستگی اعضای بدن بوده و مقامات امنیتی از شست‌وشوی پیکر وی جلوگیری کردند. پیکر این شهروند پس از تحویل از باغ رضوان اصفهان، در شهر چالشتر از توابع استان چهارمحال و بختیاری به خاک سپرده شد.",
+      "story_en": "Peyman Khajeh-Ali Chalestari, a 51-year-old senior electrical engineer and a talented individual, father of one child, was killed on 19 Dey in Isfahan by the firing of two live bullets by the repressive forces of the Islamic Republic. According to reports, his body had suffered broken bones, and security authorities prevented his body from being washed. After being handed over from Bagh-e Rezvan in Isfahan, his body was buried in the city of Chalestar, a county in Chaharmahal and Bakhtiari province.",
+      "photo_url": "https://pbs.twimg.com/media/HAfuukzXYAAxsYB.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2019845447322304618",
+        "https://javidnaman.iranintl.com/memorial/0YfQ2SntUkEcgRpcS6NR95"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_358a8520f5",
+      "slug": "morteza-sarlak-358a85",
+      "name": "مرتضی سرلک",
+      "name_en": "Morteza Sarlak",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 41,
+      "birth_year": 1363,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "الیگودرز",
+      "province": "لرستان",
+      "cause": "اصابت گلوله",
+      "occupation": "تراشکار",
+      "story": "مرتضی سرلک، ۴۱ ساله، روز ۱۹ دی‌ماه در جریان اعتراضات و در حالی که از یک زن مجروح‌شده با گلوله دفاع می‌کرد، با شلیک نیروهای سرکوبگر جمهوری اسلامی جان‌باخت. او اهل روستای فرج‌آباد از توابع شهرستان الیگودرز و ساکن شهر پرند بود. مراسم خاکسپاری و یادبود این شهروند جان‌باخته، به‌سختی و با اخذ تعهدات امنیتی برگزار شد. مرتضی سرلک تراشکار، متأهل و پدر سه فرزند (دو پسر و یک دختر) بود.",
+      "story_en": "Morteza Sarlak, 41, lost his life on 19 Dey during the protests while defending an injured woman who had been shot, when he was shot by the repressive forces of the Islamic Republic. He was from the village of Farajabad in Aligudarz County and lived in Parand. The burial and memorial ceremony for this deceased citizen was held with difficulty and under security commitments. Morteza Sarlak was a lathe operator, married, and the father of three children (two sons and one daughter).",
+      "photo_url": "https://pbs.twimg.com/media/HAffR1jXYAARYzk.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2019828461875958073",
+        "https://t.me/RememberTheirNames/1033",
+        "https://x.com/mousavi1355/status/2016322908755268058"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_57502fa51a",
+      "slug": "mohammad-kiani-harchagani-57502f",
+      "name": "محمد کیانی هرچگانی",
+      "name_en": "Mohammad Kiani Harchagani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 32,
+      "birth_year": 1369,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد کیانی هرچگانی، ۳۲ ساله و اهل اصفهان، روز ۱۹ دی‌ماه در خیابان کشاورزی این شهر هدف شلیک مستقیم نیروهای سرکوب جمهوری اسلامی قرار گرفت و جان‌باخت. گلوله به ناحیه قلب او اصابت کرد و باعث مرگ فوری‌اش شد. پس از این جنایت، نیروهای امنیتی خانواده او را تحت فشار و تهدید قرار دادند و برادر کوچک‌تر محمد نیز توسط مأموران بازداشت شد.",
+      "story_en": "Mohammad Kiani Harchagani, 32 years old and from Isfahan, was directly shot by the Islamic Republic's repressive forces on January 9, Keshavarzi Street of this city and lost his life. A bullet struck his heart and caused his immediate death. After this crime, security forces pressured and threatened his family, and Mohammad's younger brother was also arrested by agents.",
+      "photo_url": "https://pbs.twimg.com/media/G_oS7VXW8AA2Mq6.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2015944599785623712",
+        "https://x.com/allahbakhshii/status/2015944599785623712",
+        "https://t.me/RememberTheirNames/1417"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_4281c30c2b",
+      "slug": "azam-ashrafi-4281c3",
+      "name": "اعظم اشرفی",
+      "name_en": "Azam Ashrafi",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 45,
+      "birth_year": 1359,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "اعظم اشرفی، ۴۵ ساله، در جریان ۱۹ دی‌ماه در اصفهان بر اثر تیراندازی نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.",
+      "story_en": "Azam Ashrafi, 45 years old, died as a result of gunfire by the repressive forces of the Islamic Republic in Isfahan on January 9",
+      "photo_url": "https://pbs.twimg.com/media/HB4CXE_WsAAka8r.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2026059486515929119"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_62ad47da7f",
+      "slug": "abolfazl-tavousi-nikabaadi-62ad47",
+      "name": "ابوالفضل طاووسی نیک آبادی",
+      "name_en": "Abolfazl Tavousi Nikabaadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نیک‌آباد",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "ورزشکار",
+      "story": "ابوالفضل طاووسی، ورزشکار ۲۰ ساله و اهل نیک‌آباد اصفهان، روز ۱۹ دی‌ماه مقابل یک پایگاه بسیج با شلیک گلوله جنگی به سر جان‌باخت. منابع محلی می‌گویند خانواده او تحت فشار قرار گرفته‌اند تا از رسانه‌ای کردن این موضوع خودداری کنند و ناچار شده‌اند او را «شهید» اعلام کنند.",
+      "story_en": "Abolfazl Tavousi, a 20-year-old athlete from Nikabad, Isfahan, lost his life on 19 Dey after being shot in the head with live ammunition in front of a Basij base. Local sources say his family has been pressured not to publicize the case and was forced to declare him a “martyr.”",
+      "photo_url": "https://pbs.twimg.com/media/HBoQ7SAW0AAz-nD.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2024949600365285858",
+        "https://t.me/RememberTheirNames/1293"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_c753049d11",
+      "slug": "mohammadreza-salehi-c75304",
+      "name": "محمدرضا صالحی",
+      "name_en": "Mohammadreza Salehi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 34,
+      "birth_year": 1370,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نجف‌آباد",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "در ۱۹ دی در گلدشت نجف‌آباد اصفهان با شلیک سه گلوله جانش را گرفتند.",
+      "story_en": "A father who was killed by three gunshots on 9 January in Goldasht, Najafabad, Isfahan.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/b10f1db2f_105835.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2024910609330967018"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_8974de6e30",
+      "slug": "alireza-mahdavi-8974de",
+      "name": "علیرضا مهدوی",
+      "name_en": "Alireza Mahdavi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "خمینی‌شهر",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "علیرضا مهدوی، جوان اهل خمینی‌شهر اصفهان (محله قرطمان)، روز ۱۹ دی در خانه اصفهان توسط سرکوبگران جمهوری اسلامی جان‌باخت.",
+      "story_en": "Alireza Mahdavi, a young man from Khomeyni Shahr, Isfahan (Qortman neighborhood), was killed on 19 Dey in Khaneh Isfahan by the Islamic Republic's repressive forces.",
+      "photo_url": "https://pbs.twimg.com/media/HB7V7FEXQAAIEp9.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2026292098459222029",
+        "https://javidnaman.iranintl.com/memorial/XNQh23oop7n7SfU9AGDQSK",
+        "https://javidnaman.iranintl.com/memorial/97jPSY1hGrsjdU7l1DmZnr"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3f2cce0123",
+      "slug": "ghodrat-kaid-3f2cce",
+      "name": "قدرت کاید",
+      "name_en": "Ghodrat Kaid",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 48,
+      "birth_year": 1353,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "دزفول",
+      "province": "خوزستان",
+      "cause": null,
+      "occupation": null,
+      "story": "قدرت کاید، ۴۸ ساله، ۱۹ دی در دزفول مجروح شد و چند روز بعد جاویدنام شد.",
+      "story_en": "Ghodrat Kaid, 48, was injured in Dezful on 19 Dey and died a few days later.",
+      "photo_url": "https://pbs.twimg.com/media/HBtqcTHWAAAljUY.jpg",
+      "memorial_links": [
+        "https://x.com/2022979381048532992/status/2025329499647173072"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_948c874651",
+      "slug": "ali-naderi-948c87",
+      "name": "علی نادری",
+      "name_en": "Ali Naderi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "علی نادری، جاویدنام، در ۱۹ دی ماه در تهران، جوادیه منطقه ۱۶ ذکر شده است.",
+      "story_en": "Ali Naderi, a martyr, is mentioned as being in Tehran, Javadiyeh District 16, on 19 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBtrMKnWMAAHgtw.jpg",
+      "memorial_links": [
+        "https://x.com/1613519103020376065/status/2025330319721640203"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_f8a1614fff",
+      "slug": "hadi-khosh-andam-f8a161",
+      "name": "هادی خوش اندام",
+      "name_en": "Hadi Khosh Andam",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 37,
+      "birth_year": 1367,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "مشهد",
+      "province": "خراسان رضوی",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "هادی خوش‌اندام، ۳۰ و خورده‌ای ساله، ۱۹ دی در مشهد از ناحیه پشت سر مورد هدف گلوله قرار گرفت.",
+      "story_en": "Hadi Khosh Andam, in his early 30s, was shot in the back of the head in Mashhad on 19 Dey.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/7cf3e61f1_103665.jpg",
+      "memorial_links": [
+        "https://x.com/1465019805577138176/status/2025337921579221069"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1dffa3ead0",
+      "slug": "leila-ashna-pasand-1dffa3",
+      "name": "لیلا آشنا پسند",
+      "name_en": "Leila Ashna Pasand",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 64,
+      "birth_year": 1350,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "بندرعباس",
+      "province": "هرمزگان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "لیلا آشنا پسند، ۶۴ ساله و اهل بندرعباس، در ۱۹ دی ماه پس از کمک به یکی از بچه‌های زخمی برای ورود به خانه و تمیز کردن زخم‌هایش، هنگام سوار شدن به تاکسی، مقابل درِ خانه‌اش بر اثر تیراندازی مأموران از ناحیه تیر خورد و جان‌فدا شد.",
+      "story_en": "Leila Ashna Pasand, 64, from Bandar Abbas, on 19 Dey, after helping one of the injured children enter the house and cleaning his wounds, was shot in front of her house while getting into a taxi during the officers' gunfire and was killed.",
+      "photo_url": "https://pbs.twimg.com/media/HBtsyYTXIAA1WLX.jpg",
+      "memorial_links": [
+        "https://x.com/810163822296264704/status/2025332149453230572"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1bc816de06",
+      "slug": "omid-ghasemi-nafchi-1bc816",
+      "name": "امید قاسمی نافچی",
+      "name_en": "Omid Ghasemi Nafchi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 37,
+      "birth_year": 1367,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نجف آباد",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "امید قاسمی نافچی، ۳۷ ساله، اهل نجف‌آباد اصفهان، در ۱۹ دی جان باخت.",
+      "story_en": "Omid Ghasemi Nafchi, 37 years old, from Najafabad, Isfahan, died on 19 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBtxw85WQAAuO6Y.jpg",
+      "memorial_links": [
+        "https://x.com/1576576596533714945/status/2025337552530460751",
+        "https://t.me/RememberTheirNames/501"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_df34f876e6",
+      "slug": "amirreza-ejtehadi-df34f8",
+      "name": "امیررضا اجتهادی",
+      "name_en": "Amirreza Ejtehadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 19,
+      "birth_year": 1385,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "پرند",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "ورزشکار و فوتبالیست",
+      "story": "امیررضا اجتهادی، معروف به ماهان، ۱۹ ساله و ورزشکار و فوتبالیست بود که در شب ۱۹ دی در پرند بر اثر اصابت گلوله به سر جانش را از دست داد.",
+      "story_en": "Amirreza Ejtehadi, known as Mahan, was 19 years old and was an athlete and footballer. He lost his life on the night of 19 Dey in Parand after being struck by a bullet to the head.",
+      "photo_url": "https://pbs.twimg.com/media/HBt1tk2XMAA8Dao.jpg",
+      "memorial_links": [
+        "https://x.com/586823678/status/2025341887150735477"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_f671110a84",
+      "slug": "sadegh-abedi-f67111",
+      "name": "صادق عابدی",
+      "name_en": "Sadegh Abedi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 22,
+      "birth_year": 1382,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "همایونشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "صادق عابدی، ۲۲ ساله و اهل همایونشهر، در ۱۹ دی با شلیک مستقیم گلوله به پهلو جان باخت.",
+      "story_en": "Sadegh Abedi, 22 years old and from Homayounshahr, died on 9th January after a direct gunshot to the side.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/0c24d17be_103594.jpg",
+      "memorial_links": [
+        "https://x.com/2017686078451290112/status/2025436449005293826"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_0800469198",
+      "slug": "mehdi-abedi-080046",
+      "name": "مهدی عابدی",
+      "name_en": "Mehdi Abedi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 17,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "رشت",
+      "province": "گیلان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهدی عابدی، ۱۷ ساله و تک‌فرزندِ نان‌آور خانواده، روز ۱۹ دی در میدان یخسازی رشت با شلیک تک‌تیرانداز به سرش جان باخت.",
+      "story_en": "Mehdi Abedi, 17 years old and the only child and breadwinner of the family, was killed on 19 Dey in Yakhsazi Square, Rasht, by a sniper shot to the head.",
+      "photo_url": "https://pbs.twimg.com/media/HBvALcbWwAAVO_e.jpg",
+      "memorial_links": [
+        "https://x.com/1598708979210678272/status/2025423762749903291",
+        "https://javidnaman.iranintl.com/memorial/KjEttE2kDZFmUqANv7yIX0"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e2e075cc6d",
+      "slug": "noureddin-abdoli-pour-qobadi-e2e075",
+      "name": "نورالدین عبدلی پور قبادی",
+      "name_en": "Noureddin Abdoli Pour Qobadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 37,
+      "birth_year": 1367,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "نورآباد",
+      "province": "لرستان",
+      "cause": null,
+      "occupation": null,
+      "story": "جاویدنام نورالدین عبدلی پور قبادی، ۳۷ ساله، در شهر ملارد در تاریخ ۱۹ دی جان باخت.",
+      "story_en": "Martyr Noureddin Abdoli Pour Qobadi, 37 years old, died in the city of Malard on 19 Dey.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/ae10da6f3_103578.jpg",
+      "memorial_links": [
+        "https://x.com/2023249387376222208/status/2025407780442570809"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_84ffc28343",
+      "slug": "sina-alishiri-84ffc2",
+      "name": "سینا علیشیری",
+      "name_en": "Sina Alishiri",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1387,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "کرج",
+      "province": "البرز",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "سینا علیشیری در ۱۹ دی در کرج، محله شاهین‌ویلا، بر اثر تیراندازی نیروهای سرکوب برای متواری کردن سیل جمعیت جان‌باخت. محل دفن او طالقان، آرامستان روستای تکیه ناوه ذکر شده و خانواده‌اش مجبور شدند برای تحویل جنازه‌اش امضا کنند که بسیجی بوده است.",
+      "story_en": "Sina Alishiri was killed on 9th January in Karaj, Shahin Villa neighborhood, when repressive forces opened fire to disperse the crowd. His burial place is stated as Taleqan, the cemetery of Tekiye Naveh village, and his family were forced to sign that he was a Basij member in order to receive his body.",
+      "photo_url": "https://pbs.twimg.com/media/HBuGi5YWwAEU9it.jpg",
+      "memorial_links": [
+        "https://x.com/2523756639/status/2025360396123553920",
+        "https://javidnaman.iranintl.com/memorial/FIJiQxKUnxVcKYHceR7IBV",
+        "https://x.com/2523756639/status/2025361285072699890"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_80d4de37b1",
+      "slug": "hossein-gharib-80d4de",
+      "name": "حسین غریب",
+      "name_en": "Hossein Gharib",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 32,
+      "birth_year": 1372,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "شاهرود",
+      "province": "سمنان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "حسین غریب ۳۲ ساله، کارمند اداره برق، در اعتراضات ۱۹ دی‌ماه در شاهرود با شلیک گلوله ماموران حکومتی جان‌باخت\nپیکر او را به شرطی به خانواده تحویل دادند که اطلاع‌رسانی نکنند و مراسم خاکسپاری را با حضور حداکثر ۱۰ نفر برگزار کنند. این جوان ۳۲ ساله در رشته ورزشی کنگ‌فو فعالیت می‌کرد",
+      "story_en": "Hossein Gharib died in the city of Shahroud, Semnan province. The exact date of death is not mentioned in the source, and his age is also not mentioned in the source.",
+      "photo_url": "https://pbs.twimg.com/media/HBuD0OsWQAAUm4_.jpg",
+      "memorial_links": [
+        "https://x.com/1991457996317290505/status/2025357397888249885",
+        "https://javidnaman.iranintl.com/memorial/lxVN8PoYiuh5MeTfnI09jZ"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_965a095e9e",
+      "slug": "hossein-pouryousefi-965a09",
+      "name": "حسین پوریوسفی",
+      "name_en": "Hossein Pouryousefi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 19,
+      "birth_year": 1382,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "رشت",
+      "province": "گیلان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "حسین پوریوسفی، ۱۹ ساله، اهل رشت، در ۱۹ دی با شلیک مستقیم گلوله جنگی جان‌باخت.",
+      "story_en": "Hossein Pouryousefi, 19 years old, died on 19 Dey 1404 in the city of Rasht, Gilan province.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/4b28a9207_102574.jpg",
+      "memorial_links": [
+        "https://x.com/2016807266888937472/status/2025453963663872317",
+        "https://javidnaman.iranintl.com/memorial/anlZckfD6cWImtOdjqcJjy",
+        "https://x.com/2016807266888937472/status/2026184010569822567"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3a4d6f6c55",
+      "slug": "amir-mohammad-karimi-3a4d6f",
+      "name": "امیرمحمد کریمی",
+      "name_en": "Amir Mohammad Karimi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 19,
+      "birth_year": 1385,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "مرودشت",
+      "province": "فارس",
+      "cause": null,
+      "occupation": "قهرمان تکواندو آسیا",
+      "story": "امیرمحمد کریمی، ۱۹ ساله، ۱۹ دی در مرودشت جان باخت. او قهرمان تکواندو آسیا بود.",
+      "story_en": "Martyr Amir Mohammad Karimi, 19 years old, died on 9th January in Marvdasht. He was an Asian taekwondo champion.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/83d292ef4_102510.jpg",
+      "memorial_links": [
+        "https://x.com/800917328892456961/status/2025449987019034903"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_675a3161e1",
+      "slug": "yasin-sharifi-675a31",
+      "name": "یاسین شریفی",
+      "name_en": "Yasin Sharifi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 35,
+      "birth_year": 1369,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "یاسین شریفی، ۳۵ ساله، در تهران جان باخت. تاریخ دقیق درگذشت در منبع ذکر نشده است.",
+      "story_en": "Yasin Sharifi, 35, died in Tehran. The exact date of death is not mentioned in the source.",
+      "photo_url": "https://pbs.twimg.com/media/HB0phmXWIAA10Ir.jpg",
+      "memorial_links": [
+        "https://javidnaman.iranintl.com/memorial/a45e8fec-28bd-482b-ad2e-420757fbb65c"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_4973011850",
+      "slug": "mehdi-sadeghi-497301",
+      "name": "مهدی صادقی",
+      "name_en": "Mehdi Sadeghi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 41,
+      "birth_year": 1361,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "جاویدنام و جانفدای میهن مهدی صادقی، ۴۱ ساله، پدر دو کودک خردسال، ۱۹ دی، اصفهان عزیز",
+      "story_en": "Mehdi Sadeghi, 41 years old, father of two young children, January 9, Isfahan.",
+      "photo_url": "https://pbs.twimg.com/media/HEC3pMeasAAcM4Y.jpg",
+      "memorial_links": [
+        "https://x.com/803724857452023808/status/2035828957396791653"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_7c4c98f712",
+      "slug": "ali-amani-7c4c98",
+      "name": "علی امانی",
+      "name_en": "Ali Amani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "آبپخش",
+      "province": "بوشهر",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "علی امانی در تاریخ ۱۹ دی‌ماه در شهر آبپخش از توابع شهرستان دشتستان در استان بوشهر، با شلیک مستقیم گلوله توسط سرکوبگران جمهوری اسلامی جان‌باخت.",
+      "story_en": "Ali Amani was killed on 19 Dey in the city of Ab Pakhsh, part of Dashtestan County in Bushehr Province, by direct gunfire from the Islamic Republic's repressive forces.",
+      "photo_url": "https://pbs.twimg.com/media/G_IszpUXQAAqDzP.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2013721255073939927",
+        "https://x.com/allahbakhshii/status/2013721255073939927",
+        "https://t.me/RememberTheirNames/329"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_b1bd1f039b",
+      "slug": "omid-fallahpour-b1bd1f",
+      "name": "امید فلاحپور",
+      "name_en": "Omid Fallahpour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 41,
+      "birth_year": 1360,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "امید فلاحپور، ۴۱ ساله، ساکن تهران، در تاریخ ۱۹ دی‌ماه توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.",
+      "story_en": "Omid Fallahpour, 41 years old, a resident of Tehran, was killed on 19 Dey by the repressive forces of the Islamic Republic.",
+      "photo_url": "https://pbs.twimg.com/media/G_RYr8_XcAAX4c0.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2014332451334623584",
+        "https://x.com/allahbakhshii/status/2014332451334623584",
+        "https://x.com/HengawO/status/2014781999668437226",
+        "https://t.me/RememberTheirNames/630"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_004e5c7ce9",
+      "slug": "sonia-salehi-rad-004e5c",
+      "name": "سونیا صالحی راد",
+      "name_en": "Sonia Salehi-Rad",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 35,
+      "birth_year": 1369,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "شیراز",
+      "province": "فارس",
+      "cause": "اصابت گلوله",
+      "occupation": "معلم زبان",
+      "story": "سونیا صالحی‌راد، معلم زبان و از چهره‌های محبوب آموزشی، روز ۱۹ دی‌ماه در محله صدرا شیراز هدف شلیک مستقیم گلوله جنگی قرار گرفت و از فاصله حدود شش متری با اصابت گلوله به سر، توسط مزدوران خامنه‌ای جان‌باخت. پیکر او تحت تدابیر شدید امنیتی و در فضایی کاملاً کنترل‌شده در روستای قلات شیراز به خاک سپرده شد. مراسم خاکسپاری با محدودیت شدید حضور مردم و نظارت نیروهای امنیتی برگزار شد.",
+      "story_en": "Sonia Salehi-Rad, a language teacher and one of the beloved figures in education, was directly targeted by live gunfire on 19 Dey in the Sadra neighborhood of Shiraz and was killed by Khamenei's agents after being shot in the head from a distance of about six meters. Her body was buried under heavy security measures and in a completely controlled atmosphere in Qalat village, Shiraz. The burial ceremony was held with severe restrictions on public attendance and under the supervision of security forces.",
+      "photo_url": "https://pbs.twimg.com/media/G_ll_qWWsAAIkn6.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2015754459528257955",
+        "https://x.com/banafshehviola/status/2012586050443735399",
+        "https://x.com/iranrights_org/status/2012994629650550990",
+        "https://x.com/iranrights_org/status/2012994638299144248",
+        "https://x.com/hengawo/status/2013015289240125666",
+        "https://x.com/maroofian_n/status/2013403927862010341",
+        "https://x.com/dadban4/status/2014351827936948614",
+        "https://x.com/Daikatuo/status/2012513727615058000",
+        "https://x.com/IranRights_org/status/2012893789644370022",
+        "https://x.com/HengawO/status/2013015289240125666",
+        "https://x.com/Realneo101/status/2015355909145264288",
+        "https://x.com/allahbakhshii/status/2015754459528257955",
+        "https://x.com/MayaThefish/status/2014525869822279830",
+        "https://t.me/RememberTheirNames/179"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_0d899ccad6",
+      "slug": "unknown-0d899c",
+      "name": "نامشخص",
+      "name_en": "Unknown",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 30,
+      "birth_year": 1371,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "بوشهر",
+      "province": "بوشهر",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "این جوان حدوداً ۳۰ ساله اهل بوشهر شب ۱۹ دی به دست سرکوبگران جمهوری اسلامی مورد هدف وینچستر قرار گرفته و از آن روز تا کنون در بیمارستان در بخش ICU بستری است. با اینکه تا کنون تحت ۳ عمل جراحی قرار گرفته، همچنان حالش وخیم است و با وجود بیمه بودن، هزینه عمل‌ها به صورت آزاد و بدون بیمه حدوداً ۳۰۰ میلیون تومان حساب شده است.",
+      "story_en": "This approximately 30-year-old young man from Bushehr was targeted with a Winchester on the night of 19 Dey by the suppressors of the Islamic Republic and has been hospitalized in the ICU since then. Although he has undergone 3 surgeries so far, his condition remains critical, and despite having insurance, the cost of the surgeries has been estimated at about 300 million tomans as uninsured/free-rate charges.",
+      "photo_url": "https://pbs.twimg.com/media/HAQ5JeQWMAE-pTC.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018801373824131183"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_208323ab2e",
+      "slug": "fereydoun-karimi-208323",
+      "name": "فریدون کریمی",
+      "name_en": "Fereydoun Karimi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 2,
+      "birth_year": 1399,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "یزدانشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "پدر",
+      "story": "فریدون کریمی، بختیاری و از طایفه بابااحمدی، پدر یک دختر ۲ ساله، در ۱۹ دی‌ماه در یزدانشهر اصفهان با شلیک گلوله جنگی توسط سرکوبگران جمهوری اسلامی ایران جان‌باخت.",
+      "story_en": "Fereydoun Karimi, a Bakhtiari man from the Baba Ahmadi clan and father of a 2-year-old daughter, lost his life on 19 Dey in Yazdanshahr, Isfahan, after being shot with live ammunition by the suppressors of the Islamic Republic of Iran.",
+      "photo_url": "https://pbs.twimg.com/media/HAxu81HXUAAfQez.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021112329086144746"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_5883be6fd7",
+      "slug": "sepehr-afrazeh-5883be",
+      "name": "سپهر افرازه",
+      "name_en": "Sepehr Afrazeh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 30,
+      "birth_year": 1371,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "سپهر افرازه، ۳۰ ساله، اهل اصفهان، در شب ۱۹ دی بر اثر شلیک مستقیم گلوله به گلو جان باخت.",
+      "story_en": "Sepehr Afrazeh, 30 years old, from Isfahan, died on the night of 19 Dey after a direct gunshot to the throat.",
+      "photo_url": "https://pbs.twimg.com/media/HBt7gv7XkAAFxCI.jpg",
+      "memorial_links": [
+        "https://x.com/1937305173745106950/status/2025348269463736666"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_dcf98968e5",
+      "slug": "mohammad-taha-sepahvand-dcf989",
+      "name": "محمدطاها سپهوند",
+      "name_en": "Mohammad Taha Sepahvand",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 16,
+      "birth_year": 1385,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "خرم‌آباد",
+      "province": "لرستان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمدطاها سپهوند، نوجوان ۱۶ ساله، در تاریخ ۱۹ دی‌ماه در خیابان ناصر خسرو شهر خرم‌آباد با شلیک گلوله کلاشینکف توسط نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.",
+      "story_en": "Mohammad Taha Sepahvand, a 16-year-old teenager, was killed on 19 Dey in Naser Khosrow Street in the city of Khorramabad by a Kalashnikov gunshot fired by the repressive forces of the Islamic Republic.",
+      "photo_url": "https://pbs.twimg.com/media/HAy_8m8aAAkWPSe.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021201389318439385"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_7b6596ed3e",
+      "slug": "mohammad-khalili-ardali-7b6596",
+      "name": "محمد خلیلی اردلی",
+      "name_en": "Mohammad Khalili Ardali",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 41,
+      "birth_year": 1360,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد خلیلی اردلی، ۴۱ ساله، در ۱۹ دی در اصفهان با شلیک گلوله جنگی جان‌باخت. تا چهلم فشار روی خانواده‌اش بود ولی دیگر عذاب وجدان گرفتند که خبرش و اسمش اینقدر کم‌پخش شده.",
+      "story_en": "Mohammad Khalili Ardali died on 19 Dey in the city of Isfahan after being struck in the side by a bullet fired by the repressive forces of the Islamic Republic, in the arms of his father and mother.",
+      "photo_url": "https://pbs.twimg.com/media/HA5EB52WcAApsyN.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2021628087579160663",
+        "https://x.com/1198691072769249281/status/2027340905485852728",
+        "https://x.com/2012245664458215424/status/2025701240886395213"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_6ca83d4bb2",
+      "slug": "saman-dalaram-6ca83d",
+      "name": "سامان دلارام",
+      "name_en": "Saman Dalaram",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "سامان دلارام، پدر دو فرزند، ۱۹ دی‌ماه در تهران به دست نیروهای سرکوبگر جمهوری اسلامی جان‌باخت.",
+      "story_en": "Saman Dalaram, father of two children, was killed in Tehran on 19 Dey by the repressive forces of the Islamic Republic of Iran.",
+      "photo_url": "https://pbs.twimg.com/media/HJD9IQIXgAAkJFi.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2058423353933762909"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_94837280cd",
+      "slug": "mahdyar-moshtaqi-948372",
+      "name": "مهدیار مشتاقی",
+      "name_en": "Mahdyar Moshtaqi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 19,
+      "birth_year": 1382,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "دماوند",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": "دانشجوی حقوق",
+      "story": "مهدیار مشتاقی، ۱۹ ساله، دانشجوی حقوق و ساکن دماوند بود. ۱۹ دی در تهران به او شلیک کردند. دوستانش او را به بیمارستان بردند، اما خون‌ریزی‌اش آن‌قدر شدید بود که جانش را از دست داد. تیر جنگی به شکمش خورده بود و طحالش پاره شده بود.",
+      "story_en": "Mahdyar Moshtaqi, 19 years old, was a law student and a resident of Damavand. On 19 Dey, he was shot in Tehran. His friends took him to the hospital, but his bleeding was so severe that he lost his life. A war bullet had hit his abdomen and his spleen had ruptured.",
+      "photo_url": "https://pbs.twimg.com/media/HBtqVy2XYAEurUR.jpg",
+      "memorial_links": [
+        "https://x.com/1606944574806654977/status/2025329385536897029"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_f08d3c143f",
+      "slug": "amir-hossein-shadabi-f08d3c",
+      "name": "امیر حسین شادابی",
+      "name_en": "Amir Hossein Shadabi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "شاهرود",
+      "province": "سمنان",
+      "cause": "اصابت گلوله",
+      "occupation": "سرباز",
+      "story": "امیرحسین شادابی، ۲۰ ساله و در آخرین روزهای دوران خدمت سربازی‌اش، از مرخصی سربازی استفاده کرد و برای اعتراض به خیابان رفت. او در ۱۹ دی در شاهرود با گلوله جمهوری اسلامی جان‌باخت.",
+      "story_en": "Amir Hossein Shadabi, 20 years old and in the final days of his military service, took leave from his military duty and went into the street to protest. He was killed by a bullet from the Islamic Republic in Shahroud on 19 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBtyt9ZWYAACLJR.jpg",
+      "memorial_links": [
+        "https://x.com/1557487023522553858/status/2025338604197687412"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_4392fd923e",
+      "slug": "ghazal-damirchali-4392fd",
+      "name": "غزل دمیرچلی",
+      "name_en": "Ghazal Damirchali",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 17,
+      "birth_year": 1384,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "کرج",
+      "province": "البرز",
+      "cause": null,
+      "occupation": null,
+      "story": "غزل دمیرچلی، ۱۷ ساله، در ۱۹ دی در گلشهر کرج جان باخت.",
+      "story_en": "Ghazal Damirchali, 17, died on 19 Dey in Golshahr, Karaj.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2021131736042889216/status/2025346967467856342"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_fc113be315",
+      "slug": "mehdi-salehkhan-fc113b",
+      "name": "مهدی صالحخان",
+      "name_en": "Mehdi Salehkhan",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 31,
+      "birth_year": 1370,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "خوانسار",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "مهدی صالحخان، ۳۱ ساله، اهل خوانسار از استان اصفهان، در ۱۹ دی در گلپایگان جان‌باخت. شهر ما چون کوچک است، هیچ‌کس اسم این بچه را نمی‌گوید.",
+      "story_en": "Mehdi Salehkhan, 31 years old, from Khansar in Isfahan province, was killed in Golpayegan on 19 Dey. Our city is small, so no one says this boy's name.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1639485105822482432/status/2025350399822123438"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1b225890fa",
+      "slug": "mohammad-saleh-rahman-1b2258",
+      "name": "محمد صالح رحمان",
+      "name_en": "Mohammad Saleh Rahman",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 34,
+      "birth_year": 1367,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تربت جام",
+      "province": "خراسان رضوی",
+      "cause": null,
+      "occupation": "کارگر",
+      "story": "محمد صالح رحمان، ۳۴ ساله، کارگر و پدر دو فرزند، اهل تربت جام مشهد بود. او برای کار به قشم رفته بود و در تاریخ ۱۹ دی جان‌باخت.",
+      "story_en": "Mohammad Saleh Rahman, 34, was a worker and the father of two children. He was from Torbat Jam, Mashhad, and had gone to Qeshm for work. He was killed on 19 Dey.",
+      "photo_url": "https://pbs.twimg.com/media/HBuIFeFWQAI_Sa1.jpg",
+      "memorial_links": [
+        "https://x.com/1574191722812301314/status/2025362087384371382"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_8d06429a4f",
+      "slug": "arman-ghahremani-8d0642",
+      "name": "آرمان قهرمانی",
+      "name_en": "Arman Ghahremani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 36,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "شوش",
+      "province": "خوزستان",
+      "cause": "اصابت گلوله",
+      "occupation": "کاسب",
+      "story": "#آرمان_قهرمانی ۳۶ ساله و کاسب شوش بود و گل مصنوعی می‌فروخت! در شب ۱۹ دی در مهرآباد جنوبی به ضرب گلوله جان‌باخت! \nمادر پیرش رو وادار کردن امضا کنه پسرش به مرگ طبیعی مرده تا جنازه شو تحویل بدن",
+      "story_en": "#Arman_Ghahremani was 36 years old and a businessman who sold artificial flowers! He was shot dead on the night of January 19 in South Mehrabad!\nHis elderly mother was forced to sign that her son had died of natural causes so that his body could be handed over",
+      "photo_url": "https://pbs.twimg.com/media/HBu2bfWWwAIwDBR.jpg",
+      "memorial_links": [
+        "https://x.com/1797937113607892992/status/2025413049369108661",
+        "https://t.me/RememberTheirNames/100"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_cafee77226",
+      "slug": "mohammad-reza-zare-cafee7",
+      "name": "محمدرضا زارع",
+      "name_en": "Mohammad Reza Zare",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 40,
+      "birth_year": 1361,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "خادم آباد شهریار",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمدرضا زارع اهل خادم‌آباد شهریار بود و در ۱۹ دی جلوی شهرداری با گلوله جنگی جان‌باخت. او ۴۰ ساله و دارای یک فرزند بود.",
+      "story_en": "Mohammad Reza Zare was from Khademabad, شهریار, and was killed on 19 Dey in front of the municipality building by a live bullet. He was 40 years old and had one child.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1575730231612084225/status/2025427876250599872"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_2394742ebc",
+      "slug": "ali-dezhakam-239474",
+      "name": "علی دژاکام",
+      "name_en": "Ali Dezhakam",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "کاشان",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "علی دژاکام، پدر دو دختر، در ۱۹ دی در رشت جان باخت و در روستای پدری سن‌سن کاشان آرمیده است.",
+      "story_en": "Ali Dezhakam, the father of two daughters, died in Rasht on 19 Dey and is buried in his paternal village, Sansan, Kashan.",
+      "photo_url": "https://pbs.twimg.com/media/HBvGv79XMAEfel0.jpg",
+      "memorial_links": [
+        "https://x.com/1037735348300701697/status/2025430997035040977"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d8aed23c6c",
+      "slug": "mohammad-mehdi-jarchi-d8aed2",
+      "name": "محمد مهدی جارچی",
+      "name_en": "Mohammad Mehdi Jarchi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 38,
+      "birth_year": 1364,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "فردیس",
+      "province": "البرز",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد مهدی جارچی ۳۸ ساله در فردیس کرج در تاریخ ۱۹ دی ماه با شلیک گلوله در قلبش جان‌باخت.",
+      "story_en": "Mohammad Mehdi Jarchi, 38 years old, was killed by a gunshot to his heart in Fardis, Karaj on January 9th.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2437593026/status/2035232094792700267"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_b0c1b57743",
+      "slug": "morteza-bagheri-b0c1b5",
+      "name": "مرتضی باقری",
+      "name_en": "Morteza Bagheri",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "مرتضی باقری در ۱۹ دی‌ماه در محله‌ی هفت‌حوضِ تهران جان‌باخت. خانواده‌اش خواستند نامش را زنده نگه داریم.",
+      "story_en": "Morteza Bagheri was killed on January 9th in the Haft-Hoz neighborhood of Tehran. His family wanted us to keep his name alive.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/ec4b09c39_1000019784.jpg",
+      "memorial_links": [
+        "https://x.com/1751614178903658496/status/2037219528803782940"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_46f95d9e3f",
+      "slug": "mohammad-sadegh-firooz-mehrabi-46f95d",
+      "name": "محمدصادق (فیروز) محرابی",
+      "name_en": "Mohammad Sadegh (Firooz) Mehrabi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 37,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمدصادق (فیروز) محرابی، ۳۷ ساله، در خیابان پروین اصفهان با شلیک از پشت سر، ۱۹ دی جان فدا شد.",
+      "story_en": "Mohammad Sadegh (Firooz) Mehrabi, 37 years old, was killed by a gunshot from behind on Parvin Street in Isfahan on January 9th.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/2026353582535327744/status/2038517166400495770"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d27d41bdaf",
+      "slug": "ahmad-raeisi-nafchi-d27d41",
+      "name": "احمد رییسی نافچی",
+      "name_en": "Ahmad Raeisi Nafchi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۱۹",
+      "date_gregorian": "2023-01-09",
+      "city": "یزدانشهر",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "جاویدنام احمد رییسی نافچی نوزدهم دی ماه یزدانشهر نجف آباد جان عزیزش رو گرفتن. با جمله همیشگیش‌که میگفت: بمیرم به نام و نمانم به ننگ.",
+      "story_en": "The immortal Ahmad Raeisi Nafchi was killed on the 19th of Dey in Yazdanshahr Najafabad. With his usual phrase: 'I would rather die with honor than live in disgrace.'",
+      "photo_url": "https://pbs.twimg.com/media/HEzbN18aoAAuW6f.jpg",
+      "memorial_links": [
+        "https://x.com/864542127254122496/status/2039245768729477477"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_c8d6a15ae3",
+      "slug": "azra-bahadori-nejad-c8d6a1",
+      "name": "عذرا بهادری نژاد",
+      "name_en": "Azra Bahadori-Nejad",
+      "event": "khizesh_1401",
+      "gender": "زن",
+      "age": 39,
+      "birth_year": 1365,
+      "date_jalali": "۱۴۰۱/۱۰/۲۰",
+      "date_gregorian": "2023-01-10",
+      "city": "سبزوار",
+      "province": "خراسان رضوی",
+      "cause": "اصابت گلوله",
+      "occupation": "نویسنده",
+      "story": "عذرا بهادری‌نژاد، ۳۹ ساله، نویسنده و مادر دو فرزند ۸ و ۱۶ ساله، شامگاه ۲۰ دی‌ماه در سبزوار با شلیک مستقیم گلوله نیروهای سرکوبگر جمهوری اسلامی به شاهرگ گردن جان‌باخت. او زمانی هدف گلوله قرار گرفت که برای نجات دو جوانِ به‌شدت مضروب‌شده در کوچه محل زندگی‌اش درِ خانه را گشود. پیکر او پس از ۴ روز فشار و محدودیت امنیتی و بدون اجازه رویت به خانواده، در ۲۴ دی‌ماه تحت تدابیر امنیتی در مصلای قدیمی سبزوار دفن شد.",
+      "story_en": "Azra Bahadori-Nejad, 39, a writer and mother of two children aged 8 and 16, was killed on the evening of 20 Dey in Sabzevar when regime repressive forces fired a direct bullet at her neck artery. She was hit by gunfire when she opened the door of her home in the alley where she lived in order to save two severely beaten young men. After four days of security pressure and restrictions, and without allowing her family to view her body, she was buried under security measures on 24 Dey at the old mosque of Sabzevar.",
+      "photo_url": "https://pbs.twimg.com/media/HAP04_RXwAACIVW.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018726324353839436"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_7764b64ed4",
+      "slug": "omid-hasanpour-7764b6",
+      "name": "امید حسن پور",
+      "name_en": "Omid Hasanpour",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1380,
+      "date_jalali": "۱۴۰۱/۱۰/۲۰",
+      "date_gregorian": "2023-01-10",
+      "city": "سودرجان",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": "والیبالیست",
+      "story": "امید حسن پور، ۲۱ ساله، در اصفهان سودرجان با ضربه مستقیم گلوله به قلبش فوت شد. او والیبالیست بود و تازه سه ماه بود که سربازیش تمام شده بود و یک هفته در شرکت نفت مشغول به کار شده بود.",
+      "story_en": "Omid Hasanpour, 21 years old, was killed by a direct gunshot to the heart in Soodarjan, Isfahan. He was a volleyball player and had just completed his military service three months ago and started working at an oil company a week ago.",
+      "photo_url": "https://pbs.twimg.com/media/G_lLsrPW8AEEqw4.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2015725545430876458",
+        "https://x.com/2007615944676519939/status/2026292771686891993",
+        "https://x.com/visfehan/status/2015000616435638525",
+        "https://x.com/visfehan/status/2014993998666985845",
+        "https://x.com/VIsfehan/status/2015000616435638525",
+        "https://x.com/VIsfehan/status/2014993998666985845",
+        "https://t.me/RememberTheirNames/793"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ab8bbb51e1",
+      "slug": "ali-fathi-ab8bbb",
+      "name": "علی فتحی",
+      "name_en": "Ali Fathi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۲۱",
+      "date_gregorian": "2023-01-11",
+      "city": "فولادشهر",
+      "province": "اصفهان",
+      "cause": "شکنجه",
+      "occupation": null,
+      "story": "علی فتحی، ساکن فولادشهر اصفهان، روز ۲۱ دی‌ماه در حالی‌ که با موتور برای خرید نان از خانه خارج شده بود، توسط نیروهای سرکوبگر بازداشت شد. به خانواده‌اش گفته‌اند فعلاً پیگیری نکنند و تاکنون هیچ خبر روشنی از وضعیت او ارائه نشده است. آخرین تماس کوتاه او نشان می‌دهد که بر اثر شکنجه‌های شدید، سه دندانش شکسته است.",
+      "story_en": "Ali Fathi, a resident of Fooladshahr, Isfahan, was arrested on 21 Dey while leaving home on a motorcycle to buy bread. His family was told not to follow up for now, and so far no clear information has been provided about his condition. His last brief call indicates that as a result of severe torture, three of his teeth were broken.",
+      "photo_url": "https://pbs.twimg.com/media/HAoxvNxagAApAYm.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2020482075447443687"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_b47e75538c",
+      "slug": "farhad-honarmandbagheri-b47e75",
+      "name": "فرهاد هنرمندباقری",
+      "name_en": "Farhad Honarmandbagheri",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۰/۲۱",
+      "date_gregorian": "2023-01-11",
+      "city": "کرج",
+      "province": "البرز",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "فرهاد هنرمندباقری روز ۱۹ دی‌ماه در منطقه مهرشهر کرج هدف شلیک تک‌تیرانداز قرار گرفت، از ناحیه پشت با گلوله جنگی زخمی شد و پس از انتقال به بیمارستان ثارالله مهرشهر تحت درمان قرار گرفت. او در تاریخ ۲۱ دی‌ماه بر اثر شدت جراحات جان باخت.",
+      "story_en": "Farhad Honarmandbagheri was targeted by a sniper shot on 19 Dey in the Mehrshahr area of Karaj, was wounded in the back by a live bullet, and after being transferred to Tharallah Hospital in Mehrshahr was treated. He died on 21 Dey from the severity of his injuries.",
+      "photo_url": "https://pbs.twimg.com/media/HC6mobPXwAARvIA.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2030743706345549936"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_8c14fb9f26",
+      "slug": "mohammadreza-kianimanesh-8c14fb",
+      "name": "محمدرضا کیانی منش",
+      "name_en": "Mohammadreza Kianimanesh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 18,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۰/۲۳",
+      "date_gregorian": "2023-01-13",
+      "city": "کرمانشاه",
+      "province": "کرمانشاه",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "تیام، محمدرضا کیانی‌منش، جوان ۱۸ ساله اهل کرمانشاه، روز ۱۸ دی‌ماه از منزل خارج شد و پس از آن هیچ خبری از او در دست نبود. خانواده‌اش در روزهای نخست، با توجه به شرایط امنیتی، احتمال بازداشت او را مطرح کرده بودند. با گذشت چند روز بی‌خبری، سرانجام در روز ۲۳ دی‌ماه پیکر محمدرضا به خانواده‌اش تحویل داده شد؛ پیکری که بنا بر اعلام، با اصابت گلوله جنگی به ناحیه قلب جان باخته بود. مراسم خاکسپاری این جوان ۱۸ ساله، روز ۲۴ دی‌ماه در باغ فردوس کرمانشاه برگزار و او به خاک سپرده شد.",
+      "story_en": "Tiam, Mohammadreza Kianimanesh, an 18-year-old from Kermanshah, left home on 18 Dey and after that there was no news of him. In the first days, his family, given the security situation, had raised the possibility that he had been detained. After several days of uncertainty, on 23 Dey his body was finally handed over to his family; according to reports, he had died from a war bullet striking his heart. The burial ceremony for this 18-year-old was held on 24 Dey at Bagh-e Ferdows in Kermanshah, and he was laid to rest.",
+      "photo_url": "https://pbs.twimg.com/media/HAe8qJeXsAETvqZ.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2019790395786289601"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_e7a0da868b",
+      "slug": "amir-mashhadi-hasani-e7a0da",
+      "name": "امیر مشهدی حسنی",
+      "name_en": "Amir Mashhadi Hasani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 26,
+      "birth_year": 1378,
+      "date_jalali": "۱۴۰۱/۱۰/۲۹",
+      "date_gregorian": "2023-01-19",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "امیر مشهدی حسنی ۲۶ ساله در ۱۸ دی در محله پیروزی تهران جان‌باخت. او خیلی بی‌کس و غریبانه خاک شد. پدر و مادرش چندین سال پیش جان‌باخته بودند و با مادربزرگ پیرش زندگی می‌کرد. چون صورتش متلاشی شده بود، از طریق انگشت‌نگاری شناسایی شد.",
+      "story_en": "Amir Mashhadi Hasani, 26 years old, was killed on 18th of Dey in the Piroozi neighborhood of Tehran. He was buried very lonely and forlorn. His parents had passed away several years ago, and he lived with his elderly grandmother. Since his face was disfigured, he was identified through fingerprinting.",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/c89b7ce13_102215.jpg",
+      "memorial_links": [
+        "https://x.com/1573233448071864322/status/2025984301045620889"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_d4f9728fa9",
+      "slug": "mohammad-eskandari-d4f972",
+      "name": "محمد اسکندری",
+      "name_en": "Mohammad Eskandari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 24,
+      "birth_year": 1380,
+      "date_jalali": "۱۴۰۱/۱۱/۰۴",
+      "date_gregorian": "2023-01-24",
+      "city": "شهرکرد",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "محمد اسکندری، جوان ۲۴ ساله اهل شهرکرد، پس از چند هفته بستری بودن در بیمارستان، در تاریخ ۴ بهمن‌ماه جان‌باخت. بر اساس اطلاعات دریافتی، او در ۱۸ دی‌ماه در شهرکرد بر اثر اصابت تیر جنگی از ناحیه کتف، دست و پا به شدت مجروح شد و از همان روز در بیمارستان بستری بود. منابع نزدیک به خانواده اعلام کرده‌اند که وضعیت جسمانی او در روزهای پایانی رو به بهبود بوده، اما به‌طور ناگهانی جان باخته است. پس از فوت، نهادهای امنیتی با دریافت وثیقه‌ای ۴ میلیارد تومانی از خانواده، شرط کرده‌اند که مراسم خاکسپاری به‌صورت شبانه و محدود برگزار شود و خانواده علت مرگ را «بیماری» اعلام کنند. همچنین به خانواده گفته شده بود که بیش از ۱۵ نفر در مراسم شرکت نکنند؛ موضوعی که با مخالفت خانواده روبه‌رو شد.",
+      "story_en": "Mohammad Eskandari, a 24-year-old from Shahrekord, died on 4 Bahman after being hospitalized for several weeks. According to the received information, he was severely injured in Shahrekord on 18 Dey by a war bullet to the shoulder, arm, and leg, and had been hospitalized since that day. Sources close to the family said his physical condition had been improving in his final days, but he suddenly died. After his death, security agencies, after taking a 4 billion toman bail from the family, stipulated that the burial ceremony be held at night and in a limited manner, and that the family should state the cause of death as “illness.” The family was also told that no more than 15 people should attend the ceremony; this was met with the family’s opposition.",
+      "photo_url": "https://pbs.twimg.com/media/HAmU-jvacAQtduZ.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2020309715561873600"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_0af2132c7c",
+      "slug": "bijan-habibi-0af213",
+      "name": "بیژن حبیبی",
+      "name_en": "Bijan Habibi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۱/۰۸",
+      "date_gregorian": "2023-01-28",
+      "city": "زنجان",
+      "province": "زنجان",
+      "cause": null,
+      "occupation": "متخصص دوربینهای شهری",
+      "story": "جاویدنام #بیژن_حبیبی در شهر زنجان که متخصص دوربینهای شهری بود\nوقتی میفهمه چهره ی مبارزها تو دوربینها معلومه؛قبل اینکه مامورا سر برسن،همه فیلمهای دوربینهای شهری رو پاک میکنه و خودش فدا میکنه تا ده ها هزار نفر شناسایی و دستگیر نشن!\nفردای این اتفاق مزدوران آدمکش رژیم تروریستی جمهوری اسلامی بیژن رو از پشت بوم خونه ش به پایین پرت میکنن..",
+      "story_en": "Bijan_Habibi in the city of Zanjan, who was an expert in urban cameras\nWhen he realizes that the faces of the fighters are visible on the cameras; before the agents arrive, he deletes all the films of the urban cameras and sacrifices himself so that tens of thousands of people are not identified and arrested!\nThe day after this incident, the assassin mercenaries of the terrorist regime of the Islamic Republic throw Bijan down from the roof of his house",
+      "photo_url": "https://base44.app/api/apps/696adb110733af80dcc579fb/files/mp/public/696adb110733af80dcc579fb/db6a4ce39_99924.jpg",
+      "memorial_links": [
+        "https://x.com/1703089441378631680/status/2025494521895612759"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_edac89b03e",
+      "slug": "mehrpouya-abdollahi-pabdani-bakhtiari-edac89",
+      "name": "مهرپویا عبداللهی پبدنی بختیاری",
+      "name_en": "Mehrpouya Abdollahi Pabdani Bakhtiari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۱/۱۰",
+      "date_gregorian": "2023-01-30",
+      "city": "فولادشهر",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "مهرپویا عبداللهی پبدنی بختیاری پس از بازداشت در شهر کرمان جان‌باخت. پیکر او در ۱۰ بهمن‌ماه به خانواده تحویل داده شد و در فولادشهر اصفهان، محل سکونت اصلی خانواده‌اش، به خاک سپرده شد. خانواده‌اش گفته‌اند که او اگرچه مدتی به دلیل شغل پدرش در کرمان زندگی می‌کرد، اما محل زندگی اصلی خانواده فولادشهر اصفهان بوده است. نزدیکان می‌گویند او در ۱۸ یا ۱۹ دی‌ماه به منزل بازنگشت و پس از آن مشخص شد که بازداشت شده بود. بررسی‌های اولیه خانواده نشان می‌دهد که هیچ‌گونه آثار گلوله، بریدگی یا جراحت ظاهری بر بدن او مشاهده نشده و خانواده احتمال می‌دهند که مرگ او در زمان بازداشت و شاید در اثر تزریق آمپول یا مصرف اجباری دارو رخ داده باشد.",
+      "story_en": "Mehrpouya Abdollahi Pabdani Bakhtiari died after being arrested in the city of Kerman. His body was handed over to the family on 10 Bahman and buried in Fooladshahr, Isfahan, the family’s main place of residence. According to his family, although he had lived in Kerman for some time because of his father’s job, the family’s main residence was Fooladshahr, Isfahan. Relatives say he did not return home on 18 or 19 Dey, after which it became clear that he had been arrested. Initial family checks showed no visible signs of gunshot wounds, cuts, or injuries on his body, and the family believes he died while in detention, possibly as a result of an injection or forced medication.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2019371589091901580"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1bd03964ef",
+      "slug": "mahan-hassani-1bd039",
+      "name": "ماهان حسنی",
+      "name_en": "Mahan Hassani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 20,
+      "birth_year": 1381,
+      "date_jalali": "۱۴۰۱/۱۱/۱۱",
+      "date_gregorian": "2023-01-31",
+      "city": "لشت‌نشاء",
+      "province": "گیلان",
+      "cause": "شکنجه",
+      "occupation": null,
+      "story": "ماهان حسنی، جوان ۲۰ ساله، در تاریخ یازدهم بهمن توسط نیروهای لباس‌شخصی در لشت‌نشاء بدون حکم قضایی بازداشت و به مکان نامعلومی منتقل شد. ساعاتی بعد، خانواده او از بستری شدنش در بیمارستان پیروز لاهیجان با وضعیت وخیم مطلع شدند. بنا بر گزارش‌ها، وی تحت شکنجه شدید قرار گرفته و دچار خون‌ریزی داخلی شده است. نیروهای امنیتی با تهدید خانواده، اتهام «محاربه» و حکم اعدام را مطرح کرده‌اند، در حالی‌که هیچ دادگاه یا روند قانونی برگزار نشده است. از آن زمان تاکنون، هیچ اطلاعی از وضعیت یا محل نگهداری ماهان حسنی در دست نیست.",
+      "story_en": "Mahan Hassani, a 20-year-old man, was arrested on 11 Bahman by plainclothes forces in Lasht-e Nesha without a judicial warrant and transferred to an unknown location. A few hours later, his family learned that he had been hospitalized in Pirouz Hospital in Lahijan in critical condition. According to reports, he was subjected to severe torture and suffered internal bleeding. Security forces threatened the family and raised the charge of “moharebeh” and the death sentence, while no court or legal process had been held. Since then, there has been no information about Mahan Hassani’s condition or whereabouts.",
+      "photo_url": "https://pbs.twimg.com/media/HBBopdLWUAAEsM3.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2022231299298132148"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_641f97da30",
+      "slug": "bahador-momenizadeh-641f97",
+      "name": "بهادر مومنی زاده",
+      "name_en": "Bahador Momenizadeh",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۱/۱۳",
+      "date_gregorian": "2023-02-02",
+      "city": "Rasht",
+      "province": "Gilan",
+      "cause": null,
+      "occupation": null,
+      "story": "بهادر مومنی‌زاده، برادرِ محمدرسول مومنی‌زاده از جان‌باختگان اعتراضات ۱۴۰۱ در رشت، صبح امروز ۱۳ بهمن در پی یورش نیروهای امنیتی به منزلش بازداشت شد.",
+      "story_en": "Bahador Momenizadeh, the brother of Mohammadrasoul Momenizadeh, one of those killed in the 2022 protests in Rasht, was arrested this morning, 13 Bahman, following a raid by security forces on his home.",
+      "photo_url": "https://pbs.twimg.com/media/HAKSnKiWQAAaJzv.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2018336794731745432"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_cdd18fab53",
+      "slug": "abbas-deljouei-cdd18f",
+      "name": "عباس دلجویی",
+      "name_en": "Abbas Deljouei",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 21,
+      "birth_year": 1383,
+      "date_jalali": "۱۴۰۱/۱۱/۲۵",
+      "date_gregorian": "2023-02-14",
+      "city": "اهواز",
+      "province": "خوزستان",
+      "cause": null,
+      "occupation": "دانشجوی دکتری دامپزشکی",
+      "story": "عباس دلجویی، دانشجوی دکتری دامپزشکی دانشگاه چمران اهواز، در ۱۸ دی بازداشت شد و یک ماه در حبس بود. چند روز بعد از آزادی در خواب سکته کرد.",
+      "story_en": "Abbas Deljouei, a veterinary PhD student at Chamran University in Ahvaz, was arrested on 18th of Dey and was imprisoned for a month. A few days after his release, he had a stroke in his sleep.",
+      "photo_url": "https://pbs.twimg.com/media/HByHLyDWcAAp5lR.jpg",
+      "memorial_links": [
+        "https://x.com/1400557798631653376/status/2025642577156825400"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_751a37b46d",
+      "slug": "ehsan-aghajari-samani-751a37",
+      "name": "احسان آقاجری سامانی",
+      "name_en": "Ehsan Aghajari Samani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 38,
+      "birth_year": 1366,
+      "date_jalali": "۱۴۰۱/۱۱/۲۶",
+      "date_gregorian": "2023-02-15",
+      "city": "شهرستان سامان",
+      "province": "چهارمحال و بختیاری",
+      "cause": "اصابت گلوله",
+      "occupation": "جوان",
+      "story": "احسان آقاجری سامانی، جوان اهل شهرستان سامان، امروز ۲۸ بهمن‌ماه در میان اندوه خانواده، دوستان و مردم به خاک سپرده شد. او در تاریخ ۱۸ دی‌ماه بر اثر شلیک نیروهای سرکوبگر به‌شدت زخمی شده و به کما رفته بود. احسان پس از ۳۸ روز مبارزه برای زندگی، سرانجام در ۲۶ بهمن‌ماه جان‌باخت. در تمام این مدت، مادرش با امید به بهبود فرزندش روزها را سپری می‌کرد و چشم‌انتظار بازگشت او بود، اما این انتظار هرگز به پایان خوش نرسید.\nاعضای بدنش اهدا شد.",
+      "story_en": "Ehsan Aghajari Samani, a young man from Samani County, was laid to rest today, 28 Bahman, amid the grief of his family, friends, and the public. On 18 Dey, he had been severely wounded by gunfire from repressive forces and had fallen into a coma. After 38 days of fighting for his life, Ehsan ultimately lost his life on 26 Bahman. During all this time, his mother spent her days hoping for her son's recovery and waiting for his return, but that hope never ended happily.",
+      "photo_url": "https://pbs.twimg.com/media/HBWeoW7bcAMkgsh.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2023698032693231803",
+        "https://javidnaman.iranintl.com/memorial/6009ktsWGp1dOOjNyNmooT"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_821ee63275",
+      "slug": "farzin-poost-ashkan-821ee6",
+      "name": "فرزین پوست آشکن",
+      "name_en": "Farzin Poost-Ashkan",
+      "event": "khizesh_1401",
+      "gender": null,
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۱/۲۹",
+      "date_gregorian": "2023-02-18",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": null,
+      "occupation": null,
+      "story": "روز ۲۹ بهمن، مردم اصفهان با حضور در سه‌راه سیمین واقع در خیابان جانبازان، محل جاویدنام شدن فرزین پوست‌آشکن را گل‌باران کردند.",
+      "story_en": "On 29 Bahman, people in Isfahan gathered at Soroush Junction, located on Janbazan Street, and showered the place where Farzin Poost-Ashkan was killed with flowers.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2024253587447075063"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_ac407cff98",
+      "slug": "ali-shabani-ac407c",
+      "name": "علی شعبانی",
+      "name_en": "Ali Shabani",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۱/۲۹",
+      "date_gregorian": "2023-02-18",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "بامداد روز گذشته، ۲۹ بهمن، حدود ساعت ۴ صبح، مأموران امنیتی به منزل علی شعبانی، ساکن محله پیروزی تهران، یورش بردند. بنا بر گزارش‌ها، مأموران در جریان این یورش با شلیک یک گلوله به پای او، اقدام به بازداشتش کردند. از زمان بازداشت تاکنون، هیچ اطلاعاتی درباره محل نگهداری یا وضعیت جسمی و سلامتی علی شعبانی در دسترس نیست و نگرانی‌ها درباره سرنوشت او افزایش یافته است.",
+      "story_en": "In the early morning of yesterday, 29 Bahman, around 4 a.m., security agents raided the home of Ali Shabani, a resident of Pirouzi neighborhood in Tehran. According to reports, during the raid the agents shot him in the leg with one bullet and arrested him. Since his arrest, no information has been available about his whereabouts or his physical condition and health, and concerns about his fate have increased.",
+      "photo_url": "https://pbs.twimg.com/media/HBiaGxgXkAE5kow.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2024537480062726451"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_3de3dc6e3f",
+      "slug": "mehdi-farid-3de3dc",
+      "name": "مهدی فرید",
+      "name_en": "Mehdi Farid",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۲/۰۱",
+      "date_gregorian": "2023-02-20",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": "اعدام",
+      "occupation": "از کارمندان پیشین سازمان انرژی اتمی ایران",
+      "story": "مهدی فرید، از کارمندان پیشین سازمان انرژی اتمی ایران، در زمستان ۱۴۰۱ توسط نیروهای امنیتی بازداشت شد و پس از مدتی از زندان تهران بزرگ به زندان اوین منتقل شد. او ابتدا در شعبه ۲۶ دادگاه انقلاب تهران به ۱۰ سال حبس محکوم شده بود، اما پس از برگزاری دادگاهی دیگر در شعبه ۲۳، به اتهام جاسوسی برای اسرائیل به اعدام محکوم شد؛ حکمی که بنا بر گزارش میزان، پس از تأیید در دیوان عالی کشور اجرا شد و او اعدام شد.",
+      "story_en": "Mehdi Farid, a former employee of the Atomic Energy Organization of Iran, was arrested by security forces in winter 1401 and after some time was transferred from Greater Tehran Prison to Evin Prison. He was initially sentenced to 10 years in prison in Branch 26 of the Tehran Revolutionary Court, but after another trial in Branch 23, he was sentenced to death on charges of spying for Israel; according to Mizan, after being upheld by the Supreme Court, the sentence was carried out and he was executed.",
+      "photo_url": "https://pbs.twimg.com/media/HGfNTWyWkAAza5W.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2046830292757827614"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_1b422b3dea",
+      "slug": "mohammad-mehdi-mohammadi-1b422b",
+      "name": "محمدمهدی محمدی",
+      "name_en": "Mohammad Mehdi Mohammadi",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": 1378,
+      "date_jalali": "۱۴۰۱/۱۲/۰۳",
+      "date_gregorian": "2023-02-22",
+      "city": "اصفهان",
+      "province": "اصفهان",
+      "cause": "ضرب‌وشتم",
+      "occupation": "دانشجوی کارشناسی ارشد مهندسی صنایع",
+      "story": "طبق اطلاعات دریافتی از یک منبع موثق، محمدمهدی محمدی، دانشجوی کارشناسی ارشد مهندسی صنایع دانشگاه علم و صنعت، پس از آن‌که مورد ضرب‌وشتم تعدادی از بسیجی‌های این دانشگاه قرار گرفت، جان‌باخته است. بر اساس این گزارش، این دانشجوی اهل اصفهان، روز سوم اسفند ماه هدف ضربات باتون قرار می‌گیرد و گفته می‌شود ضربات واردشده به ناحیه سر او بوده است. به گفته دانشجویان حاضر در دانشگاه، محمدی با وجود جراحات و در حالی که سرش پانسمان شده بود، در کلاس درس حاضر می‌شود. شاهدان می‌گویند او پس از نشستن در کلاس، عنوان کرده که حال مساعدی ندارد و دقایقی بعد به طور ناگهانی در میانه کلاس بی‌هوش شده و روی زمین می‌افتد. وی بلافاصله به بیمارستان منتقل می‌شود، اما ساعاتی بعد جان خود را از دست می‌دهد.",
+      "story_en": "According to information received from a reliable source, Mohammadmehdi Mohammadi, a master's student in industrial engineering at Iran University of Science and Technology, died after being beaten by several Basij members at the university. According to this report, the student from Isfahan was struck with baton blows on the 3rd of Esfand, and it is said that the blows were to his head. According to students present at the university, despite his injuries and with his head bandaged, Mohammadi attended class. Witnesses say that after sitting in class, he said he was not feeling well and a few minutes later suddenly fainted in the middle of the class and fell to the ground. He was immediately transferred to the hospital, but died a few hours later.",
+      "photo_url": "https://pbs.twimg.com/media/HB4FfjJWsAAn5VJ.jpg",
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/2026062927938088984"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
+      ]
+    },
+    {
+      "id": "jvn_73c5de0aff",
+      "slug": "mehdi-salehi-bakhtiari-73c5de",
+      "name": "مهدی صالحی بختیاری",
+      "name_en": "Mehdi Salehi Bakhtiari",
+      "event": "khizesh_1401",
+      "gender": "مرد",
+      "age": 23,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۱/۱۲/۰۷",
+      "date_gregorian": "2023-02-26",
+      "city": "یزدانشهر",
+      "province": "اصفهان",
+      "cause": "اصابت گلوله",
+      "occupation": null,
+      "story": "مهدی صالحی بختیاری، ۲۳ ساله، در تاریخ ۷ اسفند ۱۴۰۴ در شهر یزدان‌شهر استان اصفهان جان باخت.",
+      "story_en": "Dear Mehdi Salehi passed away today after being in a coma for almost 50 days, on 8th of Esfand.",
+      "photo_url": "https://pbs.twimg.com/media/HCLyDFlWwAACIXQ.jpg",
+      "memorial_links": [
+        "https://javidnaman.iranintl.com/memorial/4aLwko35to80tUaWa1a0h4"
+      ],
+      "notable": false,
+      "verification": "documented",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_iranintl",
+        "javidnaam_submission"
       ]
     }
   ]

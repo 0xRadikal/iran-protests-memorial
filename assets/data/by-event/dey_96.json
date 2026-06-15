@@ -8,7 +8,7 @@
     "order": 3,
     "category": "uprising"
   },
-  "count": 37,
+  "count": 36,
   "people": [
     {
       "id": "jvn_b2399b11ec",
@@ -936,32 +936,6 @@
       "city": "ایلام",
       "province": "ایلام",
       "cause": "مرگ در شرایط مشکوک در بازداشت",
-      "occupation": null,
-      "story": null,
-      "story_en": null,
-      "photo_url": null,
-      "memorial_links": [],
-      "notable": false,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "iranhrdc_dey96"
-      ]
-    },
-    {
-      "id": "jvn_6b69b04675",
-      "slug": "امین-کرکی-61ba2f",
-      "name": "امین کرکی",
-      "name_en": null,
-      "event": "dey_96",
-      "gender": null,
-      "age": null,
-      "birth_year": null,
-      "date_jalali": "1397/01/10",
-      "date_gregorian": null,
-      "city": "دزفول",
-      "province": "خوزستان",
-      "cause": "مرگ در شرایط مشکوک پس از بازداشت",
       "occupation": null,
       "story": null,
       "story_en": null,

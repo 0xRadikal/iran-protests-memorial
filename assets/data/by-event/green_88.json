@@ -8,7 +8,7 @@
     "order": 2,
     "category": "uprising"
   },
-  "count": 37,
+  "count": 36,
   "people": [
     {
       "id": "jvn_22419b82f2",
@@ -928,35 +928,6 @@
       "sources": [
         "wiki_navbox",
         "wiki_person"
-      ]
-    },
-    {
-      "id": "jvn_6ad18ac4d9",
-      "slug": "alireza-eftekhari-6ad18a",
-      "name": "علیرضا افتخاری",
-      "name_en": "Alireza Eftekhari",
-      "event": "green_88",
-      "gender": "مرد",
-      "age": 17,
-      "birth_year": 1387,
-      "date_jalali": "۱۴۰۴/۱۰/۱۸",
-      "date_gregorian": "2026-01-08",
-      "city": "کرمانشاه",
-      "province": "کرمانشاه",
-      "cause": "اصابت گلوله",
-      "occupation": null,
-      "story": "نوجوانی ۱۷ ساله از کرمانشاه…\nشب ۱۸ دی‌ماه، با پنج گلوله از پشت جانش را گرفتند.\nمزدوران خامنه‌ای، پس از کشتن او،\nپیکرش را در جایی خلوت رها کردند…\nو تازه شب گذشته جنازه‌اش پیدا شد.\nمادرش در پی این جنایت‌ها سکته کرده\nو تمام اعضای خانواده‌اش\nدر رنج و اندوهی بی‌پایان\nدارند می‌سوزند…\nاین جنایت‌ها نباید عادی شود.\nنباید از عاملان این خون‌ریزی‌ها ترسید.\nآنها را شناسایی کنیم، نام‌ها ثبت شوند،\nو این جنایت‌ها روزی پاسخ داده شوند.\nبموقع باید بسراغ تک تک شان رفت\n\nیاد علیرضا زنده است 🥀\nو این خشم، خاموش نخواهد شد.",
-      "story_en": "17-year-old teenager shot with five bullets from behind on the night of 18 Dey. Khamenei's mercenaries abandoned his body in a secluded place after killing him, and his corpse was only found the previous night. His mother suffered a heart attack following these crimes.",
-      "photo_url": "https://pbs.twimg.com/media/G_ss1KDXQAAp_mc.jpg",
-      "memorial_links": [],
-      "notable": true,
-      "verification": "documented",
-      "flagged_review": null,
-      "sources": [
-        "wiki_navbox",
-        "wiki_person",
-        "javidnaam_iranintl",
-        "javidnaam_submission"
       ]
     },
     {

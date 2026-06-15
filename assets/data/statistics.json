@@ -1,23 +1,23 @@
 {
-  "total": 6232,
+  "total": 6231,
   "notable": 161,
   "by_event": {
     "kuye_daneshgah_78": 5,
-    "green_88": 37,
-    "dey_96": 37,
+    "green_88": 36,
+    "dey_96": 36,
     "darvish_96": 2,
-    "mordad_97": 1,
+    "mordad_97": 2,
     "kazerun_97": 2,
-    "aban_98": 558,
-    "khuzestan_1400": 14,
-    "khizesh_1401": 1137,
-    "khizesh_1404": 4391,
+    "aban_98": 553,
+    "khuzestan_1400": 15,
+    "khizesh_1401": 1270,
+    "khizesh_1404": 4262,
     "executions": 29,
     "deaths_in_custody": 19
   },
   "by_verification": {
     "documented": 4741,
-    "reported": 1491
+    "reported": 1490
   },
   "field_coverage": {
     "name_en": 4839,
@@ -42,7 +42,7 @@
     "enriched": 5,
     "new_events": 2
   },
-  "generated": "2026-06-15T10:01:36.387Z",
+  "generated": "2026-06-15T20:17:10.000Z",
   "by_gender": {
     "زن": 544,
     "مرد": 4090

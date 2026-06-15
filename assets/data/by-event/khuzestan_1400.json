@@ -8,7 +8,7 @@
     "order": 8,
     "category": "uprising"
   },
-  "count": 14,
+  "count": 15,
   "people": [
     {
       "id": "jvn_e4ac8a4cdd",
@@ -373,6 +373,34 @@
       "flagged_review": null,
       "sources": [
         "iranhrm_khuzestan1400"
+      ]
+    },
+    {
+      "id": "jvn_0c5608cde2",
+      "slug": "amirmehdi-farrokhipour-0c5608",
+      "name": "امیرمهدی فرخی پور",
+      "name_en": "Amirmehdi Farrokhipour",
+      "event": "khuzestan_1400",
+      "gender": "مرد",
+      "age": null,
+      "birth_year": null,
+      "date_jalali": "۱۴۰۰/۰۹/۰۱",
+      "date_gregorian": "2021-11-22",
+      "city": "تهران",
+      "province": "تهران",
+      "cause": null,
+      "occupation": null,
+      "story": "سه سال پیش، در روزهای ابتدایی اعتراضات، شخصی برای فرستنده پیام نوشت که «امیرمهدی جان‌باخت». بعدتر همان فرد توضیح داد که خانواده را تهدید کرده‌اند تا اطلاع‌رسانی نکنند.",
+      "story_en": "Three years ago, in the early days of the protests, someone sent a message saying, “Amirmehdi was killed.” Later, that same person explained that the family had been threatened not to publicize the news.",
+      "photo_url": null,
+      "memorial_links": [
+        "https://x.com/1198691072769249281/status/1972217691021697425"
+      ],
+      "notable": false,
+      "verification": "reported",
+      "flagged_review": null,
+      "sources": [
+        "javidnaam_submission"
       ]
     }
   ]

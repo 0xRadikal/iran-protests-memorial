@@ -4,7 +4,7 @@
 
 ## About (Description)
 ```
-🕯️ آرشیو باز و گاهشمار مستند اعتراضات مردمی ایران (۱۳۵۷–۱۴۰۵) و یادبود ۶٬۲۳۲ جاویدنام؛ از جنبش سبز و آبان ۹۸ تا خیزش ۱۴۰۴ و کشتار ۱۸–۱۹ دی. | Open archive & timeline of Iran protests + Javidnam memorial of 6,232 killed — Woman Life Freedom, Mahsa Amini, 2026 uprising. CC BY 4.0 open data.
+🕯️ آرشیو باز و گاهشمار مستند اعتراضات مردمی ایران (۱۳۵۷–۱۴۰۵) و یادبود ۶٬۲۳۱ جاویدنام؛ از جنبش سبز و آبان ۹۸ تا خیزش ۱۴۰۴ و کشتار ۱۸–۱۹ دی. | Open archive & timeline of Iran protests + Javidnam memorial of 6,231 killed — Woman Life Freedom, Mahsa Amini, 2026 uprising. CC BY 4.0 open data.
 ```
 
 ## Website

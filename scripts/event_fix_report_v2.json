@@ -1,0 +1,54 @@
+{
+  "reverts": [
+    {
+      "id": "jvn_0691493a50",
+      "name": "پانته آ شیاسی",
+      "from": "khizesh_1404",
+      "to": "khizesh_1401",
+      "dj": "۱۴۰۰/۱۰/۱۹",
+      "dg": "2022-01-09",
+      "reason": "Dey 1400 death wrongly moved to 1404; restored to original event"
+    },
+    {
+      "id": "jvn_630d039392",
+      "name": "علی صادقی",
+      "from": "khizesh_1404",
+      "to": "khizesh_1401",
+      "dj": "۱۴۰۰/۱۰/۲۰",
+      "dg": "2022-01-10",
+      "reason": "Dey 1400 death wrongly moved to 1404; restored to original event"
+    },
+    {
+      "id": "jvn_cfaba935d3",
+      "name": "پردیس محمدی",
+      "from": "khizesh_1404",
+      "to": "khizesh_1401",
+      "dj": "۱۴۰۰/۱۰/۲۰",
+      "dg": "2022-01-10",
+      "reason": "Dey 1400 death wrongly moved to 1404; restored to original event"
+    }
+  ],
+  "reverts_count": 3,
+  "dropped": [
+    {
+      "id": "jvn_5b3e4bc16a",
+      "name": "تست نام"
+    }
+  ],
+  "dropped_count": 1,
+  "by_event_after": {
+    "aban_98": 553,
+    "darvish_96": 2,
+    "deaths_in_custody": 19,
+    "dey_96": 36,
+    "executions": 29,
+    "green_88": 36,
+    "kazerun_97": 2,
+    "khizesh_1401": 1276,
+    "khizesh_1404": 4256,
+    "khuzestan_1400": 15,
+    "kuye_daneshgah_78": 5,
+    "mordad_97": 2
+  },
+  "total_after": 6230
+}

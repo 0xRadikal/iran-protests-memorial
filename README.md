@@ -53,7 +53,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/events.svg" alt="رویدادهای مستند ۴۰+" height="26"/>
-  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/count.svg" alt="جاویدنام ۶٬۲۳۲ نام" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/count.svg" alt="جاویدنام ۶٬۲۳۱ نام" height="26"/>
   <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/period.svg" alt="بازهٔ زمانی ۱۳۵۷–۱۴۰۵" height="26"/>
   <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/documented.svg" alt="مستندسازی ۴٬۷۴۱ رکورد" height="26"/>
   <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/persian.svg" alt="زبان فارسی RTL" height="26"/>
@@ -126,7 +126,7 @@
 <td width="50%" valign="top">
 
 #### 🕯️ یادبود جاویدنام‌ها
-بانک اطلاعاتی **۶٬۲۳۲ جان‌باخته، اعدام‌شده و ناپدیدشدهٔ** راه آزادی ایران.
+بانک اطلاعاتی **۶٬۲۳۱ جان‌باخته، اعدام‌شده و ناپدیدشدهٔ** راه آزادی ایران.
 نام تک‌تک آنان — تا حد امکان با **شرح، شهر، تاریخ، سن، شغل و منبع** — قابل **جستجو، فیلتر و دانلود**.
 
 </td>
@@ -183,7 +183,7 @@
 
 **۱. گاهشمار اعتراضات مردمی ایران** — مروری بر بیش از **۴۰ اعتراض، خیزش، اعتصاب و حرکت نمادین** مردمی، از انقلاب ۱۳۵۷ تا خیزش‌های ۱۴۰۵؛ شامل اعتراضات دانشجویی، جنبش سبز، دی ۹۶، آبان ۹۸، خیزش ۱۴۰۱ (زن، زندگی، آزادی) و بسیاری دیگر — هر رویداد با جرقه، شعارها، آمار تخمینی جان‌باختگان و بازداشت‌شدگان، و پیامدها.
 
-**۲. یادبود جاویدنام‌ها** — بانک اطلاعاتی **۶٬۲۳۲ جان‌باخته، اعدام‌شده و ناپدیدشدهٔ** راه آزادی ایران؛ نام تک‌تک آنان، تا حد امکان با شرح، شهر، تاریخ، سن، شغل و منبع — قابل جستجو، فیلتر و دانلود.
+**۲. یادبود جاویدنام‌ها** — بانک اطلاعاتی **۶٬۲۳۱ جان‌باخته، اعدام‌شده و ناپدیدشدهٔ** راه آزادی ایران؛ نام تک‌تک آنان، تا حد امکان با شرح، شهر، تاریخ، سن، شغل و منبع — قابل جستجو، فیلتر و دانلود.
 
 ## 🇬🇧 About
 
@@ -191,7 +191,7 @@ An **open, documented, interactive archive** in two parts:
 
 **1. Iran Protests Timeline** — 40+ popular protests, uprisings, strikes and symbolic acts against the Islamic Republic, from the 1979 revolution to the 2026 uprisings, each documented with its trigger, slogans, estimated casualties, and aftermath.
 
-**2. Javidnam Memorial** — an open database of **6,232 people** killed, executed, or disappeared on the path to Iran's freedom; each name documented, where possible, with biography, city, date, age, occupation, and a verified source — searchable, filterable, and downloadable.
+**2. Javidnam Memorial** — an open database of **6,231 people** killed, executed, or disappeared on the path to Iran's freedom; each name documented, where possible, with biography, city, date, age, occupation, and a verified source — searchable, filterable, and downloadable.
 
 > **Keywords / کلیدواژه‌ها:** Iran protests · 2025–2026 Iranian protests · Woman, Life, Freedom (Jin, Jiyan, Azadi) · Mahsa Amini · Iran human rights · Iran internet shutdown · martyrs memorial · open data — خیزش ۱۴۰۴ · اعتراضات ۱۸ و ۱۹ دی · کشته‌شدگان خیزش ۱۴۰۴ · جاویدنام / Javidnam · جان‌باختگان راه آزادی · زن، زندگی، آزادی.
 
@@ -235,7 +235,7 @@ It **NEVER** includes regime forces, Basij, IRGC, or any repressive organization
 </thead>
 <tbody>
 <tr><td>⏳ گاهشمار بصری</td><td>Interactive Timeline</td><td>مرور ۴۰+ رویداد با جستجو و فیلتر بر اساس دهه و دسته</td></tr>
-<tr><td>🕯️ یادبود جاویدنام‌ها</td><td>Memorial Database</td><td>بانک ۶٬۲۳۲ نام، قابل جستجو، فیلتر و صفحه‌بندی</td></tr>
+<tr><td>🕯️ یادبود جاویدنام‌ها</td><td>Memorial Database</td><td>بانک ۶٬۲۳۱ نام، قابل جستجو، فیلتر و صفحه‌بندی</td></tr>
 <tr><td>🔎 جستجوی زنده</td><td>Live Search</td><td>جستجو بر اساس نام، شهر، استان و شغل در لحظه</td></tr>
 <tr><td>🗂️ دسته‌بندی رویدادها</td><td>Event Categories</td><td>۱۲ دستهٔ رویداد (کوی دانشگاه ۷۸ تا خیزش ۱۴۰۴)</td></tr>
 <tr><td>✅ سطح اعتبار</td><td>Verification Levels</td><td>دو سطح: <strong>مستند</strong> (دو منبع مستقل) و <strong>گزارش‌شده</strong></td></tr>
@@ -258,7 +258,7 @@ It **NEVER** includes regime forces, Basij, IRGC, or any repressive organization
 
 | 📌 شاخص | مقدار |
 |:---|:---:|
-| 🕯️ مجموع جاویدنام‌ها | **۶٬۲۳۲** |
+| 🕯️ مجموع جاویدنام‌ها | **۶٬۲۳۱** |
 | ✅ رکوردهای مستند (۲ منبع مستقل) | **۴٬۷۴۱** |
 | 📝 رکوردهای گزارش‌شده | **۱٬۴۹۱** |
 | 🌟 چهره‌های شاخص | **۱۶۱** |
@@ -310,7 +310,7 @@ Javid-Naman/
 │   │   ├── app.js                   # منطق گاهشمار
 │   │   └── javidnam.js              # منطق یادبود + پلیر آهنگ + lazy-load چهره‌ها
 │   ├── 📁 data/
-│   │   ├── javidnam.json            # 🗃️ بانک کامل (۶٬۲۳۲ رکورد)
+│   │   ├── javidnam.json            # 🗃️ بانک کامل (۶٬۲۳۱ رکورد)
 │   │   ├── javidnam.full.json       # 🖼️ نسخهٔ بهینهٔ کامل با چهره و متادیتا (نمایش وب)
 │   │   ├── javidnam.min.json        # نسخهٔ فشرده
 │   │   ├── javidnam.lite.json       # نسخهٔ سبک
@@ -432,9 +432,35 @@ kuye_daneshgah_78  → کوی دانشگاه ۱۳۷۸        di_96          → 
 green_88           → جنبش سبز ۱۳۸۸           aban_98        → آبان ۱۳۹۸
 darvish_96         → درویشان گنابادی ۹۶      khuzestan_1400 → خوزستان ۱۴۰۰
 kazerun_97         → کازرون ۱۳۹۷            khizesh_1401   → خیزش ۱۴۰۱ (زن، زندگی، آزادی)
-mordad_97          → مرداد ۱۳۹۷             khizesh_1404   → خیزش ۱۴۰۴
+mordad_97          → مرداد ۱۳۹۷             khizesh_1404   → خیزش ۱۴۰۴ (انقلاب ملی ۱۴۰۴–۱۴۰۵)
 executions         → اعدام‌ها               deaths_in_custody → مرگ در بازداشت
 ```
+
+> **یادداشت دربارهٔ خیزش ۱۴۰۴ (`khizesh_1404`):** این رویداد، «انقلاب ملی ایران
+> (۲۰۲۵–۲۶ / ۱۴۰۴–۱۴۰۵)» است و رکوردهای آن از دی‌ماه ۱۴۰۴ تا ادامهٔ آن در بهار ۱۴۰۵
+> را در بر می‌گیرد؛ بنابراین وجود تاریخ‌های ۱۴۰۵ در این رویداد درست و مورد انتظار است.
+
+### 🔍 صحت و یکپارچگی داده / Data Integrity & Methodology
+
+برای آنکه داده‌ها **قابل استناد** باشند، انتساب هر جاویدنام به رویداد بر پایهٔ ترتیب
+اعتماد زیر و تنها با **شواهد قطعی** انجام و بازبینی می‌شود:
+
+1. **تاریخ جلالی (`date_jalali`)** و **تاریخ میلادی (`date_gregorian`)** که با هم سازگار باشند.
+2. **متن مستند داستان (`story`)** هنگامی که سال/رویداد را صریح ذکر کند.
+3. **سال رسمی هر رویداد** (`events[*].year`) به‌عنوان مرجع نهایی.
+
+اصول بازبینی:
+- رویدادهای **اعدام** و **مرگ در بازداشت** بر اساس «نوع» دسته‌بندی می‌شوند، نه سال؛ هرگز
+  بر مبنای سال جابه‌جا نمی‌شوند.
+- جان‌باختگانی که در یک خیزش **مجروح** و **ماه‌ها بعد** جان‌باخته‌اند، در رویدادِ همان
+  خیزش (سال مجروح‌شدن) باقی می‌مانند، نه سالِ تاریخ مرگ.
+- هیچ رکوردی بدون شواهد قطعی (هم‌خوانی تاریخ + متن + منبع) جابه‌جا نمی‌شود تا از ورود
+  خطای تازه جلوگیری شود.
+
+اسکریپت‌های بازبینی و بازسازیِ داده در پوشهٔ [`scripts/`](scripts/) و گزارش کامل
+اصلاحات در `scripts/event_fix_report*.json` نگه‌داری می‌شوند. همهٔ فایل‌های مشتق
+(`json` / `min` / `lite` / `csv` / `by-event/*` / `statistics`) از روی منبعِ یگانهٔ
+`javidnam.full.json` بازتولید می‌شوند و پس از هر اصلاح، یکپارچگیِ متقابلِ آن‌ها بررسی می‌شود.
 
 ---
 
