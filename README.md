@@ -3,11 +3,11 @@
 <!--          گاهشمار اعتراضات مردمی ایران · یادبود جاویدنام‌ها              -->
 <!-- ════════════════════════════════════════════════════════════════════════ -->
 
-<!-- ─────────────────────────  هدر موجی متحرک  ───────────────────────── -->
+<!-- ─────────────────────────  هدر اختصاصی (SVG محلی · فارسی path-based)  ───────────────────────── -->
 <div align="center">
 
 <a href="https://0xradikal.github.io/Javid-Naman/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,50:7a1020,100:be1234&height=210&section=header&text=%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85&fontSize=72&fontColor=ffd9c4&fontAlignY=38&desc=Iran%20Protests%20Timeline%20%C2%B7%20A%20Memorial%20for%206%2C232%20Lives&descSize=18&descAlignY=60&animation=fadeIn" alt="جاویدنامان" width="100%"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/header-banner.svg" alt="فرزندان ایران‌زمین · جاویدنامانِ راه آزادی" width="100%"/>
 </a>
 
 <!-- ─────────────────────────  بنر شمع انیمیشنی  ───────────────────────── -->
@@ -21,7 +21,7 @@
 <!-- ─────────────────────────  متن تایپی متحرک  ───────────────────────── -->
 
 <a href="https://0xradikal.github.io/Javid-Naman/">
-  <img src="https://readme-typing-svg.demolab.com?font=Vazirmatn&weight=800&size=26&duration=3500&pause=900&color=FF6B81&center=true&vCenter=true&width=820&height=55&lines=%D8%A2%D9%86%D8%A7%D9%86+%DA%A9%D9%87+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C+%D8%AC%D8%A7%D9%86+%D8%AF%D8%A7%D8%AF%D9%86%D8%AF%D8%8C+%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D8%A7%D9%86%E2%80%8C%D8%A7%D9%86%D8%AF;Those+who+gave+their+lives+for+freedom+are+eternal;%D9%86%D8%A7%D9%85%E2%80%8C%D8%B4%D8%A7%D9%86+%D8%AC%D8%A7%D9%88%DB%8C%D8%AF+%C2%B7+%DB%8C%D8%A7%D8%AF%D8%B4%D8%A7%D9%86+%DA%AF%D8%B1%D8%A7%D9%85%DB%8C" alt="آنان که برای آزادی جان دادند، جاویدان‌اند" />
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/typing-banner.svg" alt="آنان که برای آزادی جان دادند، جاویدان‌اند" width="100%"/>
 </a>
 
 <br/>
@@ -30,15 +30,15 @@
 
 <p align="center">
   <a href="https://0xradikal.github.io/Javid-Naman/">
-    <img src="https://img.shields.io/badge/🌐_وب‌سایت_زنده-مشاهده-2ea44f?style=for-the-badge&labelColor=0a0e1a" alt="Live Website"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/live.svg" alt="وب‌سایت زنده" height="28"/>
   </a>
   &nbsp;
   <a href="https://0xradikal.github.io/Javid-Naman/javidnam.html">
-    <img src="https://img.shields.io/badge/🕯️_یادبود_جاویدنام‌ها-۶٬۲۳۲_نام-be1234?style=for-the-badge&labelColor=0a0e1a" alt="Memorial"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/memorial.svg" alt="یادبود جاویدنامان" height="28"/>
   </a>
   &nbsp;
   <a href="#-دادهٔ-باز--open-data">
-    <img src="https://img.shields.io/badge/📦_دادهٔ_باز-JSON_·_CSV_·_Schema-0078d4?style=for-the-badge&labelColor=0a0e1a" alt="Open Data"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/opendata.svg" alt="دادهٔ باز" height="28"/>
   </a>
 </p>
 
@@ -52,15 +52,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/رویدادهای_مستند-۴۰%2B-a855f7?style=flat-square&labelColor=151528" alt="Events"/>
-  <img src="https://img.shields.io/badge/جاویدنام-۶٬۲۳۲_نام-be1234?style=flat-square&labelColor=151528" alt="Javidnam"/>
-  <img src="https://img.shields.io/badge/بازهٔ_زمانی-۱۳۵۷–۱۴۰۵-f59e0b?style=flat-square&labelColor=151528" alt="Timeline"/>
-  <img src="https://img.shields.io/badge/مستندسازی-۴٬۷۴۱_رکورد-10b981?style=flat-square&labelColor=151528" alt="Documented"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/events.svg" alt="رویدادهای مستند ۴۰+" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/count.svg" alt="جاویدنام ۶٬۲۳۲ نام" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/period.svg" alt="بازهٔ زمانی ۱۳۵۷–۱۴۰۵" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/documented.svg" alt="مستندسازی ۴٬۷۴۱ رکورد" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/persian.svg" alt="زبان فارسی RTL" height="26"/>
   <br/>
-  <img src="https://img.shields.io/badge/دادهٔ_باز-CC_BY_4.0-3b82f6?style=flat-square&labelColor=151528&logo=creativecommons&logoColor=white" alt="CC BY 4.0"/>
-  <img src="https://img.shields.io/badge/کد-MIT-22c55e?style=flat-square&labelColor=151528&logo=opensourceinitiative&logoColor=white" alt="MIT"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/lic-data.svg" alt="دادهٔ باز · CC BY 4.0" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/lic-code.svg" alt="کد · MIT" height="26"/>
+  <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/host.svg" alt="میزبانی · GitHub Pages" height="26"/>
   <img src="https://img.shields.io/badge/Stack-HTML_·_JS_·_Tailwind-38bdf8?style=flat-square&labelColor=151528&logo=html5&logoColor=white" alt="Stack"/>
-  <img src="https://img.shields.io/badge/میزبانی-GitHub_Pages-181717?style=flat-square&labelColor=151528&logo=github&logoColor=white" alt="GitHub Pages"/>
   <img src="https://img.shields.io/badge/PWA-Ready-5a0fc8?style=flat-square&labelColor=151528&logo=pwa&logoColor=white" alt="PWA"/>
 </p>
 
@@ -72,15 +73,15 @@
 
 <p align="center">
   <a href="https://twitter.com/intent/tweet?text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%20%D9%88%20%DA%AF%D8%A7%D9%87%D8%B4%D9%85%D8%A7%D8%B1%20%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7%D8%AA%20%D9%85%D8%B1%D8%AF%D9%85%DB%8C.%0A%0A%D9%86%D8%A7%D9%85%E2%80%8C%D8%B4%D8%A7%D9%86%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D8%8C%20%DB%8C%D8%A7%D8%AF%D8%B4%D8%A7%D9%86%20%DA%AF%D8%B1%D8%A7%D9%85%DB%8C.%0A%0A%23%D8%B2%D9%86_%D8%B2%D9%86%D8%AF%DA%AF%DB%8C_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%23%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%23WomanLifeFreedom&url=https%3A//0xradikal.github.io/Javid-Naman/&via=0xRadikal">
-    <img src="https://img.shields.io/badge/اشتراک_در_X_(توییتر)-انتشار_با_یک_کلیک-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="Share on X"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/share-x.svg" alt="اشتراک در ایکس" height="42"/>
   </a>
   &nbsp;
   <a href="https://t.me/share/url?url=https%3A//0xradikal.github.io/Javid-Naman/&text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86">
-    <img src="https://img.shields.io/badge/اشتراک_در_تلگرام-Share-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=26A5E4" alt="Share on Telegram"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/share-telegram.svg" alt="اشتراک در تلگرام" height="42"/>
   </a>
   &nbsp;
   <a href="https://wa.me/?text=%F0%9F%95%AF%EF%B8%8F%20%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85%20%E2%80%94%20%DB%8C%D8%A7%D8%AF%D8%A8%D9%88%D8%AF%20%DB%B6%D9%AC%DB%B2%DB%B3%DB%B2%20%D8%AC%D8%A7%D9%86%E2%80%8C%D8%A8%D8%A7%D8%AE%D8%AA%D9%87%D9%94%20%D8%B1%D8%A7%D9%87%20%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%20https%3A//0xradikal.github.io/Javid-Naman/">
-    <img src="https://img.shields.io/badge/اشتراک_در_واتساپ-Share-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=25D366" alt="Share on WhatsApp"/>
+    <img src="https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/share-whatsapp.svg" alt="اشتراک در واتساپ" height="42"/>
   </a>
 </p>
 
@@ -669,9 +670,9 @@ git checkout -b add/new-records
 
 <br/>
 
-[![وب‌سایت](https://img.shields.io/badge/🌐_مشاهدهٔ_وب‌سایت-0xradikal.github.io-1a1a2e?style=for-the-badge)](https://0xradikal.github.io/Javid-Naman/)
-[![یادبود](https://img.shields.io/badge/🕯️_یادبود_جاویدنام‌ها-۶٬۲۳۲_نام-be1234?style=for-the-badge)](https://0xradikal.github.io/Javid-Naman/javidnam.html)
-[![توییتر](https://img.shields.io/badge/@0xRadikal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xRadikal)
+[![مشاهدهٔ وب‌سایت](https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/footer-site.svg)](https://0xradikal.github.io/Javid-Naman/)
+[![یادبود جاویدنامان](https://raw.githubusercontent.com/0xRadikal/Javid-Naman/main/assets/img/badges/footer-mem.svg)](https://0xradikal.github.io/Javid-Naman/javidnam.html)
+[![@0xRadikal](https://img.shields.io/badge/@0xRadikal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/0xRadikal)
 
 <br/>
 

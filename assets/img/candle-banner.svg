@@ -1,89 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Javidnam Memorial Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="بنر شمع یادبود جاویدنامان">
   <defs>
-    <!-- پس‌زمینهٔ گرادیان شب -->
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0e1a"/>
-      <stop offset="55%" stop-color="#120a18"/>
-      <stop offset="100%" stop-color="#1a0610"/>
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0f0a18"/>
+      <stop offset="100%" stop-color="#1c0712"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="62%" r="40%">
-      <stop offset="0%" stop-color="#ff8a3d" stop-opacity="0.45"/>
-      <stop offset="45%" stop-color="#be1234" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    <radialGradient id="ambient" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ff9a4d" stop-opacity="0.30"/>
+      <stop offset="40%" stop-color="#be1234" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#070a14" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fff6d6"/>
-      <stop offset="35%" stop-color="#ffd166"/>
-      <stop offset="70%" stop-color="#ff8a3d"/>
-      <stop offset="100%" stop-color="#be1234"/>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9b0" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#ffb347" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ff7a2d" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff7a2d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flameOuter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3c4" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#ffb347" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff5a1f" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fff0c0"/>
+      <stop offset="70%" stop-color="#ffc14d"/>
+      <stop offset="100%" stop-color="#ff7a2d"/>
+    </linearGradient>
+    <linearGradient id="candleBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9bfa8"/>
+      <stop offset="22%" stop-color="#f7f0dd"/>
+      <stop offset="50%" stop-color="#fffaf0"/>
+      <stop offset="78%" stop-color="#ece2cc"/>
+      <stop offset="100%" stop-color="#bcb199"/>
     </linearGradient>
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ffd166"/>
-      <stop offset="50%" stop-color="#ff6b81"/>
-      <stop offset="100%" stop-color="#a855f7"/>
-      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#ff7a8a"/>
+      <stop offset="100%" stop-color="#c08af7"/>
+      <animate attributeName="x1" values="-0.5;0.5;-0.5" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1.5;2.5;1.5" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <filter id="blurS" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <filter id="blurM" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="blurL" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="22"/></filter>
   </defs>
 
   <!-- پس‌زمینه -->
-  <rect width="1280" height="320" fill="url(#bg)"/>
-  <rect width="1280" height="320" fill="url(#glow)"/>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#ambient)"/>
 
-  <!-- ستاره‌های سوسوزن -->
-  <g fill="#ffffff">
-    <circle cx="120" cy="60" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="300" cy="40" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="520" cy="70" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="980" cy="50" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1150" cy="80" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1090" cy="30" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="200" cy="100" r="1.0"><animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/></circle>
+  <!-- ستاره‌های ظریف -->
+  <g fill="#fff">
+    <circle cx="150" cy="55" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="38" r="1.0"><animate attributeName="opacity" values="1;0.2;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="48" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="70" r="1.1"><animate attributeName="opacity" values="1;0.3;1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="30" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="92" r="0.9"><animate attributeName="opacity" values="0.4;1;0.4" dur="5.0s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="95" r="0.9"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- هالهٔ نور پشت شعله -->
-  <ellipse cx="640" cy="150" rx="120" ry="150" fill="url(#glow)">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <!-- شمع -->
+  <!-- ===== شمع (مرکز) ===== -->
   <g transform="translate(640,0)">
+    <!-- هالهٔ نور بزرگ پشت شعله -->
+    <ellipse cx="0" cy="150" rx="180" ry="200" fill="url(#halo)" filter="url(#blurL)">
+      <animate attributeName="opacity" values="0.75;1;0.8;1;0.75" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="175;190;178;190;175" dur="4.5s" repeatCount="indefinite"/>
+    </ellipse>
+
     <!-- بدنهٔ شمع -->
-    <rect x="-18" y="200" width="36" height="90" rx="6" fill="#f3ecd8"/>
-    <rect x="-18" y="200" width="12" height="90" rx="6" fill="#ffffff" opacity="0.5"/>
-    <ellipse cx="0" cy="200" rx="18" ry="5" fill="#fff8e6"/>
+    <g>
+      <!-- سایهٔ پای شمع -->
+      <ellipse cx="0" cy="316" rx="60" ry="12" fill="#000" opacity="0.45" filter="url(#blurM)"/>
+      <!-- بدنه -->
+      <path d="M-26,206 Q-28,200 -20,198 L20,198 Q28,200 26,206 L26,312 Q26,318 20,318 L-20,318 Q-26,318 -26,312 Z" fill="url(#candleBody)"/>
+      <!-- هایلایت عمودی -->
+      <rect x="-16" y="200" width="7" height="116" rx="3.5" fill="#fffdf5" opacity="0.55"/>
+      <!-- لبهٔ بالایی موم -->
+      <ellipse cx="0" cy="200" rx="26" ry="7" fill="#fff8e6"/>
+      <ellipse cx="0" cy="200" rx="26" ry="7" fill="none" stroke="#d8caa8" stroke-width="0.8" opacity="0.6"/>
+      <!-- گودی مرکزی موم -->
+      <ellipse cx="0" cy="201" rx="13" ry="3.4" fill="#e7d6b0"/>
+      <!-- موم آب‌شده در حال چکیدن -->
+      <path d="M-22,206 Q-26,230 -22,250 Q-18,232 -16,212 Z" fill="#fffaf0" opacity="0.85"/>
+      <path d="M20,208 Q25,236 20,262 Q15,238 14,214 Z" fill="#f3e9d2" opacity="0.8"/>
+      <ellipse cx="-22" cy="252" rx="4.5" ry="6" fill="#fffaf0" opacity="0.85"/>
+      <ellipse cx="20" cy="264" rx="4" ry="5.5" fill="#f3e9d2" opacity="0.8"/>
+    </g>
+
     <!-- فتیله -->
-    <rect x="-1.5" y="186" width="3" height="16" fill="#3a2a1a"/>
-    <!-- شعله -->
-    <g filter="url(#soft)">
-      <path d="M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z" fill="url(#flameGrad)">
-        <animate attributeName="d"
-          values="M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z;
-                   M0,112 C-18,148 -18,186 0,186 C18,186 18,148 0,112 Z;
-                   M0,124 C-24,152 -14,186 0,186 C14,186 24,152 0,124 Z;
-                   M0,120 C-22,150 -16,186 0,186 C16,186 22,150 0,120 Z"
-          dur="1.4s" repeatCount="indefinite"/>
+    <rect x="-1.6" y="178" width="3.2" height="24" rx="1.4" fill="#2a1d10"/>
+    <rect x="-1.6" y="178" width="3.2" height="9" rx="1.4" fill="#1a1209"/>
+
+    <!-- ===== شعله (چندلایه) ===== -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -1.5 0; 1 0; -0.5 0; 0 0" dur="2.1s" repeatCount="indefinite"/>
+      <!-- درخشش بیرونی نرم -->
+      <path filter="url(#blurM)" fill="url(#flameOuter)"
+        d="M0,96 C-34,140 -26,196 0,196 C26,196 34,140 0,96 Z">
+        <animate attributeName="d" dur="1.5s" repeatCount="indefinite"
+          values="M0,96 C-34,140 -26,196 0,196 C26,196 34,140 0,96 Z;
+                   M0,84 C-30,138 -30,196 0,196 C30,196 30,138 0,84 Z;
+                   M0,100 C-36,144 -24,196 0,196 C24,196 36,144 0,100 Z;
+                   M0,96 C-34,140 -26,196 0,196 C26,196 34,140 0,96 Z"/>
       </path>
-      <!-- مغز آبی شعله -->
-      <path d="M0,150 C-8,165 -6,184 0,184 C6,184 8,165 0,150 Z" fill="#7aa7ff" opacity="0.7">
-        <animate attributeName="opacity" values="0.5;0.85;0.5" dur="1.2s" repeatCount="indefinite"/>
+      <!-- بدنهٔ اصلی شعله -->
+      <path filter="url(#blurS)" fill="url(#flameInner)"
+        d="M0,120 C-18,150 -14,190 0,190 C14,190 18,150 0,120 Z">
+        <animate attributeName="d" dur="1.3s" repeatCount="indefinite"
+          values="M0,120 C-18,150 -14,190 0,190 C14,190 18,150 0,120 Z;
+                   M0,112 C-15,148 -16,190 0,190 C16,190 15,148 0,112 Z;
+                   M0,124 C-20,152 -12,190 0,190 C12,190 20,152 0,124 Z;
+                   M0,120 C-18,150 -14,190 0,190 C14,190 18,150 0,120 Z"/>
       </path>
+      <!-- مغز آبی -->
+      <path fill="#6f9bff" opacity="0.65"
+        d="M0,156 C-7,170 -5,188 0,188 C5,188 7,170 0,156 Z">
+        <animate attributeName="opacity" values="0.45;0.8;0.45" dur="1.1s" repeatCount="indefinite"/>
+      </path>
+      <!-- نقطهٔ سفید داغ -->
+      <ellipse cx="0" cy="182" rx="3.2" ry="5" fill="#ffffff" opacity="0.9">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.0s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- ذرات نور بالارونده -->
+    <g fill="#ffd27a">
+      <circle cx="6" cy="120" r="1.4" opacity="0">
+        <animate attributeName="cy" values="120;70" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="6;12;4" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-5" cy="130" r="1.1" opacity="0">
+        <animate attributeName="cy" values="130;60" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="-5;-12;-2" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="2" cy="125" r="0.9" opacity="0">
+        <animate attributeName="cy" values="125;65" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
     </g>
   </g>
 
-  <!-- عنوان فارسی متحرک (gradient) -->
-  <text x="640" y="252" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
-        font-size="40" font-weight="800" fill="url(#titleGrad)">جاویدنام</text>
-  <text x="640" y="288" text-anchor="middle" font-family="Vazirmatn, Tahoma, sans-serif"
-        font-size="17" fill="#cbb4d8" opacity="0.9">یادبود ۶٬۲۳۲ جان‌باختهٔ راه آزادی ایران</text>
-
-  <!-- خط نوری زیر متن -->
-  <rect x="490" y="300" width="300" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6">
-    <animate attributeName="width" values="120;300;120" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="580;490;580" dur="4s" repeatCount="indefinite"/>
+  <!-- ===== متن (پایین، جدا از شمع) ===== -->
+  <path transform="translate(535.21,300.00) scale(0.02344,-0.02344)" d="M696 925 869 752 696 579 523 752ZM709 -177Q858 -177 942.5 -129.0Q1027 -81 1062.5 0.0Q1098 81 1098 181Q1098 291 1064.0 406.0Q1030 521 990 619L1238 713Q1293 567 1317.0 441.5Q1341 316 1341 189Q1341 -100 1181.5 -271.0Q1022 -442 709 -442Q493 -442 355.5 -360.5Q218 -279 152.5 -139.0Q87 1 87 175Q87 292 113.0 416.0Q139 540 185 663L412 575Q377 472 353.0 372.0Q329 272 329 184Q329 85 363.5 3.0Q398 -79 481.0 -128.0Q564 -177 709 -177Z" fill="url(#titleGrad)"/><path transform="translate(568.63,300.00) scale(0.02344,-0.02344)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="url(#titleGrad)"/><path transform="translate(581.83,300.00) scale(0.02344,-0.02344)" d="M682 -23Q579 -23 490.0 21.5Q401 66 313 136Q256 78 196.5 39.0Q137 0 24 0H-20V269H19Q72 269 112.5 307.5Q153 346 189.5 406.0Q226 466 265.0 534.0Q304 602 353.5 662.0Q403 722 469.0 760.5Q535 799 626 799Q749 799 839.5 740.5Q930 682 979.0 586.0Q1028 490 1028 376Q1028 201 941.0 89.0Q854 -23 682 -23ZM634 543Q591 543 556.5 514.5Q522 486 496.0 444.0Q470 402 451 363Q507 310 559 280Q597 258 628.0 249.5Q659 241 683 241Q740 241 765.5 279.0Q791 317 791 371Q791 442 749.5 492.5Q708 543 634 543Z" fill="url(#titleGrad)"/><path transform="translate(607.89,300.00) scale(0.02344,-0.02344)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="url(#titleGrad)"/><path transform="translate(621.09,300.00) scale(0.02344,-0.02344)" d="M140 0H-20V269H140Q221 269 250.5 318.0Q280 367 280 443Q280 511 265.0 590.5Q250 670 233 746L478 809Q497 718 508.0 628.5Q519 539 519 458Q519 327 484.0 223.5Q449 120 366.0 60.0Q283 0 140 0ZM258 1280 431 1107 258 934 85 1107Z" fill="url(#titleGrad)"/><path transform="translate(635.24,300.00) scale(0.02344,-0.02344)" d="M657 419Q657 445 645.5 485.5Q634 526 621 554L428 985L650 1092L894 526Q944 411 980.5 340.0Q1017 269 1088 269H1130V0H1088Q974 0 908.0 43.0Q842 86 789 156Q714 80 609.0 40.5Q504 1 352 1Q268 1 207.5 7.0Q147 13 85 28V296Q216 266 337 266Q420 266 493.0 280.5Q566 295 611.5 328.5Q657 362 657 419Z" fill="url(#titleGrad)"/><path transform="translate(661.26,300.00) scale(0.02344,-0.02344)" d="M194 0H-22V269H194Q275 269 304.5 318.0Q334 367 334 443Q334 511 319.0 590.5Q304 670 287 746L532 809Q551 718 562.0 628.5Q573 539 573 458Q573 327 538.0 223.5Q503 120 420.0 60.0Q337 0 194 0ZM341 -134 507 -298 341 -464 177 -298ZM5 -134 171 -298 5 -464 -159 -298Z" fill="url(#titleGrad)"/><path transform="translate(676.68,300.00) scale(0.02344,-0.02344)" d="M866 212Q866 -14 782.5 -167.0Q699 -320 543.5 -411.0Q388 -502 173 -543L82 -297Q291 -256 429.0 -178.5Q567 -101 601 13Q538 -2 485 -2Q298 -2 191.5 80.5Q85 163 85 348Q85 427 109.0 509.0Q133 591 180.0 660.0Q227 729 296.5 771.0Q366 813 457 813Q562 813 639.0 762.0Q716 711 766.5 625.0Q817 539 841.5 432.0Q866 325 866 212ZM483 265Q525 265 562.5 270.5Q600 276 627 283Q621 345 602.0 407.0Q583 469 547.5 510.0Q512 551 455 551Q403 551 374.0 517.0Q345 483 333.5 438.0Q322 393 322 358Q322 300 366.5 282.5Q411 265 483 265Z" fill="url(#titleGrad)"/><path transform="translate(698.97,300.00) scale(0.02344,-0.02344)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="url(#titleGrad)"/><path transform="translate(712.16,300.00) scale(0.02344,-0.02344)" d="M666 -125 839 -298 666 -471 493 -298ZM-20 269H150Q285 269 398.0 295.5Q511 322 631.0 373.5Q751 425 904 499Q753 555 647.5 597.5Q542 640 506 640Q451 640 406.5 606.0Q362 572 332 533L284 473L74 575L113 639Q182 752 279.5 826.5Q377 901 507 901Q561 901 634.5 875.0Q708 849 793.0 810.5Q878 772 968.5 733.5Q1059 695 1148.5 668.5Q1238 642 1319 640V394Q1250 385 1186.5 362.0Q1123 339 1051.0 303.0Q979 267 884 216Q756 148 643.0 99.5Q530 51 411.5 25.5Q293 0 147 0H-20Z" fill="url(#titleGrad)"/>
+  <path transform="translate(520.78,334.00) scale(0.00879,-0.00879)" d="M696 925 869 752 696 579 523 752ZM709 -177Q858 -177 942.5 -129.0Q1027 -81 1062.5 0.0Q1098 81 1098 181Q1098 291 1064.0 406.0Q1030 521 990 619L1238 713Q1293 567 1317.0 441.5Q1341 316 1341 189Q1341 -100 1181.5 -271.0Q1022 -442 709 -442Q493 -442 355.5 -360.5Q218 -279 152.5 -139.0Q87 1 87 175Q87 292 113.0 416.0Q139 540 185 663L412 575Q377 472 353.0 372.0Q329 272 329 184Q329 85 363.5 3.0Q398 -79 481.0 -128.0Q564 -177 709 -177Z" fill="#d9c2e0"/><path transform="translate(533.31,334.00) scale(0.00879,-0.00879)" d="M390 1397V1H140V1397Z" fill="#d9c2e0"/><path transform="translate(537.97,334.00) scale(0.00879,-0.00879)" d="M804 0Q755 0 714.5 11.0Q674 22 647 39Q611 -184 461.0 -338.5Q311 -493 46 -544L-46 -298Q176 -250 296.5 -147.0Q417 -44 417 155Q417 245 390.5 354.5Q364 464 331 562L579 644L637 421Q654 353 690.0 311.0Q726 269 793 269H832V0Z" fill="#d9c2e0"/><path transform="translate(545.10,334.00) scale(0.00879,-0.00879)" d="M194 0H-22V269H194Q275 269 304.5 318.0Q334 367 334 443Q334 511 319.0 590.5Q304 670 287 746L532 809Q551 718 562.0 628.5Q573 539 573 458Q573 327 538.0 223.5Q503 120 420.0 60.0Q337 0 194 0ZM341 -134 507 -298 341 -464 177 -298ZM5 -134 171 -298 5 -464 -159 -298Z" fill="#d9c2e0"/><path transform="translate(550.89,334.00) scale(0.00879,-0.00879)" d="M390 1397V1H140V1397Z" fill="#d9c2e0"/><path transform="translate(560.08,334.00) scale(0.00879,-0.00879)" d="M709 -504Q493 -504 355.5 -422.5Q218 -341 152.5 -201.0Q87 -61 87 113Q87 229 113.0 353.5Q139 478 185 601L412 513Q377 410 353.0 310.0Q329 210 329 121Q329 23 363.5 -59.0Q398 -141 481.0 -190.0Q564 -239 709 -239Q859 -239 961.5 -204.0Q1064 -169 1117.0 -120.5Q1170 -72 1170 -31Q1170 -13 1160.0 -1.5Q1150 10 1124 10H962Q888 10 817.5 32.5Q747 55 701.0 123.0Q655 191 655 327Q655 465 713.5 585.5Q772 706 879.0 781.0Q986 856 1132 856Q1202 856 1271.5 835.5Q1341 815 1402 772L1317 537Q1266 564 1220.0 575.0Q1174 586 1133 586Q1021 586 958.5 512.0Q896 438 896 328Q896 297 913.5 287.5Q931 278 963 278H1114Q1279 278 1340.5 200.0Q1402 122 1402 1Q1402 -136 1321.5 -251.0Q1241 -366 1086.5 -435.0Q932 -504 709 -504Z" fill="#d9c2e0"/><path transform="translate(573.08,334.00) scale(0.00879,-0.00879)" d="M346 265Q438 265 517.5 279.0Q597 293 646.5 327.5Q696 362 696 424Q696 487 639.0 557.5Q582 628 484.0 698.0Q386 768 263 828L378 1068Q526 995 652.5 902.5Q779 810 857.0 694.0Q935 578 935 433Q935 203 781.0 102.5Q627 2 361 2Q284 2 216.5 8.0Q149 14 85 27V295Q150 282 221.5 273.5Q293 265 346 265Z" fill="#d9c2e0"/><path transform="translate(582.05,334.00) scale(0.00879,-0.00879)" d="M390 1397V1H140V1397Z" fill="#d9c2e0"/><path transform="translate(586.71,334.00) scale(0.00879,-0.00879)" d="M434 1139 607 966 434 793 261 966ZM48 -544 -46 -298Q176 -250 296.5 -147.0Q417 -44 417 155Q417 245 390.5 354.5Q364 464 331 562L580 644Q618 536 638.5 415.5Q659 295 659 182Q659 -120 495.5 -304.0Q332 -488 48 -544Z" fill="#d9c2e0"/><path transform="translate(593.23,334.00) scale(0.00879,-0.00879)" d="M362 1545Q375 1540 385 1540Q408 1540 427.0 1554.5Q446 1569 473 1594L531 1647L643 1545L579 1484Q529 1436 488.0 1410.0Q447 1384 401 1384Q360 1384 306 1408L177 1467Q152 1479 131 1479Q105 1479 79.5 1459.5Q54 1440 15 1400L-49 1336L-162 1439L-97 1506Q-34 1571 15.5 1604.0Q65 1637 113 1637Q140 1637 169.0 1628.5Q198 1620 233 1604ZM390 1265V1H140V1265Z" fill="#d9c2e0"/><path transform="translate(602.43,334.00) scale(0.00879,-0.00879)" d="M302 773 263 808 419 1008Q510 935 597.5 863.0Q685 791 756.0 715.5Q827 640 869.0 558.0Q911 476 911 384Q911 266 858.0 181.0Q805 96 712.0 50.0Q619 4 498 4Q298 4 191.5 102.5Q85 201 85 350Q85 474 146.5 571.5Q208 669 302 773ZM672 385Q672 420 642.5 461.0Q613 502 570.0 542.0Q527 582 486 613Q426 558 375.0 493.5Q324 429 324 375Q324 326 369.5 297.5Q415 269 497 269Q672 269 672 385Z" fill="#d9c2e0"/><path transform="translate(611.17,334.00) scale(0.00879,-0.00879)" d="M390 1397V1H140V1397Z" fill="#d9c2e0"/><path transform="translate(615.83,334.00) scale(0.00879,-0.00879)" d="M48 -544 -46 -298Q176 -250 296.5 -147.0Q417 -44 417 155Q417 245 390.5 354.5Q364 464 331 562L580 644Q618 536 638.5 415.5Q659 295 659 182Q659 -120 495.5 -304.0Q332 -488 48 -544Z" fill="#d9c2e0"/><path transform="translate(626.89,334.00) scale(0.00879,-0.00879)" d="M696 925 869 752 696 579 523 752ZM709 -177Q858 -177 942.5 -129.0Q1027 -81 1062.5 0.0Q1098 81 1098 181Q1098 291 1064.0 406.0Q1030 521 990 619L1238 713Q1293 567 1317.0 441.5Q1341 316 1341 189Q1341 -100 1181.5 -271.0Q1022 -442 709 -442Q493 -442 355.5 -360.5Q218 -279 152.5 -139.0Q87 1 87 175Q87 292 113.0 416.0Q139 540 185 663L412 575Q377 472 353.0 372.0Q329 272 329 184Q329 85 363.5 3.0Q398 -79 481.0 -128.0Q564 -177 709 -177Z" fill="#d9c2e0"/><path transform="translate(639.42,334.00) scale(0.00879,-0.00879)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="#d9c2e0"/><path transform="translate(644.37,334.00) scale(0.00879,-0.00879)" d="M62 1201V1344L865 1671V1527ZM319 933Q449 853 538.5 787.0Q628 721 688.0 648.5Q748 576 789 476Q820 401 849.0 355.5Q878 310 921.5 289.5Q965 269 1038 269H1066V0H1038Q920 0 838.5 37.0Q757 74 699 159Q650 101 589.5 66.0Q529 31 441.5 15.5Q354 0 224 0H-20V269H223Q390 269 470.5 294.0Q551 319 551 395Q551 434 502.5 481.5Q454 529 380.5 579.5Q307 630 229.0 680.0Q151 730 91 774Q51 803 30.5 851.0Q10 899 10 948Q10 1003 35.5 1047.5Q61 1092 114 1113L876 1424V1159Z" fill="#d9c2e0"/><path transform="translate(653.56,334.00) scale(0.00879,-0.00879)" d="M422 1182 588 1018 422 852 258 1018ZM86 1182 252 1018 86 852 -78 1018ZM-20 269H120Q233 269 277.0 310.0Q321 351 321 455Q321 511 318.5 564.0Q316 617 311 669L545 697L565 421Q570 342 609.5 305.5Q649 269 733 269H754V0H731Q629 0 558.5 37.0Q488 74 443 134Q384 70 299.5 35.0Q215 0 120 0H-20Z" fill="#d9c2e0"/><path transform="translate(660.01,334.00) scale(0.00879,-0.00879)" d="M603 1373 776 1200 603 1027 430 1200ZM-20 269H150Q285 269 398.0 295.5Q511 322 631.0 373.5Q751 425 904 499Q753 555 647.5 597.5Q542 640 506 640Q451 640 406.5 606.0Q362 572 332 533L284 473L74 575L113 639Q182 752 279.5 826.5Q377 901 507 901Q561 901 634.5 875.0Q708 849 793.0 810.5Q878 772 968.5 733.5Q1059 695 1148.5 668.5Q1238 642 1319 640V394Q1250 385 1186.5 362.0Q1123 339 1051.0 303.0Q979 267 884 216Q756 148 643.0 99.5Q530 51 411.5 25.5Q293 0 147 0H-20Z" fill="#d9c2e0"/><path transform="translate(672.25,334.00) scale(0.00879,-0.00879)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="#d9c2e0"/><path transform="translate(677.20,334.00) scale(0.00879,-0.00879)" d="M160 0H-21V269H160Q241 269 270.5 318.0Q300 367 300 443Q300 511 285.0 590.5Q270 670 253 746L498 809Q517 718 528.0 628.5Q539 539 539 458Q539 327 504.0 223.5Q469 120 386.0 60.0Q303 0 160 0ZM185 -125 358 -298 185 -471 12 -298Z" fill="#d9c2e0"/><path transform="translate(682.68,334.00) scale(0.00879,-0.00879)" d="M696 925 869 752 696 579 523 752ZM709 -177Q858 -177 942.5 -129.0Q1027 -81 1062.5 0.0Q1098 81 1098 181Q1098 291 1064.0 406.0Q1030 521 990 619L1238 713Q1293 567 1317.0 441.5Q1341 316 1341 189Q1341 -100 1181.5 -271.0Q1022 -442 709 -442Q493 -442 355.5 -360.5Q218 -279 152.5 -139.0Q87 1 87 175Q87 292 113.0 416.0Q139 540 185 663L412 575Q377 472 353.0 372.0Q329 272 329 184Q329 85 363.5 3.0Q398 -79 481.0 -128.0Q564 -177 709 -177Z" fill="#d9c2e0"/><path transform="translate(695.21,334.00) scale(0.00879,-0.00879)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="#d9c2e0"/><path transform="translate(700.16,334.00) scale(0.00879,-0.00879)" d="M666 -125 839 -298 666 -471 493 -298ZM-20 269H150Q285 269 398.0 295.5Q511 322 631.0 373.5Q751 425 904 499Q753 555 647.5 597.5Q542 640 506 640Q451 640 406.5 606.0Q362 572 332 533L284 473L74 575L113 639Q182 752 279.5 826.5Q377 901 507 901Q561 901 634.5 875.0Q708 849 793.0 810.5Q878 772 968.5 733.5Q1059 695 1148.5 668.5Q1238 642 1319 640V394Q1250 385 1186.5 362.0Q1123 339 1051.0 303.0Q979 267 884 216Q756 148 643.0 99.5Q530 51 411.5 25.5Q293 0 147 0H-20Z" fill="#d9c2e0"/><path transform="translate(716.93,334.00) scale(0.00879,-0.00879)" d="M346 265Q438 265 517.5 279.0Q597 293 646.5 327.5Q696 362 696 424Q696 487 639.0 557.5Q582 628 484.0 698.0Q386 768 263 828L378 1068Q526 995 652.5 902.5Q779 810 857.0 694.0Q935 578 935 433Q935 203 781.0 102.5Q627 2 361 2Q284 2 216.5 8.0Q149 14 85 27V295Q150 282 221.5 273.5Q293 265 346 265Z" fill="#d9c2e0"/><path transform="translate(725.90,334.00) scale(0.00879,-0.00879)" d="M457 809Q579 809 666.5 736.5Q754 664 803.5 541.5Q853 419 861 269H945V0H843Q790 -217 629.0 -351.5Q468 -486 173 -543L82 -297Q278 -259 419.5 -184.0Q561 -109 599 0H493Q294 0 189.5 83.0Q85 166 85 348Q85 422 108.0 502.5Q131 583 177.0 652.5Q223 722 293.0 765.5Q363 809 457 809ZM490 269H627Q621 339 602.0 402.0Q583 465 547.5 504.5Q512 544 455 544Q405 544 375.5 512.5Q346 481 334.0 437.5Q322 394 322 358Q322 302 367.0 285.5Q412 269 490 269Z" fill="#d9c2e0"/><path transform="translate(734.03,334.00) scale(0.00879,-0.00879)" d="M160 0H-21V269H160Q241 269 270.5 318.0Q300 367 300 443Q300 511 285.0 590.5Q270 670 253 746L498 809Q517 718 528.0 628.5Q539 539 539 458Q539 327 504.0 223.5Q469 120 386.0 60.0Q303 0 160 0ZM185 -125 358 -298 185 -471 12 -298Z" fill="#d9c2e0"/><path transform="translate(739.52,334.00) scale(0.00879,-0.00879)" d="M346 265Q438 265 517.5 279.0Q597 293 646.5 327.5Q696 362 696 424Q696 487 639.0 557.5Q582 628 484.0 698.0Q386 768 263 828L378 1068Q526 995 652.5 902.5Q779 810 857.0 694.0Q935 578 935 433Q935 203 781.0 102.5Q627 2 361 2Q284 2 216.5 8.0Q149 14 85 27V295Q150 282 221.5 273.5Q293 265 346 265Z" fill="#d9c2e0"/><path transform="translate(748.49,334.00) scale(0.00879,-0.00879)" d="M139 1397H390V475Q390 362 424.5 315.5Q459 269 558 269H583V0H558Q341 0 240.0 113.5Q139 227 139 456Z" fill="#d9c2e0"/><path transform="translate(753.44,334.00) scale(0.00879,-0.00879)" d="M194 0H-22V269H194Q275 269 304.5 318.0Q334 367 334 443Q334 511 319.0 590.5Q304 670 287 746L532 809Q551 718 562.0 628.5Q573 539 573 458Q573 327 538.0 223.5Q503 120 420.0 60.0Q337 0 194 0ZM341 -134 507 -298 341 -464 177 -298ZM5 -134 171 -298 5 -464 -159 -298Z" fill="#d9c2e0"/>
+  <!-- خط نوری متحرک زیر متن -->
+  <rect x="490" y="346" width="300" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6">
+    <animate attributeName="width" values="140;300;140" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="570;490;570" dur="4.5s" repeatCount="indefinite"/>
   </rect>
 </svg>
