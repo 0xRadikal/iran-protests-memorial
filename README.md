@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://0xradikal.github.io/Javid-Naman/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,50:7a1020,100:be1234&height=210&section=header&text=%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85&fontSize=72&fontColor=ffd9c4&fontAlignY=38&desc=Iran%20Protests%20Timeline%20%C2%B7%20A%20Memorial%20for%206%2C232%20Lives&descSize=18&descAlignY=60&animation=fadeIn" alt="جاویدنام" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,50:7a1020,100:be1234&height=210&section=header&text=%D8%AC%D8%A7%D9%88%DB%8C%D8%AF%D9%86%D8%A7%D9%85&fontSize=72&fontColor=ffd9c4&fontAlignY=38&desc=Iran%20Protests%20Timeline%20%C2%B7%20A%20Memorial%20for%206%2C232%20Lives&descSize=18&descAlignY=60&animation=fadeIn" alt="جاویدنامان" width="100%"/>
 </a>
 
 <!-- ─────────────────────────  بنر شمع انیمیشنی  ───────────────────────── -->
