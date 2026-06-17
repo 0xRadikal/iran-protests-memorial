@@ -449,13 +449,7 @@ async function openPerson(id){
     </div>`:''}
     ${storyHtml}
     ${mlHtml}
-    <div class="jv-comment-soon mt-5">
-      <i class="fa-regular fa-comments"></i>
-      <div>
-        <strong>یادبود و کامنت</strong>
-        <span>به‌زودی می‌توانید اینجا برای ${escapeHtml(p.n)} پیام یادبود بگذارید 🤍</span>
-      </div>
-    </div>
+    ${(window.Community ? window.Community.renderPersonWidgets(p) : '')}
     <div class="memorial-quote text-center text-sm mt-6 pt-5 border-t border-white/10">
       «نامت جاودان، یادت گرامی» — جان‌باخته در راه آزادی ایران
     </div>
@@ -463,6 +457,8 @@ async function openPerson(id){
   modal.style.display = 'flex';
   document.body.style.overflow = 'hidden';
   box.parentElement.scrollTop = 0;
+  // اتصالِ ویجت‌های مشارکت (کامنت/گزارش/پیشنهادِ عکس)
+  if (window.Community) window.Community.wirePersonWidgets(p);
 }
 function closePerson(){
   document.getElementById('jv-modal').style.display='none';

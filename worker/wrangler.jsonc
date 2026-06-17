@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "javidnaman-admin",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "javidnaman-db",
+      "database_id": "55639f94-4b2c-43d0-be21-fa736baa7533",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "ALLOWED_ORIGINS": "https://0xradikal.github.io",
+    "SESSION_TTL_HOURS": "12"
+  }
+}

@@ -44,6 +44,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/community.css" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -494,7 +495,20 @@
     </div>
   </div>
 
+  <!-- دکمهٔ شناورِ افزودنِ جاویدنامِ تازه (مشارکت مردمی) -->
+  <button type="button" id="cm-add-fab" class="cm-add-fab" title="افزودنِ جاویدنامِ تازه">
+    <i class="fa-solid fa-feather-pointed"></i><span>افزودنِ جاویدنام</span>
+  </button>
+
+  <script src="assets/js/community.js"></script>
   <script src="assets/js/javidnam.js"></script>
+  <script>
+  /* ── دکمهٔ شناورِ افزودنِ جاویدنام ── */
+  (function(){
+    var fab = document.getElementById('cm-add-fab');
+    if(fab) fab.addEventListener('click', function(){ if(window.Community) window.Community.openSubmitPerson(); });
+  })();
+  </script>
   <script>
   /* ── جمع/باز کردن دستی بدنهٔ فیلترها (نوار دیگر چسبان نیست تا محتوا را نپوشاند) ── */
   (function(){

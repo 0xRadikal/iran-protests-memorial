@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Wrangler local state (local D1, cache)
+.wrangler/
+
+# Local secrets / env — NEVER commit
+.dev.vars
+.dev.vars.local
+ecosystem.config.cjs
+# ولی نمونهٔ مستندسازی باید commit شود:
+!.dev.vars.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store

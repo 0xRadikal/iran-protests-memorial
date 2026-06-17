@@ -1,0 +1,24 @@
+{
+  "name": "javidnaman-admin-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --ip 0.0.0.0 --port 3000 --local",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply javidnaman-db --local",
+    "db:migrate:prod": "wrangler d1 migrations apply javidnaman-db --remote",
+    "db:console:local": "wrangler d1 execute javidnaman-db --local",
+    "db:console:prod": "wrangler d1 execute javidnaman-db --remote",
+    "seed:people:local": "node scripts/import_people.mjs --local",
+    "seed:people:prod": "node scripts/import_people.mjs --remote",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^4.86.0"
+  }
+}
