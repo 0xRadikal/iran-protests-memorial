@@ -76,11 +76,17 @@ select.cm-input{cursor:pointer}
   transition:transform .35s cubic-bezier(.2,.9,.3,1.2);font-family:inherit}
 #cm-toast.show{transform:translate(-50%,0)}
 
-/* ---------- دکمهٔ شناورِ «افزودنِ جاویدنام» ---------- */
-.cm-add-fab{position:fixed;bottom:1.4rem;right:1.4rem;z-index:40;display:inline-flex;align-items:center;gap:.5rem;
+/* ---------- دکمهٔ شناورِ «افزودنِ جاویدنام» (لنگرِ پایینِ ستونِ شناور) ----------
+   موقعیت از متغیرهای style.css گرفته می‌شود تا با دکمه‌های پرش/بالا هماهنگ و
+   بدونِ همپوشانی بماند. (fallback برای مرورگرهای بدونِ متغیر) */
+.cm-add-fab{position:fixed;
+  bottom:1.4rem;right:1.4rem;                 /* fallback */
+  bottom:var(--fab-bottom, 1.4rem);right:var(--fab-edge, 1.4rem);
+  z-index:40;display:inline-flex;align-items:center;gap:.5rem;
   background:linear-gradient(135deg,#7c2d12,#f5c451);color:#1a1208;font-weight:800;font-family:inherit;
   font-size:.86rem;padding:.8rem 1.15rem;border-radius:999px;border:none;cursor:pointer;
-  box-shadow:0 14px 36px rgba(245,196,81,.28);transition:.2s}
+  box-shadow:0 14px 36px rgba(245,196,81,.28);transition:transform .2s,filter .2s}
 .cm-add-fab:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.cm-add-fab:active{transform:translateY(0)}
 .cm-add-fab i{font-size:.95rem}
 @media(max-width:520px){.cm-add-fab span{display:none}.cm-add-fab{padding:.85rem;border-radius:50%}}

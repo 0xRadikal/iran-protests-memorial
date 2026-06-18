@@ -16,6 +16,15 @@ html { scroll-behavior: smooth; }
   --green: #22c55e;
   --text: #e9ecf4;
   --muted: #9aa3b6;
+  /* ---------- چیدمانِ دکمه‌های شناور (هماهنگ، بدون همپوشانی) ----------
+     همهٔ دکمه‌های شناور از این متغیرها استفاده می‌کنند تا هرگز روی هم نیفتند.
+     لبه‌ها امنِ دستگاه‌های دارای ناچ (safe-area) را هم رعایت می‌کنند. */
+  --fab-gap: 12px;                                  /* فاصلهٔ عمودی میان دکمه‌ها */
+  --fab-edge: calc(18px + env(safe-area-inset-right, 0px));   /* فاصله از راست */
+  --fab-edge-left: calc(18px + env(safe-area-inset-left, 0px)); /* فاصله از چپ */
+  --fab-bottom: calc(18px + env(safe-area-inset-bottom, 0px)); /* فاصله از پایین */
+  --fab-h: 52px;     /* بلندیِ تقریبیِ دکمهٔ افزودنِ جاویدنام (لنگرِ پایین) */
+  --nav-h: 44px;     /* بلندیِ دکمه‌های ناوبری (پرش/بالا) */
 }
 body {
   font-family: 'Vazirmatn', system-ui, sans-serif;
@@ -229,7 +238,7 @@ img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,
 
 /* ---------- پلیر آهنگ شناور ---------- */
 #audio-dock{
-  position:fixed; z-index:40; bottom:18px; left:18px;
+  position:fixed; z-index:40; bottom:var(--fab-bottom); left:var(--fab-edge-left);
   display:flex; align-items:center; gap:10px;
   padding:9px 12px; border-radius:999px;
   background:rgba(12,16,28,.86); backdrop-filter:blur(14px);
@@ -290,7 +299,7 @@ img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,
 
 /* دکمهٔ احیای پلیر (وقتی بسته شده) */
 #audio-revive{
-  position:fixed; z-index:40; bottom:18px; left:18px; display:none;
+  position:fixed; z-index:40; bottom:var(--fab-bottom); left:var(--fab-edge-left); display:none;
   width:46px; height:46px; border-radius:50%; border:none; cursor:pointer;
   background:radial-gradient(circle at 40% 35%, #ffe08a, #f5c451 60%, #e0a93a);
   color:#0a0e1a; box-shadow:0 8px 28px rgba(0,0,0,.5), 0 0 18px rgba(245,196,81,.4);
@@ -318,19 +327,26 @@ img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,
 
 /* --- موبایل (≤640px): چیدمان تک‌ستونه‌ترِ کنترل‌ها --- */
 @media (max-width:640px){
+  :root{
+    --fab-edge: calc(14px + env(safe-area-inset-right, 0px));
+    --fab-edge-left: calc(14px + env(safe-area-inset-left, 0px));
+    --fab-bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  }
   .max-w-6xl, .max-w-4xl{ padding-left:14px; padding-right:14px; }
   header{ padding-top:8px; }
-  /* در موبایل، دکمهٔ پرش به فوتر متن کوتاه‌تر */
-  #jv-footer-jump{ bottom:14px; right:14px; }
-  #jv-back-top{ bottom:14px; right:14px; }
-  #jv-footer-jump[style*="flex"] ~ #jv-back-top.show{ bottom:66px; }
-  /* پلیر صوتی کمی فشرده‌تر در گوشهٔ چپ */
-  #audio-dock{ bottom:14px; left:14px; padding:8px 10px; gap:8px; }
-  #audio-revive{ bottom:14px; left:14px; }
-  #audio-hint{ bottom:66px; left:14px; font-size:11.5px; padding:8px 13px; }
+  /* پلیر صوتی کمی فشرده‌تر در گوشهٔ چپ (هماهنگ با متغیرها) */
+  #audio-dock{ bottom:var(--fab-bottom); left:var(--fab-edge-left); padding:8px 10px; gap:8px; }
+  #audio-revive{ bottom:var(--fab-bottom); left:var(--fab-edge-left); }
+  /* راهنمای صدا بالای پلیر، بدونِ همپوشانی */
+  #audio-hint{ bottom:calc(var(--fab-bottom) + 56px); left:var(--fab-edge-left); font-size:11.5px; padding:8px 13px; }
   /* مودال‌ها فضای بیشتری بگیرند */
   .modal-box{ padding:18px !important; }
   .jv-modal-photo-wrap, .jv-modal-ph{ width:118px; height:118px; }
+}
+
+/* --- موبایلِ کوچک (≤520px): دکمهٔ افزودن دایره‌ای و کوچک‌تر می‌شود --- */
+@media (max-width:520px){
+  :root{ --fab-h: 46px; }   /* دکمهٔ افزودن در این عرض دایره‌ای ~۴۶px است */
 }
 
 /* --- تبلت (641px–1023px): شبکهٔ سه‌ستونه و کنترل‌های متعادل --- */
@@ -472,9 +488,21 @@ img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,
 }
 .nav-github:hover{ background:rgba(255,255,255,.13); color:#fff; }
 
-/* ---------- دکمهٔ پرش به فوتر ---------- */
+/* ════════════════════════════════════════════════════════════════
+   ستونِ دکمه‌های شناورِ گوشهٔ پایین-راست (بدونِ همپوشانی)
+   ----------------------------------------------------------------
+   چیدمانِ عمودی از پایین به بالا:
+     [۱] دکمهٔ «افزودنِ جاویدنام» (.cm-add-fab) — لنگرِ پایین
+     [۲] دکمهٔ «پرش به فوتر»     (#jv-footer-jump) — بالای آن
+     [۳] دکمهٔ «بازگشت به بالا»  (#jv-back-top)   — بالاترین
+   چون دکمهٔ افزودن همیشه حاضر است، بقیه نسبت به آن بالاتر می‌نشینند.
+   ════════════════════════════════════════════════════════════════ */
+
+/* ---------- دکمهٔ پرش به فوتر (ردیفِ دومِ ستون) ---------- */
 #jv-footer-jump{
-  position:fixed; z-index:38; bottom:18px; right:18px;
+  position:fixed; z-index:38;
+  bottom:calc(var(--fab-bottom) + var(--fab-h) + var(--fab-gap));
+  right:var(--fab-edge);
   display:flex; align-items:center; gap:8px;
   padding:11px 16px; border-radius:999px; border:none; cursor:pointer;
   font-family:inherit; font-size:13px; font-weight:700; color:#0a0e1a;
@@ -486,25 +514,29 @@ img.jv-photo.lazy{ background:radial-gradient(circle at 50% 35%, rgba(244,63,94,
 #jv-footer-jump i{ animation:fjBounce 1.6s ease-in-out infinite; }
 @keyframes fjBounce{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(4px)} }
 
-/* ---------- دکمهٔ بازگشت به بالا ---------- */
+/* ---------- دکمهٔ بازگشت به بالا (ردیفِ سومِ ستون) ---------- */
 #jv-back-top{
-  position:fixed; z-index:38; bottom:18px; right:18px;
+  position:fixed; z-index:38;
+  bottom:calc(var(--fab-bottom) + var(--fab-h) + var(--fab-gap));
+  right:var(--fab-edge);
   width:44px; height:44px; border-radius:50%; border:none; cursor:pointer;
   display:flex; align-items:center; justify-content:center; font-size:16px;
   background:rgba(12,16,28,.86); backdrop-filter:blur(12px); color:#e9ecf4;
   border:1px solid rgba(255,255,255,.12);
   box-shadow:0 8px 24px rgba(0,0,0,.45);
   opacity:0; transform:translateY(20px) scale(.85); pointer-events:none;
-  transition:opacity .3s, transform .3s, background .2s;
+  transition:opacity .3s, transform .3s, background .2s, bottom .25s;
 }
 #jv-back-top.show{ opacity:1; transform:none; pointer-events:auto; }
 #jv-back-top:hover{ background:rgba(244,63,94,.25); border-color:rgba(244,63,94,.4); }
-/* وقتی هر دو دکمه نمایش داده می‌شوند، دکمهٔ بالا را بالاتر ببر */
-#jv-footer-jump[style*="flex"] ~ #jv-back-top.show{ bottom:72px; }
+/* وقتی دکمهٔ «پرش به فوتر» هم دیده می‌شود، «بازگشت به بالا» یک ردیف بالاتر می‌رود */
+#jv-footer-jump[style*="flex"] ~ #jv-back-top.show{
+  bottom:calc(var(--fab-bottom) + var(--fab-h) + var(--nav-h) + var(--fab-gap) * 2);
+}
 
 /* ---------- نوار راهنمای صدا ---------- */
 #audio-hint{
-  position:fixed; z-index:41; bottom:74px; left:18px;
+  position:fixed; z-index:41; bottom:calc(var(--fab-bottom) + 56px); left:var(--fab-edge-left);
   display:none; align-items:center; gap:9px;
   padding:9px 15px; border-radius:999px; border:none; cursor:pointer;
   font-family:inherit; font-size:12.5px; font-weight:600; color:#0a0e1a;

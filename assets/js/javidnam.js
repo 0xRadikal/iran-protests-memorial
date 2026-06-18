@@ -22,6 +22,22 @@ const PAGE = 48;
 
 const FA = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
 function toFa(n){ return String(n).replace(/[0-9]/g, d => FA[d]); }
+
+/* ───────────────── قفلِ اسکرولِ مرجع‌شمار (Scroll Lock) ─────────────────
+   چند مودال ممکن است هم‌زمان باز/بسته شوند (مثلاً فرمِ گزارش روی مودالِ شخص).
+   با شمارشِ مرجع، اسکرولِ صفحه فقط وقتی آزاد می‌شود که هیچ مودالی باز نباشد؛
+   این از باگِ «گیرکردنِ صفحه روی حالتِ قفل» جلوگیری می‌کند. */
+window.JV = window.JV || {};
+window.JV._lock = 0;
+window.JV.lockScroll = function(){
+  window.JV._lock++;
+  document.body.style.overflow = 'hidden';
+};
+window.JV.unlockScroll = function(force){
+  if(force){ window.JV._lock = 0; }
+  else { window.JV._lock = Math.max(0, window.JV._lock - 1); }
+  if(window.JV._lock === 0) document.body.style.overflow = '';
+};
 function escapeHtml(s){ return String(s==null?'':s).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
 // نقشهٔ رنگ ثابت برای هر رویداد
@@ -455,14 +471,16 @@ async function openPerson(id){
     </div>
   `;
   modal.style.display = 'flex';
-  document.body.style.overflow = 'hidden';
+  window.JV.lockScroll();
   box.parentElement.scrollTop = 0;
   // اتصالِ ویجت‌های مشارکت (کامنت/گزارش/پیشنهادِ عکس)
   if (window.Community) window.Community.wirePersonWidgets(p);
 }
 function closePerson(){
-  document.getElementById('jv-modal').style.display='none';
-  document.body.style.overflow='';
+  const jm = document.getElementById('jv-modal');
+  if(jm.style.display === 'none') return; // پیش‌تر بسته شده؛ از کاهشِ اشتباهِ شمارنده جلوگیری کن
+  jm.style.display='none';
+  window.JV.unlockScroll();
 }
 
 /* ───────────────────────── رویدادها ───────────────────────── */
@@ -525,7 +543,13 @@ function wireEvents(){
 
   const modal = document.getElementById('jv-modal');
   if(modal) modal.addEventListener('click', e=>{ if(e.target.id==='jv-modal') closePerson(); });
-  document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ closePerson(); closeMusicNote(); closeDonate(); } });
+  document.addEventListener('keydown', e=>{
+    if(e.key!=='Escape') return;
+    // اگر فرمِ مشارکت (cm-modal) باز است، Escape را به آن واگذار کن (هندلرِ خودش می‌بندد)
+    const cm = document.getElementById('cm-modal');
+    if(cm && cm.classList.contains('show')) return;
+    closePerson(); closeMusicNote(); closeDonate();
+  });
 
   // کلیک/Enter روی کارت با کیبورد
   const grid = document.getElementById('jv-grid');
@@ -769,21 +793,21 @@ function initAudio(){
 
 function openMusicNote(){
   const m = document.getElementById('music-note-modal');
-  if(m){ m.style.display='flex'; document.body.style.overflow='hidden'; }
+  if(m && m.style.display!=='flex'){ m.style.display='flex'; window.JV.lockScroll(); }
 }
 function closeMusicNote(){
   const m = document.getElementById('music-note-modal');
-  if(m){ m.style.display='none'; document.body.style.overflow=''; }
+  if(m && m.style.display==='flex'){ m.style.display='none'; window.JV.unlockScroll(); }
 }
 
 /* ───────────────── مودال حمایت (Donate) ───────────────── */
 function openDonate(){
   const m = document.getElementById('donate-modal');
-  if(m){ m.style.display='flex'; document.body.style.overflow='hidden'; }
+  if(m && m.style.display!=='flex'){ m.style.display='flex'; window.JV.lockScroll(); }
 }
 function closeDonate(){
   const m = document.getElementById('donate-modal');
-  if(m){ m.style.display='none'; document.body.style.overflow=''; }
+  if(m && m.style.display==='flex'){ m.style.display='none'; window.JV.unlockScroll(); }
 }
 function copyWallet(addr, btn){
   const done = ()=>{

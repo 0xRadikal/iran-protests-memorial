@@ -101,16 +101,25 @@
     }
     document.getElementById('cm-modal-title').innerHTML = title;
     document.getElementById('cm-modal-body').innerHTML = innerHTML;
+    const wasOpen = m.classList.contains('show');
     m.classList.add('show');
-    document.body.style.overflow = 'hidden';
+    // قفلِ اسکرولِ مشترک (مرجع‌شمار) تا با مودالِ شخص تداخل نکند
+    if (!wasOpen) {
+      if (window.JV && window.JV.lockScroll) window.JV.lockScroll();
+      else document.body.style.overflow = 'hidden';
+    }
     return m;
   }
   function closeModal() {
     const m = document.getElementById('cm-modal');
-    if (m) m.classList.remove('show');
-    // اگر مودالِ جزئیاتِ شخص باز است، اسکرول را آزاد نکن
-    const jv = document.getElementById('jv-modal');
-    if (!jv || jv.style.display === 'none') document.body.style.overflow = '';
+    if (!m || !m.classList.contains('show')) return;
+    m.classList.remove('show');
+    if (window.JV && window.JV.unlockScroll) window.JV.unlockScroll();
+    else {
+      // fallback: اگر مودالِ جزئیاتِ شخص باز است، اسکرول را آزاد نکن
+      const jv = document.getElementById('jv-modal');
+      if (!jv || jv.style.display === 'none') document.body.style.overflow = '';
+    }
   }
 
   /* ───────────── Turnstile (در صورت پیکربندی) ───────────── */
