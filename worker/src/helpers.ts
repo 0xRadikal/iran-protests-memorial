@@ -58,3 +58,40 @@ export function ok(c: Context, data: unknown = {}, status = 200) {
 export function fail(c: Context, message: string, status = 400) {
   return c.json({ success: false, error: message }, status as any);
 }
+
+// ============================================================================
+//  محدودسازیِ نرخِ درخواست (Rate limiting) مبتنی بر D1 — پنجرهٔ ثابت
+//  بازگشت true اگر مجاز، false اگر از حد گذشته. در خطای DB، fail-open.
+// ============================================================================
+export async function rateLimit(
+  db: D1Database,
+  action: string,
+  ip: string,
+  max: number,
+  windowMs: number
+): Promise<boolean> {
+  if (!ip) return true;
+  const key = `${action}:${ip}`;
+  const now = Date.now();
+  try {
+    const row = await db
+      .prepare('SELECT count, window_start FROM rate_limits WHERE bucket_key = ?')
+      .bind(key)
+      .first<{ count: number; window_start: number }>();
+    if (!row || now - row.window_start >= windowMs) {
+      await db
+        .prepare(
+          `INSERT INTO rate_limits (bucket_key, count, window_start) VALUES (?, 1, ?)
+           ON CONFLICT(bucket_key) DO UPDATE SET count = 1, window_start = excluded.window_start`
+        )
+        .bind(key, now)
+        .run();
+      return true;
+    }
+    if (row.count >= max) return false;
+    await db.prepare('UPDATE rate_limits SET count = count + 1 WHERE bucket_key = ?').bind(key).run();
+    return true;
+  } catch {
+    return true;
+  }
+}

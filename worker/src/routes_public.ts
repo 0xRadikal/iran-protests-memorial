@@ -10,7 +10,7 @@
 // ============================================================================
 import { Hono } from 'hono';
 import type { Bindings, Variables } from './types';
-import { verifyTurnstile, reqInfo, clean, isValidUrl, ok, fail } from './helpers';
+import { verifyTurnstile, reqInfo, clean, isValidUrl, ok, fail, rateLimit } from './helpers';
 
 const pub = new Hono<{ Bindings: Bindings; Variables: Variables }>();
 
@@ -18,6 +18,9 @@ async function getSetting(db: D1Database, key: string, def: string): Promise<str
   const r = await db.prepare('SELECT value FROM settings WHERE key = ?').bind(key).first<{ value: string }>();
   return r?.value ?? def;
 }
+
+const RL = { comment: [5, 60_000] as const, report: [10, 60_000] as const, photo: [5, 60_000] as const, submission: [3, 60_000] as const };
+const RL_MSG = 'درخواست‌های بیش از حد؛ کمی بعد دوباره تلاش کنید';
 
 // --- دریافتِ کامنت‌های یک جاویدنام (فقط تأییدشده) ---
 pub.get('/comments/:personId', async (c) => {
@@ -44,6 +47,7 @@ pub.post('/comments', async (c) => {
   if (!personId || text.length < 2) return fail(c, 'متنِ کامنت کوتاه است');
 
   const { ip, country, ua } = reqInfo(c);
+  if (!(await rateLimit(c.env.DB, 'comment', ip, RL.comment[0], RL.comment[1]))) return fail(c, RL_MSG, 429);
   if (!(await verifyTurnstile(body.turnstile_token, c.env.TURNSTILE_SECRET, ip)))
     return fail(c, 'تأییدِ امنیتی ناموفق بود (Turnstile)', 403);
 
@@ -71,6 +75,7 @@ pub.post('/comments/:id/report', async (c) => {
   const body = await c.req.json().catch(() => ({}));
   const reason = clean(body.reason, 500);
   const { ip } = reqInfo(c);
+  if (!(await rateLimit(c.env.DB, 'report', ip, RL.report[0], RL.report[1]))) return fail(c, RL_MSG, 429);
   if (!(await verifyTurnstile(body.turnstile_token, c.env.TURNSTILE_SECRET, ip)))
     return fail(c, 'تأییدِ امنیتی ناموفق بود', 403);
 
@@ -108,6 +113,7 @@ pub.post('/reports', async (c) => {
   if (!validTypes.includes(type)) return fail(c, 'نوعِ گزارشِ نامعتبر');
 
   const { ip, country } = reqInfo(c);
+  if (!(await rateLimit(c.env.DB, 'report', ip, RL.report[0], RL.report[1]))) return fail(c, RL_MSG, 429);
   if (!(await verifyTurnstile(body.turnstile_token, c.env.TURNSTILE_SECRET, ip)))
     return fail(c, 'تأییدِ امنیتی ناموفق بود', 403);
 
@@ -135,6 +141,7 @@ pub.post('/photo-suggestions', async (c) => {
   if (!isValidUrl(url)) return fail(c, 'URLِ عکس نامعتبر است');
 
   const { ip, country } = reqInfo(c);
+  if (!(await rateLimit(c.env.DB, 'photo', ip, RL.photo[0], RL.photo[1]))) return fail(c, RL_MSG, 429);
   if (!(await verifyTurnstile(body.turnstile_token, c.env.TURNSTILE_SECRET, ip)))
     return fail(c, 'تأییدِ امنیتی ناموفق بود', 403);
 
@@ -159,6 +166,7 @@ pub.post('/submissions', async (c) => {
   if (name.length < 2) return fail(c, 'نام لازم است');
 
   const { ip, country } = reqInfo(c);
+  if (!(await rateLimit(c.env.DB, 'submission', ip, RL.submission[0], RL.submission[1]))) return fail(c, RL_MSG, 429);
   if (!(await verifyTurnstile(body.turnstile_token, c.env.TURNSTILE_SECRET, ip)))
     return fail(c, 'تأییدِ امنیتی ناموفق بود', 403);
 

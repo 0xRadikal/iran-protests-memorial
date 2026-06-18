@@ -21,6 +21,7 @@ const App = {
 
   // --- ابزارها ---
   esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); },
+  attr(s){ return this.esc(s); },
   toast(msg, type='ok'){
     const t = document.getElementById('toast');
     t.textContent = msg;
@@ -128,7 +129,7 @@ const App = {
     const q = reported ? '?reported=1' : ('?status=' + filter);
     const d = await this.api('/admin/comments' + q);
     const tabs = [['pending','در انتظار'],['reported','گزارش‌شده'],['approved','تأییدشده'],['rejected','ردشده'],['spam','اسپم'],['all','همه']];
-    const filterBar = tabs.map(([k,l])=>\`<button onclick="App._cf='\${k}';App.viewComments()" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
+    const filterBar = tabs.map(([k,l])=>\`<button data-action="cfilter" data-k="\${k}" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
     const rows = (d.comments||[]).map(c=>\`
       <div class="card p-4 row-enter">
         <div class="flex items-start justify-between gap-3">
@@ -144,10 +145,10 @@ const App = {
           </div>
         </div>
         <div class="flex gap-2 mt-3 flex-wrap">
-          \${c.status!=='approved'?\`<button onclick="App.commentAction(\${c.id},'approve')" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> تأیید</button>\`:''}
-          \${c.status!=='rejected'?\`<button onclick="App.commentAction(\${c.id},'reject')" class="btn px-3 py-1.5 text-sm bg-amber-600/80 hover:bg-amber-600 text-white"><i class="fa-solid fa-eye-slash"></i> رد</button>\`:''}
-          <button onclick="App.commentAction(\${c.id},'spam')" class="btn px-3 py-1.5 text-sm bg-white/5 hover:bg-white/10"><i class="fa-solid fa-ban"></i> اسپم</button>
-          <button onclick="App.commentAction(\${c.id},'delete',true)" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-trash"></i> حذف</button>
+          \${c.status!=='approved'?\`<button data-action="comment" data-id="\${c.id}" data-act="approve" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> تأیید</button>\`:''}
+          \${c.status!=='rejected'?\`<button data-action="comment" data-id="\${c.id}" data-act="reject" class="btn px-3 py-1.5 text-sm bg-amber-600/80 hover:bg-amber-600 text-white"><i class="fa-solid fa-eye-slash"></i> رد</button>\`:''}
+          <button data-action="comment" data-id="\${c.id}" data-act="spam" class="btn px-3 py-1.5 text-sm bg-white/5 hover:bg-white/10"><i class="fa-solid fa-ban"></i> اسپم</button>
+          <button data-action="comment" data-id="\${c.id}" data-act="delete" data-confirm="1" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-trash"></i> حذف</button>
         </div>
       </div>\`).join('') || '<p class="text-gray-500 text-center py-16">موردی نیست</p>';
     this.setContent(\`<div class="flex gap-2 mb-4 flex-wrap">\${filterBar}</div><div class="space-y-3">\${rows}</div>\`);
@@ -164,7 +165,7 @@ const App = {
     const filter = this._rf || 'open';
     const d = await this.api('/admin/reports?status=' + filter);
     const tabs = [['open','باز'],['resolved','رسیدگی‌شده'],['dismissed','ردشده'],['all','همه']];
-    const filterBar = tabs.map(([k,l])=>\`<button onclick="App._rf='\${k}';App.viewReports()" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
+    const filterBar = tabs.map(([k,l])=>\`<button data-action="rfilter" data-k="\${k}" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
     const rows = (d.reports||[]).map(r=>\`
       <div class="card p-4 row-enter">
         <div class="flex items-center gap-2 flex-wrap mb-2">
@@ -177,9 +178,9 @@ const App = {
         <div class="text-xs text-gray-500 mt-1">\${this.esc(r.created_at)} · \${this.esc(r.reporter_name||'ناشناس')} · \${this.esc(r.country||'')}</div>
         \${r.admin_note?\`<div class="text-xs text-emerald-400/80 mt-1"><i class="fa-solid fa-pen"></i> \${this.esc(r.admin_note)}</div>\`:''}
         \${r.status==='open'?\`<div class="flex gap-2 mt-3 flex-wrap">
-          \${r.report_type==='duplicate'&&r.duplicate_of?\`<button onclick="App.openMerge('\${r.person_id}','\${r.duplicate_of}','\${this.esc(r.person_name||'')}','\${this.esc(r.duplicate_name||'')}')" class="btn px-3 py-1.5 text-sm bg-orange-600/80 hover:bg-orange-600 text-white"><i class="fa-solid fa-code-merge"></i> ادغام تکراری‌ها</button>\`:''}
-          <button onclick="App.reportAction(\${r.id},'resolve')" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> رسیدگی شد</button>
-          <button onclick="App.reportAction(\${r.id},'dismiss')" class="btn px-3 py-1.5 text-sm bg-white/5 hover:bg-white/10"><i class="fa-solid fa-xmark"></i> رد گزارش</button>
+          \${r.report_type==='duplicate'&&r.duplicate_of?\`<button data-action="open-merge" data-keep="\${this.attr(r.person_id)}" data-dup="\${this.attr(r.duplicate_of)}" data-keepname="\${this.attr(r.person_name||'')}" data-dupname="\${this.attr(r.duplicate_name||'')}" class="btn px-3 py-1.5 text-sm bg-orange-600/80 hover:bg-orange-600 text-white"><i class="fa-solid fa-code-merge"></i> ادغام تکراری‌ها</button>\`:''}
+          <button data-action="report" data-id="\${r.id}" data-act="resolve" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> رسیدگی شد</button>
+          <button data-action="report" data-id="\${r.id}" data-act="dismiss" class="btn px-3 py-1.5 text-sm bg-white/5 hover:bg-white/10"><i class="fa-solid fa-xmark"></i> رد گزارش</button>
         </div>\`:''}
       </div>\`).join('') || '<p class="text-gray-500 text-center py-16">موردی نیست</p>';
     this.setContent(\`<div class="flex gap-2 mb-4 flex-wrap">\${filterBar}</div><div class="space-y-3">\${rows}</div>\`);
@@ -199,8 +200,8 @@ const App = {
         <label class="text-sm flex items-center gap-2"><input type="radio" name="keep" value="\${dupId}"> نگه‌داری: \${this.esc(dupName||dupId)}</label>
       </div>
       <div class="flex gap-2 mt-4">
-        <button onclick="App.doMerge('\${keepId}','\${dupId}')" class="btn flex-1 py-2 bg-orange-600 hover:bg-orange-500 text-white">تأیید ادغام</button>
-        <button onclick="App.closeModal()" class="btn px-4 py-2 bg-white/5">انصراف</button>
+        <button data-action="do-merge" data-a="\${this.attr(keepId)}" data-b="\${this.attr(dupId)}" class="btn flex-1 py-2 bg-orange-600 hover:bg-orange-500 text-white">تأیید ادغام</button>
+        <button data-action="close-modal" class="btn px-4 py-2 bg-white/5">انصراف</button>
       </div>\`);
   },
   async doMerge(idA, idB){
@@ -216,7 +217,7 @@ const App = {
     const filter = this._pf || 'pending';
     const d = await this.api('/admin/photo-suggestions?status=' + filter);
     const tabs = [['pending','در انتظار'],['approved','تأییدشده'],['rejected','ردشده'],['all','همه']];
-    const filterBar = tabs.map(([k,l])=>\`<button onclick="App._pf='\${k}';App.viewPhotos()" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
+    const filterBar = tabs.map(([k,l])=>\`<button data-action="pfilter" data-k="\${k}" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
     const rows = (d.suggestions||[]).map(s=>\`
       <div class="card p-4 row-enter flex gap-4">
         <div class="flex-shrink-0">
@@ -230,8 +231,8 @@ const App = {
           \${s.current_photo?\`<p class="text-xs text-amber-400 mt-1"><i class="fa-solid fa-triangle-exclamation"></i> این جاویدنام عکس فعلی دارد (با تأیید جایگزین می‌شود)</p>\`:''}
           <div class="text-xs text-gray-500 mt-1">\${this.esc(s.created_at)} · \${this.esc(s.suggester_name||'ناشناس')}</div>
           \${s.status==='pending'?\`<div class="flex gap-2 mt-3">
-            <button onclick="App.photoAction(\${s.id},'approve')" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> تأیید و اعمال</button>
-            <button onclick="App.photoAction(\${s.id},'reject')" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-xmark"></i> رد</button>
+            <button data-action="photo" data-id="\${s.id}" data-act="approve" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> تأیید و اعمال</button>
+            <button data-action="photo" data-id="\${s.id}" data-act="reject" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-xmark"></i> رد</button>
           </div>\`:''}
         </div>
       </div>\`).join('') || '<p class="text-gray-500 text-center py-16">موردی نیست</p>';
@@ -250,7 +251,7 @@ const App = {
     const filter = this._sf || 'pending';
     const d = await this.api('/admin/submissions?status=' + filter);
     const tabs = [['pending','در انتظار'],['approved','تأییدشده'],['rejected','ردشده'],['all','همه']];
-    const filterBar = tabs.map(([k,l])=>\`<button onclick="App._sf='\${k}';App.viewSubmissions()" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
+    const filterBar = tabs.map(([k,l])=>\`<button data-action="sfilter" data-k="\${k}" class="btn px-3 py-1.5 text-sm \${filter===k?'bg-emerald-600 text-white':'bg-white/5'}">\${l}</button>\`).join('');
     const rows = (d.submissions||[]).map(s=>\`
       <div class="card p-4 row-enter">
         <div class="flex items-center gap-2 flex-wrap mb-2">
@@ -275,8 +276,8 @@ const App = {
         \${s.approved_person_id?\`<div class="text-xs text-emerald-400 mt-1"><i class="fa-solid fa-check"></i> ایجادشده: \${this.esc(s.approved_person_id)}</div>\`:''}
         \${s.admin_note?\`<div class="text-xs text-amber-400 mt-1"><i class="fa-solid fa-pen"></i> \${this.esc(s.admin_note)}</div>\`:''}
         \${s.status==='pending'?\`<div class="flex gap-2 mt-3">
-          <button onclick="App.subAction(\${s.id},'approve')" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> صحت‌سنجی و افزودن</button>
-          <button onclick="App.subAction(\${s.id},'reject')" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-xmark"></i> رد</button>
+          <button data-action="sub" data-id="\${s.id}" data-act="approve" class="btn px-3 py-1.5 text-sm bg-emerald-600/80 hover:bg-emerald-600 text-white"><i class="fa-solid fa-check"></i> صحت‌سنجی و افزودن</button>
+          <button data-action="sub" data-id="\${s.id}" data-act="reject" class="btn px-3 py-1.5 text-sm bg-red-600/80 hover:bg-red-600 text-white"><i class="fa-solid fa-xmark"></i> رد</button>
         </div>\`:''}
       </div>\`).join('') || '<p class="text-gray-500 text-center py-16">موردی نیست</p>';
     this.setContent(\`<div class="flex gap-2 mb-4 flex-wrap">\${filterBar}</div><div class="space-y-3">\${rows}</div>\`);
@@ -314,7 +315,7 @@ const App = {
           <div class="text-xs text-gray-500 mt-2">آستانهٔ مخفی‌سازیِ خودکار: کامنت با این تعداد گزارش، خودکار به «در انتظار» می‌رود</div>
           <input id="setThresh" type="number" min="1" value="\${s.auto_hide_threshold||'3'}" class="w-24 px-3 py-2 mt-1">
         </div>
-        <button onclick="App.saveSettings()" class="btn py-2.5 px-6 bg-emerald-600 hover:bg-emerald-500 text-white"><i class="fa-solid fa-floppy-disk ml-1"></i> ذخیره تنظیمات</button>
+        <button data-action="save-settings" class="btn py-2.5 px-6 bg-emerald-600 hover:bg-emerald-500 text-white"><i class="fa-solid fa-floppy-disk ml-1"></i> ذخیره تنظیمات</button>
       </div>\`);
   },
   async saveSettings(){
@@ -324,6 +325,28 @@ const App = {
     body.auto_hide_threshold = document.getElementById('setThresh').value || '3';
     try{ await this.api('/admin/settings', {method:'POST', body: JSON.stringify(body)}); this.toast('تنظیمات ذخیره شد'); }
     catch(e){ this.toast(e.message,'err'); }
+  },
+
+  // --- مدیریتِ رویدادها (event delegation) — بدونِ inline onclick تا تزریقِ JS ممکن نباشد ---
+  handleClick(e){
+    const btn = e.target.closest('[data-action]');
+    if(!btn) return;
+    const a = btn.dataset.action;
+    const d = btn.dataset;
+    switch(a){
+      case 'cfilter': this._cf = d.k; this.viewComments(); break;
+      case 'rfilter': this._rf = d.k; this.viewReports(); break;
+      case 'pfilter': this._pf = d.k; this.viewPhotos(); break;
+      case 'sfilter': this._sf = d.k; this.viewSubmissions(); break;
+      case 'comment': this.commentAction(d.id, d.act, d.confirm==='1'); break;
+      case 'report': this.reportAction(d.id, d.act); break;
+      case 'photo': this.photoAction(d.id, d.act); break;
+      case 'sub': this.subAction(d.id, d.act); break;
+      case 'open-merge': this.openMerge(d.keep, d.dup, d.keepname, d.dupname); break;
+      case 'do-merge': this.doMerge(d.a, d.b); break;
+      case 'close-modal': this.closeModal(); break;
+      case 'save-settings': this.saveSettings(); break;
+    }
   },
 
   // --- رنگ/متنِ وضعیت ---
@@ -339,6 +362,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e)=>{
   catch(ex){ err.textContent = ex.message; err.classList.remove('hidden'); }
 });
 document.querySelectorAll('.tab').forEach(b=> b.addEventListener('click', ()=>App.switchTab(b.dataset.tab)));
+['content','modalBody'].forEach(id=>{ const el = document.getElementById(id); if(el) el.addEventListener('click', (e)=>App.handleClick(e)); });
 if(App.token){ App.enterApp().catch(()=>App.forceLogout()); }
 window.App = App;
 `;

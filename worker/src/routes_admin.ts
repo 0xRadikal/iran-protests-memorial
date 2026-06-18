@@ -101,21 +101,24 @@ admin.get('/comments', requireAdmin, async (c) => {
 // تأیید/رد/اسپم/حذفِ کامنت
 admin.post('/comments/:id/:action', requireAdmin, async (c) => {
   const id = parseInt(c.req.param('id'), 10);
+  if (!Number.isFinite(id) || id <= 0) return fail(c, 'شناسهٔ نامعتبر');
   const action = c.req.param('action');
   const map: Record<string, string> = { approve: 'approved', reject: 'rejected', spam: 'spam' };
   const adminId = c.get('adminId');
   if (action === 'delete') {
-    await c.env.DB.prepare('DELETE FROM comments WHERE id = ?').bind(id).run();
+    const res = await c.env.DB.prepare('DELETE FROM comments WHERE id = ?').bind(id).run();
+    if (!res.meta.changes) return fail(c, 'کامنت یافت نشد', 404);
     await audit(c.env.DB, adminId, 'delete_comment', 'comment', id);
     return ok(c, { deleted: true });
   }
   const newStatus = map[action];
   if (!newStatus) return fail(c, 'عملیاتِ نامعتبر');
-  await c.env.DB.prepare(
+  const res = await c.env.DB.prepare(
     "UPDATE comments SET status = ?, reviewed_by = ?, reviewed_at = datetime('now') WHERE id = ?"
   )
     .bind(newStatus, adminId, id)
     .run();
+  if (!res.meta.changes) return fail(c, 'کامنت یافت نشد', 404);
   await audit(c.env.DB, adminId, `comment_${action}`, 'comment', id);
   return ok(c, { status: newStatus });
 });
@@ -144,6 +147,7 @@ admin.get('/reports', requireAdmin, async (c) => {
 // رسیدگی به گزارش: resolve | dismiss
 admin.post('/reports/:id/:action', requireAdmin, async (c) => {
   const id = parseInt(c.req.param('id'), 10);
+  if (!Number.isFinite(id) || id <= 0) return fail(c, 'شناسهٔ نامعتبر');
   const action = c.req.param('action');
   const body = await c.req.json().catch(() => ({}));
   const note = clean(body.admin_note, 1000);
@@ -151,11 +155,12 @@ admin.post('/reports/:id/:action', requireAdmin, async (c) => {
   const newStatus = map[action];
   if (!newStatus) return fail(c, 'عملیاتِ نامعتبر');
   const adminId = c.get('adminId');
-  await c.env.DB.prepare(
+  const res = await c.env.DB.prepare(
     "UPDATE reports SET status = ?, resolved_by = ?, resolved_at = datetime('now'), admin_note = ? WHERE id = ?"
   )
     .bind(newStatus, adminId, note, id)
     .run();
+  if (!res.meta.changes) return fail(c, 'گزارش یافت نشد', 404);
   await audit(c.env.DB, adminId, `report_${action}`, 'report', id, note);
   return ok(c, { status: newStatus });
 });
@@ -177,6 +182,7 @@ admin.get('/photo-suggestions', requireAdmin, async (c) => {
 // تأیید عکس (روی people اعمال می‌شود) یا رد
 admin.post('/photo-suggestions/:id/:action', requireAdmin, async (c) => {
   const id = parseInt(c.req.param('id'), 10);
+  if (!Number.isFinite(id) || id <= 0) return fail(c, 'شناسهٔ نامعتبر');
   const action = c.req.param('action');
   const body = await c.req.json().catch(() => ({}));
   const note = clean(body.admin_note, 1000);
@@ -184,9 +190,12 @@ admin.post('/photo-suggestions/:id/:action', requireAdmin, async (c) => {
 
   const sug = await c.env.DB.prepare('SELECT * FROM photo_suggestions WHERE id = ?').bind(id).first<any>();
   if (!sug) return fail(c, 'پیشنهاد یافت نشد', 404);
+  if (sug.status !== 'pending') return fail(c, 'این پیشنهاد پیشتر رسیدگی شده است', 409);
 
   if (action === 'approve') {
     if (!isValidUrl(sug.photo_url)) return fail(c, 'URLِ عکس نامعتبر است');
+    const person = await c.env.DB.prepare('SELECT id FROM people WHERE id = ?').bind(sug.person_id).first();
+    if (!person) return fail(c, 'جاویدنامِ مربوطه دیگر وجود ندارد', 404);
     // عکس را روی رکوردِ people ذخیره می‌کنیم (برای export بعدی به JSON)
     await c.env.DB.prepare("UPDATE people SET photo_url = ?, updated_at = datetime('now') WHERE id = ?")
       .bind(sug.photo_url, sug.person_id)
@@ -223,6 +232,7 @@ admin.get('/submissions', requireAdmin, async (c) => {
 // تأیید (ایجادِ رکوردِ people) یا رد
 admin.post('/submissions/:id/:action', requireAdmin, async (c) => {
   const id = parseInt(c.req.param('id'), 10);
+  if (!Number.isFinite(id) || id <= 0) return fail(c, 'شناسهٔ نامعتبر');
   const action = c.req.param('action');
   const body = await c.req.json().catch(() => ({}));
   const note = clean(body.admin_note, 1000);
@@ -230,6 +240,7 @@ admin.post('/submissions/:id/:action', requireAdmin, async (c) => {
 
   const s = await c.env.DB.prepare('SELECT * FROM submissions WHERE id = ?').bind(id).first<any>();
   if (!s) return fail(c, 'پیشنهاد یافت نشد', 404);
+  if (s.status !== 'pending') return fail(c, 'این پیشنهاد پیشتر رسیدگی شده است', 409);
 
   if (action === 'approve') {
     // ساختِ شناسهٔ یکتا مطابقِ الگوی jvn_ + 10 hex
@@ -278,6 +289,12 @@ admin.post('/people/merge', requireAdmin, async (c) => {
   const keepId = clean(body.keep_id, 40);        // رکوردِ مرجع
   if (!dupId || !keepId || dupId === keepId) return fail(c, 'شناسه‌های نامعتبر');
   const adminId = c.get('adminId');
+
+  // اطمینان از وجودِ هر دو رکورد پیش از ادغام
+  const keep = await c.env.DB.prepare('SELECT id FROM people WHERE id = ?').bind(keepId).first();
+  if (!keep) return fail(c, 'رکوردِ مرجع (نگه‌داری) یافت نشد', 404);
+  const dup = await c.env.DB.prepare('SELECT id FROM people WHERE id = ?').bind(dupId).first();
+  if (!dup) return fail(c, 'رکوردِ تکراری یافت نشد (شاید پیشتر ادغام شده)', 404);
 
   // انتقالِ کامنت‌ها و گزارش‌ها
   await c.env.DB.prepare('UPDATE comments SET person_id = ? WHERE person_id = ?').bind(keepId, dupId).run();
